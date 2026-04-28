@@ -1,0 +1,956 @@
+SQLDATE,Actor1Name,Actor2Name,EventRootCode,GoldsteinScale,AvgTone,NumArticles,ActionGeo_FullName,ActionGeo_Lat,ActionGeo_Long,SOURCEURL
+20260126,BENIN,,04,1.9,-3.69487485101311,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://hallmarknews.com/awoof-nation-how-entitlement-is-undermining-nigerias-image-and-economy/
+20260322,COTONOU,,05,3.4,7.90697674418605,5,"Godomey, Atlantique, Benin",6.38948,2.34581,https://english.news.cn/africa/20260322/476f314bb92249e49bd4b0b7cfee8340/c.html
+20260322,BENIN,,14,-6.5,7.90697674418605,10,"Godomey, Atlantique, Benin",6.38948,2.34581,https://english.news.cn/africa/20260322/476f314bb92249e49bd4b0b7cfee8340/c.html
+20260118,BENIN,,04,1,-1.08459869848156,4,"Abomey, Zou, Benin",7.18286,1.99119,https://lanouvelletribune.info/2026/01/legislatives-au-benin-ce-que-revele-la-liste-provisoire-des-deputes/
+20260111,BENIN,,01,0,0.29940119760479,4,"Godomey, Atlantique, Benin",6.38948,2.34581,https://english.news.cn/20260111/f0b9a08bde8e4e8289fe7349df3af8ed/c.html
+20260111,BENIN,,01,0,5.23076923076923,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2026/01/11/thousands-gather-to-mark-benins-vodun-days-showcasing-local-culture/
+20260111,BENIN,,04,2.8,5.23076923076923,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2026/01/11/thousands-gather-to-mark-benins-vodun-days-showcasing-local-culture/
+20260103,BENIN,,04,1,-2.55681818181818,2,"Akrake, Benin (general), Benin",6.4,2.66667,https://www.ecofinagency.com/news-industry/0301-51749-benin-delays-restart-of-seme-field-over-technical-setbacks
+20260103,BENINESE,BENINESE,04,1,-2.55681818181818,8,"Akrake, Benin (general), Benin",6.4,2.66667,https://www.ecofinagency.com/news-industry/0301-51749-benin-delays-restart-of-seme-field-over-technical-setbacks
+20260103,BENIN,PRISON,17,-5,-5.79710144927536,6,"Abomey, Zou, Benin",7.18286,1.99119,https://lanouvelletribune.info/2026/01/benin-un-bailleur-mord-son-locataire-a-abomey-et-ecope-de-la-prison-ferme/
+20260220,BENIN,FRANCE,04,2.8,-0.47581284694686,2,"Abomey, Zou, Benin",7.18286,1.99119,https://www.lepoint.fr/afrique/des-tresors-dabomey-au-tambour-parleur-de-la-cote-divoire-la-france-accelere-et-encadre-ses-6CU22KHM3BHQ3FT7K2BNME5A3E/
+20260411,BENIN,,01,0,-1.54826958105647,3,"Bariba, Benin (general), Benin",8.5837,1.69022,https://www.aljazeera.com/news/2026/4/11/whats-at-stake-in-benins-presidential-election
+20260411,BENIN,,17,-5,-1.54826958105647,10,"Bariba, Benin (general), Benin",8.5837,1.69022,https://www.aljazeera.com/news/2026/4/11/whats-at-stake-in-benins-presidential-election
+20260411,BENINESE,,04,1.9,2.37717908082408,7,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.taipeitimes.com/News/world/archives/2026/04/12/2003855466
+20260411,BENIN,POLICE FORCE,15,-7.2,-1.54826958105647,4,"Bariba, Benin (general), Benin",8.5837,1.69022,https://www.aljazeera.com/news/2026/4/11/whats-at-stake-in-benins-presidential-election
+20260207,BENIN,,05,3.5,-5.15021459227467,2,"Borgou, Borgou, Benin",9.75,2.75,https://allafrica.com/stories/202603090010.html
+20260207,BENIN,,08,5,-5.15021459227467,10,"Borgou, Borgou, Benin",9.75,2.75,https://allafrica.com/stories/202603090010.html
+20260309,BENIN,,19,-10,-10.5072463768116,5,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.myjoyonline.com/militants-kill-15-soldiers-in-northern-benin-attack-army-says/
+20260309,BENIN,NIGERIA,03,4.5,-5.15021459227467,10,"Borgou, Borgou, Benin",9.75,2.75,https://allafrica.com/stories/202603090010.html
+20260309,BENIN,VOTER,02,3,0,10,"Djougou, Donga, Benin",9.70853,1.66598,https://lanouvelletribune.info/2026/03/presidentielle-au-benin-les-soutiens-a-wadagni-se-mobilisent-pour-un-taux-record/
+20260112,BENIN,,01,0,0.57670126874279,4,"Abomey, Zou, Benin",7.18286,1.99119,https://www.travelandleisure.com/benin-west-africa-destination-guide-11878083
+20260112,BENIN,,01,0,8.94308943089431,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://africa.com/inside-benins-vodun-days-festival/
+20260323,COTONOU,,05,3.4,8.0188679245283,5,"Godomey, Atlantique, Benin",6.38948,2.34581,http://www.sierraleonetimes.com/news/278936534/benin-celebrates-first-international-taijiquan-day-with-demonstrations-and-introductory-activities
+20260323,BENIN,,14,-6.5,8.0188679245283,10,"Godomey, Atlantique, Benin",6.38948,2.34581,http://www.sierraleonetimes.com/news/278936534/benin-celebrates-first-international-taijiquan-day-with-demonstrations-and-introductory-activities
+20260122,BENIN,,05,3.4,-0.641025641025641,3,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.globalsistersreport.org/community/news/benin-550-youth-receive-healthy-meals-through-rise-against-hunger-s-partnership
+20260303,BENIN,,02,3,5.61425563091015,10,"Borgou, Borgou, Benin",9.75,2.75,https://www2.fundsforngos.org/children/call-for-expression-of-interest-advancing-quality-basic-education-in-benin/
+20260213,BENIN,,01,0,3.46456692913386,4,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.africanews.com/2026/02/13/benins-lovers-less-row-mantic-as-apps-replace-waterway-rendezvous/
+20260213,BENIN,,04,2.8,3.88198757763975,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://africa.com/from-hollywood-to-homecoming-africas-bold-bid-to-reconnect-with-the-diaspora/
+20260312,BENIN,,04,2.8,-8.11688311688315,10,"Gbede, Benin (general), Benin",8.34021,2.58402,https://icilome.com/2026/03/benin-30-ans-de-prison-pour-lassassinat-dun-entrepreneur-togolais/
+20260218,BENIN,RESIDENTS,04,2.8,-10.1593625498008,10,"Segbana, Alibori, Benin",10.9282,3.69429,https://hallmarknews.com/niger-residents-flee-to-benin-republic-as-bandits-storm-borgu-again/
+20260113,BENIN,,05,3.4,1.66666666666666,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.bbc.co.uk/programmes/p0mtqs75
+20260114,BENIN,LAGOS,01,0,-10.7551487414188,3,"Igolo, Benin (general), Benin",6.64873,2.73417,https://guardian.ng/news/2764460alleged-%e2%82%a6351-5m-fraud-court-orders-remand-of-nigerien-at-correctional-facility/
+20260205,BENIN,,05,3.5,-5.81761006289308,2,"Borgou, Borgou, Benin",9.75,2.75,http://www.nigeriasun.com/news/278907556/benin-and-nigeria-join-forces-to-fight-growing-cross-border-terrorism
+20260205,BENIN,,08,5,-5.81761006289308,10,"Borgou, Borgou, Benin",9.75,2.75,http://www.nigeriasun.com/news/278907556/benin-and-nigeria-join-forces-to-fight-growing-cross-border-terrorism
+20260307,BENIN,,19,-10,-5.14469453376206,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://lanouvelletribune.info/2026/03/benin-lunion-africaine-condamne-lattaque-terroriste-du-poste-militaire-de-kofouno/
+20260222,BENIN,,03,4,2.72792534099067,3,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.swissinfo.ch/eng/culture/swiss-chosen-to-develop-four-museums-in-benin/90971910
+20260222,COTONOU,,04,2.8,2.72792534099067,6,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.swissinfo.ch/eng/culture/swiss-chosen-to-develop-four-museums-in-benin/90971910
+20260222,BENIN,FRANCE,04,2.8,2.72792534099067,1,"Abomey, Zou, Benin",7.18286,1.99119,https://www.swissinfo.ch/eng/culture/swiss-chosen-to-develop-four-museums-in-benin/90971910
+20260222,BENIN,SWITZERLAND,06,6,2.72792534099067,2,"Abomey, Zou, Benin",7.18286,1.99119,https://www.swissinfo.ch/eng/culture/swiss-chosen-to-develop-four-museums-in-benin/90971910
+20260210,BENIN,,05,3.4,4.77099236641221,6,"Dosso, Benin (general), Benin",7.01717,2.45608,https://www.lesahel.org/dosso-intronisation-de-neuf-nouveaux-notables-au-sultanat-de-dosso/
+20260210,BENIN,,05,3.4,4.77099236641221,4,"Dosso, Benin (general), Benin",7.01717,2.45608,https://www.lesahel.org/dosso-intronisation-de-neuf-nouveaux-notables-au-sultanat-de-dosso/
+20260402,BENIN,AFRICA,04,1,1.79028132992328,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://gnnliberia.com/ecowas-ltos-meet-benin-political-stakeholders-observe-pre-election-activities/
+20260402,COTONOU,MEDIA,04,1,1.79028132992328,8,"Borgou, Borgou, Benin",9.75,2.75,https://gnnliberia.com/ecowas-ltos-meet-benin-political-stakeholders-observe-pre-election-activities/
+20260402,COTONOU,MEDIA,04,1,1.79028132992328,2,"Borgou, Borgou, Benin",9.75,2.75,https://gnnliberia.com/ecowas-ltos-meet-benin-political-stakeholders-observe-pre-election-activities/
+20260109,BENIN,,04,1.9,-0.62370062370063,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://www.dw.com/fr/dendi-communaute-niger-benin/a-75455497
+20260105,BENIN,JUDGE,11,-2,-4.64216634429401,10,"Natitingou, Atakora, Benin",10.3042,1.37962,https://www.afriquesenlutte.org/afrique-de-l-ouest/benin/article/benin-halte-a-la-persecution-du
+20260105,BENIN,JUDGE,17,-5,-4.64216634429401,8,"Natitingou, Atakora, Benin",10.3042,1.37962,https://www.afriquesenlutte.org/afrique-de-l-ouest/benin/article/benin-halte-a-la-persecution-du
+20260130,BENIN,SANTIAGO,04,2.8,-0.30120481927711,8,"Couffo, Kouffo, Benin",7.08333,1.83333,https://www.kpcnews.com/columnists/article_b0b43950-9b4b-4029-be3b-6f1d83658fd3.html
+20260309,BENIN,ARMED GROUP,19,-10,0,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://lanouvelletribune.info/2026/03/benin-joseph-djogbenou-rend-hommage-aux-soldats-morts-a-kofouno/
+20260129,BENIN,,04,2.8,0.47058823529412,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,http://www.bignewsnetwork.com/news/278837369/french-senate-adopts-bill-on-restitution-of-stolen-cultural-property
+20260415,BENIN,,02,3,4.18760469011725,4,"Ketu, Benin (general), Benin",7.36332,2.59978,https://theheraldghana.com/abla-dzifa-gomashie-calls-for-support-for-sokpoe-tortzogbeza/
+20260415,BENIN,,02,3.2,4.18760469011725,4,"Ketu, Benin (general), Benin",7.36332,2.59978,https://theheraldghana.com/abla-dzifa-gomashie-calls-for-support-for-sokpoe-tortzogbeza/
+20260416,BENIN,CHINESE,04,2.8,7.40740740740741,8,"Parakou, Borgou, Benin",9.33716,2.63031,http://www.bignewsnetwork.com/news/278986716/4th-chinese-support-mission-for-cotton-production-arrives-in-benin
+20260413,COTONOU,,03,4,0.97560975609756,2,"Akassato, Benin (general), Benin",6.50299,2.36791,http://www.sierraleonetimes.com/news/278980827/benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260413,BENINESE,,01,0,2.47191011235955,3,"Bopa, Benin (general), Benin",6.5874,1.96539,https://dailytrust.com/finance-minister-favourite-to-win-benin-presidential-poll/
+20260413,COTONOU,,04,2.8,2.47191011235955,1,"Zongo, Atakora, Benin",10.1841,1.09662,https://dailytrust.com/finance-minister-favourite-to-win-benin-presidential-poll/
+20260412,BENIN,,05,3.4,0.28818443804035,6,"Zongo, Atakora, Benin",10.1841,1.09662,https://www.aljazeera.com/news/2026/4/12/polls-close-in-benin-with-finance-minister-expected-to-win-election
+20260412,BENIN,,11,-2,0.28818443804035,6,"Zongo, Atakora, Benin",10.1841,1.09662,https://www.aljazeera.com/news/2026/4/12/polls-close-in-benin-with-finance-minister-expected-to-win-election
+20260413,BENIN,,01,0,-1.4218009478673,10,"Godomey, Atlantique, Benin",6.38948,2.34581,https://www.jeuneafrique.com/1787737/politique/presidentielle-au-benin-le-depouillement-a-commence-les-resultats-provisoires-sont-attendus-en-debut-de-semaine/
+20260413,BENIN,,11,-2,-1.4218009478673,10,"Godomey, Atlantique, Benin",6.38948,2.34581,https://www.jeuneafrique.com/1787737/politique/presidentielle-au-benin-le-depouillement-a-commence-les-resultats-provisoires-sont-attendus-en-debut-de-semaine/
+20260413,BENIN,,04,1,4.05616224648986,2,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260413,BENIN,,05,3.4,2.55681818181818,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2026/04/13/benin-leans-into-painful-past-to-encourage-cultural-tourism/
+20260413,BENIN,,01,0,0,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://allafrica.com/stories/202604130001.html
+20260413,BENIN,,12,-4,4.05616224648986,4,"Savalou, Collines, Benin",7.92807,1.97558,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260412,BENIN,,01,0,-1.6295025728988,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://www.lepoint.fr/afrique/au-benin-la-fin-dune-exception-securitaire-NHWVUGXEDFFCZIXLLYV77FT7CA/
+20260413,COTONOU,,01,0,0.97560975609756,5,"Zoundja, Benin (general), Benin",6.50117,2.30815,http://www.sierraleonetimes.com/news/278980827/benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260413,COTONOU,,01,0,0.97560975609756,5,"Zoundja, Benin (general), Benin",6.50117,2.30815,http://www.sierraleonetimes.com/news/278980827/benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260413,COTONOU,,03,4,0.97560975609756,8,"Zoundja, Benin (general), Benin",6.50117,2.30815,http://www.sierraleonetimes.com/news/278980827/benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260413,BENIN,MAYOR,01,0,2.47191011235955,6,"Bopa, Benin (general), Benin",6.5874,1.96539,https://dailytrust.com/finance-minister-favourite-to-win-benin-presidential-poll/
+20260413,BENINESE,NATIONAL ELECTORAL COMMISSION,08,7,0.42462845010615,2,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://gnnliberia.com/ecowas-observation-mission-head-urges-peace-as-benin-awaits-presidential-election-results/
+20260413,BENINESE,CONSTITUTIONAL COURT,08,7,0.42462845010615,8,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://gnnliberia.com/ecowas-observation-mission-head-urges-peace-as-benin-awaits-presidential-election-results/
+20260412,BENIN,BURKINA FASO,03,4,-1.65289256198347,2,"Banikoara, Alibori, Benin",11.2984,2.43856,https://pidgin.informationng.com/?p=34402
+20260412,BENIN,NIGER,03,4,-1.65289256198347,2,"Banikoara, Alibori, Benin",11.2984,2.43856,https://pidgin.informationng.com/?p=34402
+20260413,BENIN,NIGER,02,3,4.05616224648986,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260413,BENIN,NIGERIA,02,3,4.05616224648986,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260412,BENIN,NIGER,02,3,-1.65289256198347,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://pidgin.informationng.com/?p=34402
+20260412,BENIN,NIGERIA,02,3,-1.65289256198347,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://pidgin.informationng.com/?p=34402
+20260413,COTONOU,BENIN,05,3.4,2.47191011235955,4,"Lokossa, Mono, Benin",6.63869,1.71674,https://dailytrust.com/finance-minister-favourite-to-win-benin-presidential-poll/
+20260413,BENIN,CUBA,04,1.9,2.55681818181818,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2026/04/13/benin-leans-into-painful-past-to-encourage-cultural-tourism/
+20260413,COTONOU,PRESIDENT,04,2.8,2.47191011235955,4,"Zongo, Atakora, Benin",10.1841,1.09662,https://dailytrust.com/finance-minister-favourite-to-win-benin-presidential-poll/
+20260413,COTONOU,PRESIDENT,04,2.8,2.47191011235955,1,"Lokossa, Mono, Benin",6.63869,1.71674,https://dailytrust.com/finance-minister-favourite-to-win-benin-presidential-poll/
+20260413,BENIN,MILITARY,05,3.5,4.05616224648986,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260413,BENIN,INTELLIGENCE,05,3.5,4.05616224648986,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260413,BENIN,BENIN,01,0,0,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://allafrica.com/stories/202604130001.html
+20260413,BENIN,CUBA,04,1.9,2.55681818181818,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2026/04/13/benin-leans-into-painful-past-to-encourage-cultural-tourism/
+20260412,BENIN,NIGER,03,4,-1.65289256198347,6,"Banikoara, Alibori, Benin",11.2984,2.43856,https://pidgin.informationng.com/?p=34402
+20260413,BENIN,NIGER,02,3,4.05616224648986,6,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260413,BENIN,NIGERIA,02,3,4.05616224648986,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260412,BENIN,NIGER,02,3,-1.65289256198347,3,"Kandi, Alibori, Benin",11.1342,2.93861,https://pidgin.informationng.com/?p=34402
+20260412,BENIN,NIGERIA,02,3,-1.65289256198347,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://pidgin.informationng.com/?p=34402
+20260413,BENIN,NIGERIA,02,3,4.05616224648986,4,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.globalsecurity.org/military/world/africa/bn-wadagni.htm
+20260412,BENIN,NIGERIA,02,3,-1.65289256198347,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://pidgin.informationng.com/?p=34402
+20260412,BENIN,BURKINA FASO,03,4,-1.65289256198347,8,"Banikoara, Alibori, Benin",11.2984,2.43856,https://pidgin.informationng.com/?p=34402
+20260412,BENIN,NIGER,03,4,-1.65289256198347,2,"Banikoara, Alibori, Benin",11.2984,2.43856,https://pidgin.informationng.com/?p=34402
+20260414,BENIN,,04,2.8,-2.81690140845071,8,"Abomey, Zou, Benin",7.18286,1.99119,https://hyeres.maville.com/actu/actudet_-oeuvres-pillees-durant-la-colonisation-une-loi-pour-faciliter-les-restitutions-adoptee-a-l-assemblee-nationale-_fil-7278461_actu.Htm
+20260413,BENIN,,04,1,3.39805825242718,10,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://www.financialafrik.com/2026/04/13/presidentielle-benin-hounkpe-reconnait-sa-defaite-et-felicite-wadagni/
+20260413,BENIN,,05,3.4,-0.31055900621118,2,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.channelstv.com/2026/04/13/benin-opposition-presidential-candidate-concedes-defeat-to-wadagni/
+20260414,BENIN,,01,0.4,0.897666068222621,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.digitaljournal.com/world/opposition-candidate-concedes-defeat-in-benin-presidential-election/article
+20260414,BENIN,,05,3.4,0.897666068222621,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.digitaljournal.com/world/opposition-candidate-concedes-defeat-in-benin-presidential-election/article
+20260414,BENIN,,08,5,1.51260504201681,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.hometownregister.com/news/national/benin-elects-presidential-favourite-romuald-wadagni-provisional-results/article_8d788043-aefd-501e-8b25-a0e0b0c2c81e.html
+20260414,BENIN,,13,-4.4,-0.941619585687381,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.dw.com/en/benins-finance-minister-wins-presidential-election-with-94/a-76769500
+20260414,BENIN,,17,-5,-0.941619585687381,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.dw.com/en/benins-finance-minister-wins-presidential-election-with-94/a-76769500
+20260413,BENIN,,11,-2,-0.31055900621118,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.channelstv.com/2026/04/13/benin-opposition-presidential-candidate-concedes-defeat-to-wadagni/
+20260413,BENIN,,05,3.4,0,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://punchng.com/benin-opposition-presidential-candidate-concedes-defeat-to-wadagni/
+20260413,BENIN,,08,5,0,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://punchng.com/benin-opposition-presidential-candidate-concedes-defeat-to-wadagni/
+20260414,BENIN,NATIONAL ELECTORAL COMMISSION,01,0,1.12781954887218,6,"Lokossa, Mono, Benin",6.63869,1.71674,https://english.news.cn/20260414/1956b0cdfb8d43f6b6dc770e7d5ce465/c.html
+20260414,BENIN,NATIONAL ELECTORAL COMMISSION,08,7,1.12781954887218,6,"Lokossa, Mono, Benin",6.63869,1.71674,https://english.news.cn/20260414/1956b0cdfb8d43f6b6dc770e7d5ce465/c.html
+20260414,BENIN,MEDIA,11,-2,0.897666068222621,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.digitaljournal.com/world/opposition-candidate-concedes-defeat-in-benin-presidential-election/article
+20260311,BENIN,,01,0,3.46456692913386,4,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.thestar.com.my/lifestyle/living/2026/03/11/benin039s-lovers-less-row-mantic-as-apps-replace-waterway-rendezvous
+20260115,BENIN,AFRICA,03,4,-0.60975609756098,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.channelafrica.co.za/channelafrica/news/benin-offers-citizenship-to-african-diaspora-with-help-from-filmmaker-spike-lee/
+20260402,BENIN,CHINESE,04,2.8,2.39520958083832,2,"Allada, Benin (general), Benin",6.66547,2.15138,http://en.people.cn/n3/2026/0402/c90000-20442803.html
+20260402,BENIN,CHINA,04,2.8,2.39520958083832,6,"Allada, Benin (general), Benin",6.66547,2.15138,http://en.people.cn/n3/2026/0402/c90000-20442803.html
+20260402,BENIN,CHINESE,06,6.4,2.39520958083832,8,"Allada, Benin (general), Benin",6.66547,2.15138,http://en.people.cn/n3/2026/0402/c90000-20442803.html
+20260205,BENIN,,04,1,5.24296675191816,10,"Akrake, Benin (general), Benin",6.4,2.66667,https://naija247news.com/uba-gmd-visits-benin-reaffirms-commitment-to-benins-strategic-economic-growth/
+20260206,BENIN,,01,0,5.75692963752666,4,"Akrake, Benin (general), Benin",6.4,2.66667,https://thenationonlineng.net/uba-reaffirms-commitment-to-benin-republics-economic-growth/
+20260206,BENIN,,04,1,5.75692963752666,10,"Akrake, Benin (general), Benin",6.4,2.66667,https://thenationonlineng.net/uba-reaffirms-commitment-to-benin-republics-economic-growth/
+20260206,BENIN,,04,1.9,5.75692963752666,4,"Akrake, Benin (general), Benin",6.4,2.66667,https://thenationonlineng.net/uba-reaffirms-commitment-to-benin-republics-economic-growth/
+20260206,BENIN,,05,3.4,5.75692963752666,10,"Akrake, Benin (general), Benin",6.4,2.66667,https://thenationonlineng.net/uba-reaffirms-commitment-to-benin-republics-economic-growth/
+20260205,BENIN,,19,-10,-7.2289156626506,8,"Malanville, Atakora, Benin",11.8685,3.38989,http://french.china.org.cn/foreign/txt/2026-02/05/content_118320071.htm
+20260205,BENIN,GOVERNMENT,04,7,5.24296675191816,1,"Akrake, Benin (general), Benin",6.4,2.66667,https://naija247news.com/uba-gmd-visits-benin-reaffirms-commitment-to-benins-strategic-economic-growth/
+20260206,BENIN,GOVERNMENT,04,7,5.75692963752666,1,"Akrake, Benin (general), Benin",6.4,2.66667,https://thenationonlineng.net/uba-reaffirms-commitment-to-benin-republics-economic-growth/
+20260412,COTONOU,,03,4,1.20898100172712,2,"Akassato, Benin (general), Benin",6.50299,2.36791,http://www.bignewsnetwork.com/news/278979677/roundup-benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260412,BENINESE,,11,-2,-2.71084337349397,3,"Bopa, Benin (general), Benin",6.5874,1.96539,https://www.the-messenger.com/news/national/article_ab442ca2-3ae4-5921-9fee-bdbb7b50b14f.html
+20260412,BENINESE,,11,-2,-2.25225225225226,5,"Zongo, Atakora, Benin",10.1841,1.09662,https://www.insidenova.com/news/national/finance-minister-favourite-as-benin-votes-for-president/article_21dc37b4-bd7c-5e35-95b7-26f19d5caa33.html
+20260412,BENIN,,02,3,-1.86781609195403,4,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.yahoo.com/news/articles/benin-finance-minister-expected-coast-002630016.html
+20260412,BENIN,,01,0,-3.86904761904762,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.theguardian.com/world/2026/apr/12/benin-presidential-election
+20260412,COTONOU,,01,0,1.20898100172712,5,"Zoundja, Benin (general), Benin",6.50117,2.30815,http://www.bignewsnetwork.com/news/278979677/roundup-benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260412,COTONOU,,01,0,1.20898100172712,5,"Zoundja, Benin (general), Benin",6.50117,2.30815,http://www.bignewsnetwork.com/news/278979677/roundup-benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260412,COTONOU,,03,4,1.20898100172712,8,"Zoundja, Benin (general), Benin",6.50117,2.30815,http://www.bignewsnetwork.com/news/278979677/roundup-benin-holds-peaceful-presidential-vote-with-lower-than-expected-turnout
+20260412,BENIN,MAYOR,01,0,-2.71084337349397,4,"Bopa, Benin (general), Benin",6.5874,1.96539,https://www.the-messenger.com/news/national/article_ab442ca2-3ae4-5921-9fee-bdbb7b50b14f.html
+20260412,BENIN,ARMY,02,3,-2.71084337349397,2,"Bopa, Benin (general), Benin",6.5874,1.96539,https://www.the-messenger.com/news/national/article_ab442ca2-3ae4-5921-9fee-bdbb7b50b14f.html
+20260412,BENIN,THE WEST AFRICAN COUNTRY,17,-5,-2.71084337349397,10,"Bopa, Benin (general), Benin",6.5874,1.96539,https://www.the-messenger.com/news/national/article_ab442ca2-3ae4-5921-9fee-bdbb7b50b14f.html
+20260412,BENIN,ARMY,02,3,-2.25225225225226,2,"Zongo, Atakora, Benin",10.1841,1.09662,https://www.insidenova.com/news/national/finance-minister-favourite-as-benin-votes-for-president/article_21dc37b4-bd7c-5e35-95b7-26f19d5caa33.html
+20260412,BENIN,POLITICAL PRISONER,08,7,-2.25225225225226,4,"Zongo, Atakora, Benin",10.1841,1.09662,https://www.insidenova.com/news/national/finance-minister-favourite-as-benin-votes-for-president/article_21dc37b4-bd7c-5e35-95b7-26f19d5caa33.html
+20260412,BENIN,MEDIA,19,-10,-3.86904761904762,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.theguardian.com/world/2026/apr/12/benin-presidential-election
+20260412,BENIN,AMNESTY INTERNATIONAL,17,-5,-3.86904761904762,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.theguardian.com/world/2026/apr/12/benin-presidential-election
+20260412,BENIN,AFRICA,19,-9.5,-1.86781609195403,10,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.yahoo.com/news/articles/benin-finance-minister-expected-coast-002630016.html
+20260412,COTONOU,PRESIDENT,01,0,0,5,"Lokossa, Mono, Benin",6.63869,1.71674,http://www.bignewsnetwork.com/news/278979373/benin-presidential-election-vote
+20260226,BENIN,,11,-2,-7.05394190871369,4,"Borgou, Borgou, Benin",9.75,2.75,https://www.thestar.com.my/news/world/2026/02/26/islamist-militant-attacks-on-niger-benin-and-nigeria-border-zone-soaring-research-shows
+20260226,BENIN,MILITARY,19,-10,-9.06344410876133,10,"Borgou, Borgou, Benin",9.75,2.75,https://saharareporters.com/2026/02/26/al-qaeda-isis-cells-expand-niger-benin-nigeria-borders-fighters-intensify-attacks-report
+20260226,BENIN,AFRICA,04,1.9,-9.38566552901024,2,"Borgou, Borgou, Benin",9.75,2.75,https://www.naijanews.com/2026/02/26/al-qaeda-isis-violence-surges-in-niger-benin-nigeria-borderlands/
+20260226,BENIN,MILITARY,19,-10,-9.38566552901024,4,"Borgou, Borgou, Benin",9.75,2.75,https://www.naijanews.com/2026/02/26/al-qaeda-isis-violence-surges-in-niger-benin-nigeria-borderlands/
+20260324,BENIN,,01,0,-0.75187969924812,8,"Kounde, Benin (general), Benin",10.6555,1.47732,https://lanouvelletribune.info/2026/03/benin-ogoutchina-kounde-nomme-dg-interimaire-de-la-srtb-serge-ayaka-a-la-television-nationale/
+20260407,BENIN,,02,3,-0.27322404371584,8,"Houeyogbe, Benin (general), Benin",6.45072,1.92162,https://lanouvelletribune.info/2026/04/presidentielle-2026-au-benin-intensification-de-la-campagne-strategies-contrastees-sur-le-terrain/
+20260407,BENIN,EXTREMIST,04,1,-5.69620253164557,9,"Bariba, Benin (general), Benin",8.5837,1.69022,https://defenceweb.co.za/land/land-land/sahel-terror-groups-use-forest-safe-havens-to-launch-attacks/
+20260407,BENIN,EXTREMIST,11,-2,-5.69620253164557,8,"Bariba, Benin (general), Benin",8.5837,1.69022,https://defenceweb.co.za/land/land-land/sahel-terror-groups-use-forest-safe-havens-to-launch-attacks/
+20260407,BENIN,EXTREMIST,11,-2,-5.69620253164557,8,"Bariba, Benin (general), Benin",8.5837,1.69022,https://defenceweb.co.za/land/land-land/sahel-terror-groups-use-forest-safe-havens-to-launch-attacks/
+20260211,BENIN,,19,-9.5,-3.3811475409836,2,"Alibori, Alibori, Benin",11.3333,2.91667,https://defenceweb.co.za/security/national-security/adapting-benins-battle-with-violent-militant-groups/
+20260211,BENIN,MILITANT,19,-10,-3.3811475409836,10,"Alibori, Alibori, Benin",11.3333,2.91667,https://defenceweb.co.za/security/national-security/adapting-benins-battle-with-violent-militant-groups/
+20260211,BENIN,FULANI,01,0,-3.3811475409836,10,"Alibori, Alibori, Benin",11.3333,2.91667,https://defenceweb.co.za/security/national-security/adapting-benins-battle-with-violent-militant-groups/
+20260211,BENIN,BENIN,19,-9.5,-3.3811475409836,6,"Alibori, Alibori, Benin",11.3333,2.91667,https://defenceweb.co.za/security/national-security/adapting-benins-battle-with-violent-militant-groups/
+20260211,BENIN,REFUGEE,04,2.8,-3.3811475409836,5,"Atacora, Atakora, Benin",10.75,1.66667,https://defenceweb.co.za/security/national-security/adapting-benins-battle-with-violent-militant-groups/
+20260307,BENIN,,19,-10,-11.1969111969112,2,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.timesofearth.com/2026/03/07/militants-kill-15-soldiers-in-northern-benin-attack/
+20260306,BENIN,EMBASSY,16,-4,4.57102672292545,4,"Toffo, Benin (general), Benin",6.85,2.08333,https://www.army.mil/article/290902/setaf_af_spearheads_civil_military_engagement_in_benin
+20260312,BENIN,AUTHORITIES,03,7,1.4957264957265,2,"Bassila, Benin (general), Benin",9.00814,1.6654,https://www.ecofinagency.com/news-services/1203-53706-benin-launches-first-three-projects-in-26-school-agricultural-training-plan
+20260312,BENIN,AUTHORITIES,03,4,1.4957264957265,2,"Bassila, Benin (general), Benin",9.00814,1.6654,https://www.ecofinagency.com/news-services/1203-53706-benin-launches-first-three-projects-in-26-school-agricultural-training-plan
+20260311,BENIN,TOGO,17,-5,-7.78443113772458,8,"Avlekete, Atlantique, Benin",6.34555,2.20338,https://www.africatopsuccess.com/meurtre-dun-togolais-au-benin-laccuse-prend-30-ans-de-prison/
+20260312,BENIN,FRANCE,02,3,-0.625,10,"Godomey, Atlantique, Benin",6.38948,2.34581,http://www.24haubenin.info/?Capago-Benin-facilite-la-restitution-des-passeports-60753-60753
+20260306,BENIN,,06,7.4,-6.21468926553672,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.actuniger.com/international/21822-benin-15-soldats-tues-et-4-assaillants-neutralises-dans-une-attaque-terroriste-a-kofonou-dans-le-nord-est-du-pays.html
+20260306,BENIN,,19,-10,-8.40336134453782,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.ouestaf.com/benin-15-soldats-tues-dans-une-attaque-a-kofonou-nord-est/
+20260306,BENIN,,01,0,-2.46343341031563,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://www.gavi.org/vaccineswork/protecting-girls-bodies-benin-woman-fighting-female-genital-mutilation-vaccination-preventable-disease
+20260306,BENIN,,09,-2,1.55038759689922,10,"Savalou, Collines, Benin",7.92807,1.97558,https://lanouvelletribune.info/2026/03/infrastructures-sanitaires-au-benin-le-gouvernement-muscle-le-controle-technique-des-chantiers/
+20260306,BENIN,ARMY,19,-10,-6.21468926553672,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.actuniger.com/international/21822-benin-15-soldats-tues-et-4-assaillants-neutralises-dans-une-attaque-terroriste-a-kofonou-dans-le-nord-est-du-pays.html
+20260306,BENIN,TERRORIST,19,-10,-6.21468926553672,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.actuniger.com/international/21822-benin-15-soldats-tues-et-4-assaillants-neutralises-dans-une-attaque-terroriste-a-kofonou-dans-le-nord-est-du-pays.html
+20260306,BENIN,ARMY,19,-10,-6.21468926553672,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.actuniger.com/international/21822-benin-15-soldats-tues-et-4-assaillants-neutralises-dans-une-attaque-terroriste-a-kofonou-dans-le-nord-est-du-pays.html
+20260306,BENIN,BENIN,19,-10,-11.1731843575419,2,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.aa.com.tr/en/africa/armed-men-kill-15-soldiers-in-northern-benin/3852263
+20260306,BENIN,ARMY,19,-10,-11.1731843575419,2,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.aa.com.tr/en/africa/armed-men-kill-15-soldiers-in-northern-benin/3852263
+20260306,BENINESE,BENIN,01,0,-8.62068965517241,2,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.africanews.com/2026/03/06/15-soldiers-killed-in-jihadist-attack-in-northern-benin/
+20260306,BENINESE,BENIN,19,-10,-8.62068965517241,2,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.africanews.com/2026/03/06/15-soldiers-killed-in-jihadist-attack-in-northern-benin/
+20260306,BENINESE,SPOKESMAN,01,0,-8.62068965517241,2,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.africanews.com/2026/03/06/15-soldiers-killed-in-jihadist-attack-in-northern-benin/
+20260306,BENINESE,SPOKESMAN,19,-10,-8.62068965517241,2,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.africanews.com/2026/03/06/15-soldiers-killed-in-jihadist-attack-in-northern-benin/
+20260306,BENINESE,SPOKESMAN,01,0,-8.62068965517241,6,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.africanews.com/2026/03/06/15-soldiers-killed-in-jihadist-attack-in-northern-benin/
+20260306,BENINESE,SPOKESMAN,19,-10,-8.62068965517241,6,"Kofouno, Alibori, Benin",12.009,3.08445,https://www.africanews.com/2026/03/06/15-soldiers-killed-in-jihadist-attack-in-northern-benin/
+20260227,BENIN,,14,-6.5,6.17283950617284,6,"Borgou, Borgou, Benin",9.75,2.75,https://www2.fundsforngos.org/children/call-for-eois-community-radio-partnership-for-childrens-rights-benin/
+20260117,BENIN,,01,0,0.55679287305123,4,"Abomey, Zou, Benin",7.18286,1.99119,https://www.aol.com/articles/why-west-african-nation-benin-133800663.html
+20260327,BENIN,,01,0,-0.94637223974763,2,"Banikoara, Alibori, Benin",11.2984,2.43856,https://www.swissinfo.ch/eng/war-peace/women-harvest-hope-as-extremist-threat-grows-in-benin/91162140
+20250327,BENIN,RADIO STATION,19,-10,-0.94637223974763,3,"Banikoara, Alibori, Benin",11.2984,2.43856,https://www.swissinfo.ch/eng/war-peace/women-harvest-hope-as-extremist-threat-grows-in-benin/91162140
+20260327,BENIN,RADIO STATION,19,-10,-0.94637223974763,2,"Banikoara, Alibori, Benin",11.2984,2.43856,https://www.swissinfo.ch/eng/war-peace/women-harvest-hope-as-extremist-threat-grows-in-benin/91162140
+20260411,BENIN,CUBA,04,1.9,2.49653259361998,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://travel.yahoo.com/guides/articles/benin-leans-painful-past-attract-051956305.html
+20260411,BENIN,,05,3.4,2.49653259361998,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://travel.yahoo.com/guides/articles/benin-leans-painful-past-attract-051956305.html
+20260411,BENIN,CUBA,04,1.9,2.49653259361998,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://travel.yahoo.com/guides/articles/benin-leans-painful-past-attract-051956305.html
+20260410,BENIN,,01,0,0,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://theconversation.com/how-reforms-under-patrice-talon-have-reshaped-the-electoral-competition-in-benin-280333
+20260410,BENIN,BENIN,01,0,0,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://theconversation.com/how-reforms-under-patrice-talon-have-reshaped-the-electoral-competition-in-benin-280333
+20260220,BENIN,,05,8,7.38916256157635,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://thenet.ng/kunle-afolayan-productions-partnership-benin-republic/
+20260220,BENIN,EUROPEAN,04,2.8,3.52564102564103,4,"Abomey, Zou, Benin",7.18286,1.99119,https://lanouvelletribune.info/2026/02/benin-visite-de-courtoisie-de-cinq-ambassadeurs-europeens-au-nouveau-maire-dabomey/
+20260224,BENIN,VILLAGE,04,1.9,1.74180327868852,1,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.forbes.com/sites/everettpotter/2026/02/24/off-the-beaten-path-adventure-trips-for-2026/
+20260224,BENIN,VILLAGE,04,1.9,1.74180327868852,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.forbes.com/sites/everettpotter/2026/02/24/off-the-beaten-path-adventure-trips-for-2026/
+20260408,BENIN,,01,0,-2.92249047013978,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://www.cnbcafrica.com/2026/benin-finance-minister-wadagni-seeks-his-own-mandate-in-election
+20260309,BENIN,FRENCH,01,0,-2.92249047013978,1,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.cnbcafrica.com/2026/benin-finance-minister-wadagni-seeks-his-own-mandate-in-election
+20260408,BENIN,FRENCH,01,0,-2.92249047013978,1,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.cnbcafrica.com/2026/benin-finance-minister-wadagni-seeks-his-own-mandate-in-election
+20260108,BENIN,,02,-0.3,0.58139534883721,10,"Djougou, Donga, Benin",9.70853,1.66598,https://www.mediacongo.net/article-actualite-159211_benin_double_scrutin_legislatif_et_local_premier_acte_d_une_annee_electorale_cruciale.html
+20260415,BENIN,,05,3.4,-0.8130081300813,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://allafrica.com/stories/202604150321.html
+20260415,BENIN,,11,-2,-0.8130081300813,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://allafrica.com/stories/202604150321.html
+20260305,BENIN,VILLAGE,11,-2,-6.52173913043478,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://lanouvelletribune.info/2026/03/benin-15-soldats-tues-dans-une-attaque-armee-contre-une-position-militaire-bip-radio/
+20260409,COTONOU,BENIN,04,2.8,-1.09739368998628,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260409,BENINESE,AL QAEDA,06,6,-1.09739368998628,5,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260409,BENIN,COTONOU,01,0,-1.09739368998628,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260409,BENIN,COTONOU,04,1.9,-1.09739368998628,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260409,BENIN,COTONOU,05,3.4,-1.09739368998628,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260409,BENIN,COTONOU,09,-2,-1.09739368998628,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260409,BENIN,FRENCH,14,-7.5,-1.09739368998628,1,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260409,BENIN,FRENCH,14,-7.5,-1.09739368998628,1,"Abomey, Zou, Benin",7.18286,1.99119,https://www.ewn.co.za/2026/04/09/five-things-to-know-about-benin-before-presidential-poll
+20260331,BENIN,INTERNATIONAL COMMUNICATION ASSOCIATION,04,1.9,1.84615384615384,4,"Nile, Benin (general), Benin",9.55462,2.62778,https://thesun.ng/ica-nigeria-targets-100-varsities-in-bold-leadership-push-for-global-communication-shift/
+20260427,BENIN,,01,-2,-5.32859680284191,6,"Igini, Benin (general), Benin",8.93555,2.57951,https://www.premiumtimesng.com/news/top-news/875316-edo-govt-disowns-okpebholos-aide-over-threats-against-opposition.html
+20260427,BENIN,,02,-0.3,-5.32859680284191,2,"Igini, Benin (general), Benin",8.93555,2.57951,https://www.premiumtimesng.com/news/top-news/875316-edo-govt-disowns-okpebholos-aide-over-threats-against-opposition.html
+20260427,BENIN,NIGERIA,01,-2,-5.32859680284191,2,"Igini, Benin (general), Benin",8.93555,2.57951,https://www.premiumtimesng.com/news/top-news/875316-edo-govt-disowns-okpebholos-aide-over-threats-against-opposition.html
+20260427,BENIN,NIGERIA,04,1,-5.32859680284191,2,"Igini, Benin (general), Benin",8.93555,2.57951,https://www.premiumtimesng.com/news/top-news/875316-edo-govt-disowns-okpebholos-aide-over-threats-against-opposition.html
+20260427,BENIN,NIGERIA,01,-2,-5.32859680284191,2,"Igini, Benin (general), Benin",8.93555,2.57951,https://www.premiumtimesng.com/news/top-news/875316-edo-govt-disowns-okpebholos-aide-over-threats-against-opposition.html
+20260427,BENIN,NIGERIA,04,1,-5.32859680284191,2,"Igini, Benin (general), Benin",8.93555,2.57951,https://www.premiumtimesng.com/news/top-news/875316-edo-govt-disowns-okpebholos-aide-over-threats-against-opposition.html
+20260319,BENIN,CHINA,06,6.4,4.2042042042042,4,"Allada, Benin (general), Benin",6.66547,2.15138,https://english.news.cn/africa/20260319/b50752e15fbc45ffa472042e6b785556/c.html
+20260319,BENIN,CHINA,06,6.4,4,2,"Allada, Benin (general), Benin",6.66547,2.15138,http://en.people.cn/n3/2026/0319/c90000-20437895.html
+20260417,COTONOU,,04,2.8,2.01342281879195,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.taipeitimes.com/News/world/archives/2026/04/18/2003855830
+20260417,BENIN,,05,3.4,2.01342281879195,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.taipeitimes.com/News/world/archives/2026/04/18/2003855830
+20260417,BENIN,CUBA,04,1.9,2.01342281879195,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.taipeitimes.com/News/world/archives/2026/04/18/2003855830
+20260417,BENIN,CUBA,04,1.9,2.01342281879195,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.taipeitimes.com/News/world/archives/2026/04/18/2003855830
+20260121,BENIN,,07,7.4,-1.35135135135135,10,"Abomey, Zou, Benin",7.18286,1.99119,https://lanouvelletribune.info/2026/01/conseil-des-ministres-au-benin-construction-du-marche-au-charbon-et-de-pharmacopee/
+20260110,BENIN,,04,1.9,-0.5859375,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://fr.allafrica.com/stories/202601100168.html
+20260401,BENIN,,02,3,4.63576158940397,8,"Podji, Benin (general), Benin",6.91667,1.8,https://lanouvelletribune.info/2026/04/benin-depistage-gratuit-des-cancers-de-la-femme-des-ce-31-mars/
+20260401,BENIN,CHINESE,04,2.8,2.31990231990232,4,"Allada, Benin (general), Benin",6.66547,2.15138,https://english.news.cn/africa/20260402/e9d62a9944244de1b05967b0ec9992a7/c.html
+20260401,BENIN,GOVERNMENT,05,3.4,4.63576158940397,10,"Podji, Benin (general), Benin",6.91667,1.8,https://lanouvelletribune.info/2026/04/benin-depistage-gratuit-des-cancers-de-la-femme-des-ce-31-mars/
+20260401,BENIN,AFRICA,04,1,2.01005025125628,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.nationalaccordnewspaper.com/ecowas-ltos-meet-benin-political-stakeholders-observe-pre-election-activities/
+20260401,BENIN,ECOWAS,04,2.8,2.01005025125628,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.nationalaccordnewspaper.com/ecowas-ltos-meet-benin-political-stakeholders-observe-pre-election-activities/
+20260401,COTONOU,MEDIA,04,1,2.01005025125628,4,"Borgou, Borgou, Benin",9.75,2.75,https://www.nationalaccordnewspaper.com/ecowas-ltos-meet-benin-political-stakeholders-observe-pre-election-activities/
+20260401,COTONOU,MEDIA,04,1,2.01005025125628,1,"Borgou, Borgou, Benin",9.75,2.75,https://www.nationalaccordnewspaper.com/ecowas-ltos-meet-benin-political-stakeholders-observe-pre-election-activities/
+20260401,BENIN,CHINA,04,2.8,2.31990231990232,12,"Allada, Benin (general), Benin",6.66547,2.15138,https://english.news.cn/africa/20260402/e9d62a9944244de1b05967b0ec9992a7/c.html
+20260401,BENIN,CHINESE,06,6.4,2.31990231990232,16,"Allada, Benin (general), Benin",6.66547,2.15138,https://english.news.cn/africa/20260402/e9d62a9944244de1b05967b0ec9992a7/c.html
+20260414,BENIN,,01,0,2.33644859813085,10,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.bellanaija.com/2026/04/romuald-wadagni-wins-benin-presidential-election-2026-results/
+20260414,BENIN,ARMY,19,-10,0.94637223974763,10,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.digitaljournal.com/world/romuald-wadagni-from-economic-reformer-to-presidential-palace/article
+20260121,BENIN,,17,-9.2,-1.90355329949238,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.boisestatepublicradio.org/2026-01-20/benins-urban-boom-comes-at-a-human-cost
+20260121,BENIN,,05,3.4,-1.90355329949238,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.boisestatepublicradio.org/2026-01-20/benins-urban-boom-comes-at-a-human-cost
+20260121,BENIN,BENIN,05,3.4,-1.90355329949238,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.boisestatepublicradio.org/2026-01-20/benins-urban-boom-comes-at-a-human-cost
+20250602,BENIN,,02,3,0.1849568434032,4,"Grand Popo, Benin (general), Benin",6.28036,1.82251,https://www.army.mil/article/285995/north_dakota_national_guard_participates_in_lignite_coast_tabletop_exercise
+20250323,BENIN,,01,0,-4.85524728588661,2,"Akoko, Atakora, Benin",11.2029,3.0266,https://punchng.com/living-in-darkness-lagos-community-where-nigerians-cross-border-to-charge-phones-fetch-water/
+20250323,BENIN,,08,7,-3.97727272727273,10,"Djougou, Donga, Benin",9.70853,1.66598,https://www.afrik.com/benin-le-parti-les-democrates-denonce-des-interdictions-de-rassemblements-et-porte-plainte
+20250323,BENIN,,11,-2,-3.97727272727273,10,"Natitingou, Atakora, Benin",10.3042,1.37962,https://www.afrik.com/benin-le-parti-les-democrates-denonce-des-interdictions-de-rassemblements-et-porte-plainte
+20250323,BENIN,GOVERNMENT,01,0,-4.85524728588661,2,"Akoko, Atakora, Benin",11.2029,3.0266,https://punchng.com/living-in-darkness-lagos-community-where-nigerians-cross-border-to-charge-phones-fetch-water/
+20250323,BENIN,OPPOSITION PARTY,08,5,-3.97727272727273,10,"Djougou, Donga, Benin",9.70853,1.66598,https://www.afrik.com/benin-le-parti-les-democrates-denonce-des-interdictions-de-rassemblements-et-porte-plainte
+20250323,BENIN,NIGERIAN,04,2.8,-4.85524728588661,4,"Akoko, Atakora, Benin",11.2029,3.0266,https://punchng.com/living-in-darkness-lagos-community-where-nigerians-cross-border-to-charge-phones-fetch-water/
+20250323,BENIN,NIGERIAN,04,2.8,-4.85524728588661,2,"Akoko, Atakora, Benin",11.2029,3.0266,https://punchng.com/living-in-darkness-lagos-community-where-nigerians-cross-border-to-charge-phones-fetch-water/
+20250106,BENIN,,06,6.4,1.41843971631206,10,"Akassato, Benin (general), Benin",6.50299,2.36791,https://www.freshplaza.com/north-america/article/9692207/pain-de-sucre-variety-is-not-yet-popular-in-european-markets/
+20250322,BENIN,,04,2.8,1.98019801980198,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.routard.com/forums/t/quelques-questions-pour-un-sejour-au-benin/455558
+20250603,COTONOU,,05,3.4,2.00481154771452,2,"Toffo, Benin (general), Benin",6.85,2.08333,https://cisanewsafrica.com/2025/05/in-your-holy-service-the-saintly-journey-of-cardinal-bernardin-gating-africas-first-and-only-dean-of-the-college-of-cardinals/
+20250603,COTONOU,COTONOU,05,3.4,2.00481154771452,8,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://cisanewsafrica.com/2025/05/in-your-holy-service-the-saintly-journey-of-cardinal-bernardin-gating-africas-first-and-only-dean-of-the-college-of-cardinals/
+20250603,COTONOU,SCHOOL,05,3.4,2.00481154771452,2,"Toffo, Benin (general), Benin",6.85,2.08333,https://cisanewsafrica.com/2025/05/in-your-holy-service-the-saintly-journey-of-cardinal-bernardin-gating-africas-first-and-only-dean-of-the-college-of-cardinals/
+20250603,COTONOU,BENIN,05,3.4,2.00481154771452,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://cisanewsafrica.com/2025/05/in-your-holy-service-the-saintly-journey-of-cardinal-bernardin-gating-africas-first-and-only-dean-of-the-college-of-cardinals/
+20250530,BENIN,,19,-10,-2.76073619631902,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.aciafrica.org/news/15865/over-50-soldiers-killed-in-benin-catholic-bishops-express-solidarity-with-bereaved-families
+20250510,BENIN,,01,0,0.625,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.fratmat.info/article/2633778/culture/restitution-dahomey-le-film-documentaire-qui-redonne-voix-aux-tresors-royaux-pilles
+20250511,BENIN,,19,-10,0.59523809523809,10,"Koura, Benin (general), Benin",11.894,2.93418,https://www.saidaonline.com/303338
+20250609,BENIN,,01,0,-4.16666666666667,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://malijet.com/actualite-sur-afrique/302751-benin--cinq-elements-des-forces-tues-lors-d-une-attaque-contre-u.html
+20250609,BENIN,,08,7,-4.16666666666667,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://malijet.com/actualite-sur-afrique/302751-benin--cinq-elements-des-forces-tues-lors-d-une-attaque-contre-u.html
+20250510,BENIN,POPULATION,15,-7.2,0.98522167487685,10,"Gourou, Benin (general), Benin",9.95457,3.22136,https://allafrica.com/stories/202505100084.html
+20250102,BENIN,,02,3,1.09649122807017,10,"Allada, Benin (general), Benin",6.66547,2.15138,https://icilome.com/2025/01/benin-patrice-talon-envoie-un-message-subtil-a-ses-voisins-de-laes/
+20250102,BENIN,,04,1,1.09649122807017,10,"Allada, Benin (general), Benin",6.66547,2.15138,https://icilome.com/2025/01/benin-patrice-talon-envoie-un-message-subtil-a-ses-voisins-de-laes/
+20250914,BENIN,,01,0,-5.70719602977667,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://www.ilsussidiario.net/news/benin-sei-civili-rapiti-dallisis-nigeriano-il-vescovo-hanno-detto-che-colpiranno-ancora/2881257/
+20250119,BENIN,,01,0,-2.5,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://levenementprecis.com/?p=91452
+20250120,BENIN,,04,2.8,4.1018387553041,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://infotel.ca/newsitem/benins-mecca-of-spirits-and-gods-draws-tourists-and-followers-with-famed-voodoo-festival/it107844
+20250420,BENIN,MILITARY BASE,19,-10,-5.10204081632653,8,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.banglanews24.com/international/news/bd/1503237.details
+20250225,BENIN,,04,1.9,8.31408775981524,20,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.gouv.bj:443/article/2998/l-agence-voyage-luxe-abercrombie-kent-selectionne-benin-sejour-exception/
+20251128,BENIN,,19,-10,5.95903165735568,10,"Djougou, Donga, Benin",9.70853,1.66598,https://www.gouv.bj/article/3366/-meilleur-tablier-local-concours-inedit-revele-talents-culinaires-benin/
+20250201,BENIN,,04,1,-0.93959731543624,4,"Abomey, Zou, Benin",7.18286,1.99119,https://mondafrique.com/loisirs-culture/paulin-jidenu-hountondji-le-pere-de-la-philosophie-africaine/
+20250201,BENIN,,04,1,3.51906158357771,8,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://www.ilcittadinomb.it/news/cronaca/meda-incontro-al-cfp-terragni-con-gli-amici-di-tanguieta-la-solidarieta-e-il-tema/
+20250714,BENIN,,04,2.8,-2.15588723051409,10,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202507140109.html
+20250314,BENIN,,07,7,6.67903525046382,10,"Abomey, Zou, Benin",7.18286,1.99119,https://lanouvelletribune.info/2025/03/le-benin-a-lexposition-universelle-osaka-2025-un-voyage-culturel-et-economique-allechant/
+20250412,BENIN,,02,3,1.6597510373444,8,"Dassa-Zoume, Benin (general), Benin",7.75,2.18333,https://africapresse.com/le-benin-atteint-lautosuffisance-alimentaire-malgre-des-baisses-dans-certaines-cultures/
+20250412,BENIN,FARMER,05,3.4,1.6597510373444,10,"Dassa-Zoume, Benin (general), Benin",7.75,2.18333,https://africapresse.com/le-benin-atteint-lautosuffisance-alimentaire-malgre-des-baisses-dans-certaines-cultures/
+20250525,BENIN,AFRICA,01,0,6.58436213991769,2,"Akassato, Benin (general), Benin",6.50299,2.36791,https://newsghana.com.gh/ecowas-50th-anniversary-benin-youth-shape-regional-vision-through-art/
+20250824,BENIN,,01,0,3.98230088495575,4,"Cotonou, Littoral, Benin",6.36536,2.41833,https://www.newsghana.com.gh/e45-million-solar-project-to-power-50000-homes-in-benin/
+20250202,BENIN,,04,1,-0.93959731543624,4,"Abomey, Zou, Benin",7.18286,1.99119,https://mondafrique.com/limage-du-jour/paulin-jidenu-hountondji-le-pere-de-la-philosophie-africaine/
+20251228,BENIN,,08,5,-3.00751879699248,8,"Godomey, Atlantique, Benin",6.38948,2.34581,https://lanouvelletribune.info/2025/12/benin-une-operation-policiere-mene-a-labandon-dun-vehicule-vole-a-godomey/
+20250528,BENIN,NIGERIAN,05,3.4,4.63821892393321,4,"Couffo, Kouffo, Benin",7.08333,1.83333,https://guardian.ng/news/benin-warship-relaunched-in-lagos-after-repairs-by-nigerian-naval-dockyard/
+20250528,BENIN,NIGERIAN,05,3.4,4.63821892393321,6,"Couffo, Kouffo, Benin",7.08333,1.83333,https://guardian.ng/news/benin-warship-relaunched-in-lagos-after-repairs-by-nigerian-naval-dockyard/
+20250528,BENIN,,19,-10,-5.7356608478803,4,"Karimama, Alibori, Benin",12.0691,3.18405,https://allafrica.com/stories/202505280344.html
+20250427,BENIN,GOVERNMENT,04,1,-10.4166666666667,10,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.maravipost.com/benin-says-54-soldiers-killed-in-islamic-militant-attack/
+20250112,BENIN,,01,-0.4,3.25077399380805,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.jamaicaobserver.com/2025/01/12/benins-women-pillars-voodoo-celebrations/
+20250112,BENIN,,01,0,3.25077399380805,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.jamaicaobserver.com/2025/01/12/benins-women-pillars-voodoo-celebrations/
+20250112,BENIN,,07,8.3,-7.22891566265062,2,"Alibori, Alibori, Benin",11.3333,2.91667,http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-
+20250112,BENIN,,15,-7.2,-7.22891566265062,5,"Alibori, Alibori, Benin",11.3333,2.91667,http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-
+20250112,BENIN,,19,-10,-7.22891566265062,2,"Alibori, Alibori, Benin",11.3333,2.91667,http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-
+20250112,BENINESE,BENIN,19,-10,-7.22891566265062,2,"Alibori, Alibori, Benin",11.3333,2.91667,http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-
+20250112,BENINESE,NEWS AGENCY,01,0,-7.22891566265062,2,"Alibori, Alibori, Benin",11.3333,2.91667,http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-
+20250112,BENIN,NEWS AGENCY,01,0.4,-7.22891566265062,2,"Alibori, Alibori, Benin",11.3333,2.91667,http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-
+20250522,BENIN,,04,2.8,3.41614906832298,10,"Zinvie, Benin (general), Benin",6.61738,2.35776,https://www.lalibre.be/international/afrique/movewithafrica/2025/05/22/fdjh-retour-du-benin-X55DZYL5FBAONBL4PZIMPR4DC4/
+20250129,BENIN,,04,2.8,-0.9375,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.aol.co.uk/news/africa-where-m-why-black-100044556.html
+20250129,BENIN,,05,3.4,-0.9375,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.aol.co.uk/news/africa-where-m-why-black-100044556.html
+20250129,BENIN,AFRICA,02,3,-0.9375,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.aol.co.uk/news/africa-where-m-why-black-100044556.html
+20250129,BENIN,BRAZIL,01,0,-0.9375,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.aol.co.uk/news/africa-where-m-why-black-100044556.html
+20250129,BENIN,AFRICANS,04,1.9,-0.9375,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.aol.co.uk/news/africa-where-m-why-black-100044556.html
+20250129,BENIN,AFRICANS,04,2.8,-0.9375,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.aol.co.uk/news/africa-where-m-why-black-100044556.html
+20250303,BENIN,,01,0,1.26984126984127,6,"Djougou, Donga, Benin",9.70853,1.66598,https://lanouvelletribune.info/2025/03/benin-pour-qui-roule-richard-boni-ouorou/
+20250302,BENIN,,15,-7.2,-7.39856801909308,10,"Kantoro, Atakora, Benin",11.7765,3.21176,https://www.hindustantimes.com/world-news/10-killed-gunmen-one-soldier-killed-in-northern-benin-101740922266421.html
+20250302,BENIN,,19,-10,-9.375,10,"Karimama, Alibori, Benin",12.0691,3.18405,http://french.china.org.cn/foreign/txt/2025-03/03/content_117741366.htm
+20250302,BENIN,ARMED GROUP,19,-10,-6.87203791469194,5,"Karimama, Alibori, Benin",12.0691,3.18405,https://guardian.ng/news/armed-groups-military-clash-leaves-10-dead-in-benin/
+20250223,BENIN,ARMY,19,-10,-7.39856801909308,5,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.hindustantimes.com/world-news/10-killed-gunmen-one-soldier-killed-in-northern-benin-101740922266421.html
+20250121,BENIN,,04,2.8,3.69068541300527,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.deccanchronicle.com/nation/world/benins-mecca-of-spirits-and-gods-draws-tourists-and-followers-with-famed-voodoo-festival-1855563
+20250121,BENIN,FRANCE,04,2.8,3.69068541300527,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.deccanchronicle.com/nation/world/benins-mecca-of-spirits-and-gods-draws-tourists-and-followers-with-famed-voodoo-festival-1855563
+20251201,BENIN,,04,2.8,3.58361774744027,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://afriquinfos.com/fetes-de-fin-dannee-2025-le-gouvernement-beninois-aguiche-des-touristes-occidentaux-de-maniere-originale/
+20250521,BENIN,CHINA,04,1.9,4.06932931424265,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,http://www.ctgtribune.com/list_60kb9/5kw7dc.html
+20250521,PORTO NOVO,CHINESE,04,1,4.06932931424265,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,http://www.ctgtribune.com/list_60kb9/5kw7dc.html
+20250521,PORTO NOVO,CHINESE,04,7,4.06932931424265,6,"Porto-Novo, Qué, Benin",6.48333,2.61667,http://www.ctgtribune.com/list_60kb9/5kw7dc.html
+20250927,BENIN,MILITARY PERSONNEL,19,-10,-4.79904019196161,8,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html
+20250927,BENIN,RWANDA,02,3,-4.79904019196161,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html
+20250927,BENIN,MALI,04,1,-4.79904019196161,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html
+20250927,BENIN,BURKINA FASO,04,1,-4.79904019196161,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html
+20250927,BENIN,NIGERIA,19,-9.5,-4.79904019196161,3,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html
+20250927,BENIN,MOSCOW,01,-0.4,-4.79904019196161,8,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html
+20250927,BENIN,RWANDA,02,3,-4.79904019196161,6,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html
+20250222,COTONOU,,05,8,3.89863547758285,10,"Zongo, Atakora, Benin",10.1841,1.09662,https://allafrica.com/stories/202502220034.html
+20250809,BENIN,,02,3,-1.96078431372549,10,"Ndali, Borgou, Benin",9.8636,2.72094,https://www.rvasia.org/index.php/world-news/catholic-sisters-choose-stay-african-country-despite-terror-threats
+20250809,BENIN,,04,2.8,3.38983050847458,5,"Toura, Alibori, Benin",11.242,2.38771,https://www.thisdaylive.com/2025/08/09/natop-president-mustapha-woos-beninese-tour-operators/
+20250809,BENIN,BOSS,04,2.8,3.38983050847458,10,"Toura, Alibori, Benin",11.242,2.38771,https://www.thisdaylive.com/2025/08/09/natop-president-mustapha-woos-beninese-tour-operators/
+20250809,BENIN,BENIN,04,7,-1.96078431372549,2,"Ndali, Borgou, Benin",9.8636,2.72094,https://www.rvasia.org/index.php/world-news/catholic-sisters-choose-stay-african-country-despite-terror-threats
+20250809,BENIN,BISHOP,04,7,-1.96078431372549,4,"Ndali, Borgou, Benin",9.8636,2.72094,https://www.rvasia.org/index.php/world-news/catholic-sisters-choose-stay-african-country-despite-terror-threats
+20250608,BENIN,POLICE OFFICER,19,-10,-7.54716981132075,10,"Tanougou, Atakora, Benin",10.8145,1.43101,https://www.terradaily.com/reports/Suspected_jihadist_attack_in_Benin_kills_soldiers_police_999.html
+20250608,BENIN,POLICE,19,-10,-7.54716981132075,8,"Atacora, Atakora, Benin",10.75,1.66667,https://www.terradaily.com/reports/Suspected_jihadist_attack_in_Benin_kills_soldiers_police_999.html
+20250111,BENIN,,04,2.8,12.5,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/news/festival-celebrating-benins-voodoo-religion-004105328.html
+20250111,BENIN,,01,-0.4,4.08163265306123,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.ibtimes.com/benins-women-pillars-voodoo-celebrations-3758845
+20250111,BENIN,,01,0,4.08163265306123,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.ibtimes.com/benins-women-pillars-voodoo-celebrations-3758845
+20250224,BENIN,BENIN,08,5,-1.1764705882353,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://afropages.fr/rfi/benin-a-malanville-des-voies-alternatives-pour-les-echanges-avec-le-niger
+20250518,BENIN,UNITED KINGDOM,04,2.8,4.91803278688524,6,"Abomey, Zou, Benin",7.18286,1.99119,https://www.express.co.uk/travel/articles/2054730/africa-new-museum-benin-project
+20250126,BENIN,,01,0,-4.00984875131903,4,"Kandi, Alibori, Benin",11.1342,2.93861,https://countercurrents.org/2025/01/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250125,BENIN,,01,0,-3.94213381555153,4,"Kandi, Alibori, Benin",11.1342,2.93861,http://slguardian.org/french-neocolonialism-in-africa-a-new-military-strategy-under-disguise/
+20250126,BENIN,,01,0,-4.00984875131903,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://countercurrents.org/2025/01/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250125,BENIN,,01,0,-3.94213381555153,2,"Kandi, Alibori, Benin",11.1342,2.93861,http://slguardian.org/french-neocolonialism-in-africa-a-new-military-strategy-under-disguise/
+20250125,BENINESE,FRANCE,14,-6.5,-3.94213381555153,1,"Kandi, Alibori, Benin",11.1342,2.93861,http://slguardian.org/french-neocolonialism-in-africa-a-new-military-strategy-under-disguise/
+20250126,BENINESE,FRANCE,14,-6.5,-4.00984875131903,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://countercurrents.org/2025/01/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250126,BENINESE,FRENCH,14,-6.5,-4.00984875131903,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://countercurrents.org/2025/01/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250125,BENINESE,FRENCH,14,-6.5,-3.94213381555153,5,"Kandi, Alibori, Benin",11.1342,2.93861,http://slguardian.org/french-neocolonialism-in-africa-a-new-military-strategy-under-disguise/
+20250501,COTONOU,,04,2.8,5.45454545454546,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://lanouvelletribune.info/2025/05/tourisme-le-navire-de-croisiere-crystal-symphony-dans-les-eaux-beninoises/
+20250329,BENIN,,11,-2,0,10,"Savalou, Collines, Benin",7.92807,1.97558,https://fr.apanews.net/news/benin-une-campagne-de-vaccination-contre-la-fievre-aphteuse-et-la-dermatose-nodulaire-contagieuse-bovine/
+20250329,BENIN,,01,0,1.31004366812227,10,"Savalou, Collines, Benin",7.92807,1.97558,http://www.24haubenin.info/?Lancement-d-une-campagne-de-vaccination-pour-proteger-249-120-bovins
+20251229,BENIN,POLICE,17,-5,-6.37583892617449,8,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://lanouvelletribune.info/2025/12/benin-un-suspect-interpelle-apres-une-tentative-de-vol-sur-un-vehicule-de-police/
+20250331,BENIN,COMMUNITY,04,1,-1.15511551155116,10,"Godomey, Atlantique, Benin",6.38948,2.34581,https://levenementprecis.com/?p=92298
+20251226,BENIN,AFRICA,04,1.9,4.47214076246334,10,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://www.yahoo.com/lifestyle/articles/why-hotel-benin-transformed-trip-185800111.html
+20250613,BENIN,BENIN,04,2.8,-1.93548387096774,4,"Abomey, Zou, Benin",7.18286,1.99119,https://www.historyextra.com/membership/africans-have-been-starved-of-historical-figures-from-their-own-lands-that-they-can-look-up-to-paula-akpan-on-female-african-leaders/
+20250613,BENIN,ROYAL PALACE,04,1.9,-1.93548387096774,4,"Abomey, Zou, Benin",7.18286,1.99119,https://www.historyextra.com/membership/africans-have-been-starved-of-historical-figures-from-their-own-lands-that-they-can-look-up-to-paula-akpan-on-female-african-leaders/
+20250613,BENIN,BENIN,04,1.9,-1.93548387096774,4,"Abomey, Zou, Benin",7.18286,1.99119,https://www.historyextra.com/membership/africans-have-been-starved-of-historical-figures-from-their-own-lands-that-they-can-look-up-to-paula-akpan-on-female-african-leaders/
+20251014,BENIN,ECOWAS,01,0,0,10,"Djidja, Benin (general), Benin",7.34436,1.93447,https://www.newsghana.com.gh/ecowas-campaign-reaches-over-5000-girls-in-benin/
+20251208,BENIN,,05,3.4,-6.28019323671498,5,"Bariba, Benin (general), Benin",8.5837,1.69022,https://guardian.ng/news/world/africa/benins-failed-coup-as-a-stress-test-for-democratic-resilience-in-west-africa/
+20251209,COTONOU,NATIONAL GUARD,18,-9,-9.20634920634925,5,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.opinionnigeria.com/benin-government-confirms-multiple-deaths-as-coup-attempt-is-foiled/
+20251209,BENIN,BENIN,08,7,-6.72514619883041,2,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.stabroeknews.com/2025/12/09/news/world/nigerian-airstrikes-helped-foil-coup-attempt-benin-says/
+20251209,BENIN,GOVERNOR,15,-7.2,-0.735294117647061,6,"Parakou, Borgou, Benin",9.33716,2.63031,https://dailypost.ng/2025/12/09/benin-coup-tinubu-acted-in-nigerias-interest-by-deploying-military-to-stop-insurrection-governors/
+20251209,BENIN,FRANCE,12,-5,-6.27705627705628,6,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://cajnewsafrica.com/2025/12/09/benin-coup-leaders-defy-france/
+20251209,BENIN,NIGERIAN,05,3.4,-9.20634920634925,3,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.opinionnigeria.com/benin-government-confirms-multiple-deaths-as-coup-attempt-is-foiled/
+20251209,BENIN,GOVERNOR,15,-7.2,-0.735294117647061,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://dailypost.ng/2025/12/09/benin-coup-tinubu-acted-in-nigerias-interest-by-deploying-military-to-stop-insurrection-governors/
+20260219,BENIN,,01,0,-1.29533678756476,2,"Akrake, Benin (general), Benin",6.4,2.66667,https://www.oedigital.com/news/535910-akrake-achieves-first-oil-at-s-m-field-as-parent-firm-reviews-options
+20260219,BENIN,,01,0,8.82778581765557,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.thisdaylive.com/2026/02/19/kap-group-republic-of-benin-sign-historic-mou-to-boost-regional-film-industry/
+20260219,BENIN,,01,0.4,5.65723793677205,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://punchng.com/filmmaker-kunle-afolayan-signs-partnership-mou-with-benin-republic/
+20260219,BENIN,,05,3.5,5.65723793677205,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://punchng.com/filmmaker-kunle-afolayan-signs-partnership-mou-with-benin-republic/
+20260219,BENIN,,05,8,5.65723793677205,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://punchng.com/filmmaker-kunle-afolayan-signs-partnership-mou-with-benin-republic/
+20260219,BENIN,BENIN,01,0,-1.29533678756476,2,"Akrake, Benin (general), Benin",6.4,2.66667,https://www.oedigital.com/news/535910-akrake-achieves-first-oil-at-s-m-field-as-parent-firm-reviews-options
+20260120,COTONOU,GOVERNMENT OFFICIAL,04,1,5.65723793677205,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://punchng.com/filmmaker-kunle-afolayan-signs-partnership-mou-with-benin-republic/
+20260219,BENIN,COMPANY,05,8,5.65723793677205,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://punchng.com/filmmaker-kunle-afolayan-signs-partnership-mou-with-benin-republic/
+20250217,BENIN,,04,1.9,-3.74149659863946,6,"Godomey, Atlantique, Benin",6.38948,2.34581,https://levenementprecis.com/installation-sous-les-lignes-de-haute-tension-a-godomey-jacques-ayadji-demande-une-evacuation-urgente-des-occupants/
+20251102,BENIN,,01,0,5.16372795969773,12,"Djougou, Donga, Benin",9.70853,1.66598,https://www.gouv.bj:443/article/3335/le-marche-moderne-djougou-inaugure-dans-ferveur-populaire/
+20251207,COTONOU,,19,-10,-2.46305418719212,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://burkina24.com/2025/12/07/tirs-entendus-au-benin-des-militaires-annoncent-avoir-pris-le-pouvoir-le-gouvernement-dement/
+20251207,BENINESE,,05,3.4,-0.44843049327355,6,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.thisdaylive.com/2025/12/07/coup-attempt-ecowas-deploys-standby-force-in-benin/
+20251207,BENINESE,,05,3.4,-3.55392156862745,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://english.mathrubhumi.com/news/world/benin-coup-attempt-foiled-president-talon-location-pjggqkpt
+20251207,BENINESE,,05,3.4,-3.55392156862745,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://english.mathrubhumi.com/news/world/benin-coup-attempt-foiled-president-talon-location-pjggqkpt
+20251207,BENIN,ARMED FORCES,19,-10,-2.8,10,"Alassane, Benin (general), Benin",6.91667,1.91667,https://hotnews.ro/tentativa-de-lovitura-de-stat-in-benin-guvernul-anunta-ca-a-dejucat-incercarea-unui-grup-de-militari-focuri-de-arma-in-cel-mai-mare-oras-al-tarii-2124177
+20251207,BENINESE,BENIN,05,3.4,-0.44843049327355,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.thisdaylive.com/2025/12/07/coup-attempt-ecowas-deploys-standby-force-in-benin/
+20251207,BENIN,ECOWAS,01,0,-0.44843049327355,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.thisdaylive.com/2025/12/07/coup-attempt-ecowas-deploys-standby-force-in-benin/
+20251207,BENIN,SECURITY FORCE,05,3.4,-5.8411214953271,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://news.az/news/-inside-benins-failed-coup-what-really-happened
+20251207,BENIN,ARMED FORCES,08,7,-2.18508997429306,8,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.livemint.com/news/world/where-is-benin-the-west-african-country-everyone-is-talking-about-heres-why-military-coup-11765103199804.html
+20251207,BENIN,THE ASSOCIATED PRESS,01,0,-2.18508997429306,3,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.livemint.com/news/world/where-is-benin-the-west-african-country-everyone-is-talking-about-heres-why-military-coup-11765103199804.html
+20251207,BENIN,THE ASSOCIATED PRESS,01,0.4,-2.18508997429306,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.livemint.com/news/world/where-is-benin-the-west-african-country-everyone-is-talking-about-heres-why-military-coup-11765103199804.html
+20251207,BENINESE,BENINESE,05,3.4,-3.55392156862745,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://english.mathrubhumi.com/news/world/benin-coup-attempt-foiled-president-talon-location-pjggqkpt
+20251207,BENIN,THE ASSOCIATED PRESS,01,0.4,-3.55392156862745,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://english.mathrubhumi.com/news/world/benin-coup-attempt-foiled-president-talon-location-pjggqkpt
+20251207,BENIN,GOVERNMENT,04,7,-1.52838427947598,3,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/soldiers-claim-coup-in-benin-as-government-says-president-safe/
+20251207,BENIN,ARMED FORCES,08,7,-2.18508997429306,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.livemint.com/news/world/where-is-benin-the-west-african-country-everyone-is-talking-about-heres-why-military-coup-11765103199804.html
+20251207,BENIN,BENIN,05,3.4,-3.55392156862745,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://english.mathrubhumi.com/news/world/benin-coup-attempt-foiled-president-talon-location-pjggqkpt
+20250418,BENIN,,04,2.8,3.67534456355283,10,"Abomey, Zou, Benin",7.18286,1.99119,https://levenementprecis.com/tourisme-culture-et-arts-le-ministre-abimbola-devoile-des-perspectives-ambitieuses-pour-le-benin/
+20250109,BENIN,,04,1,0.44543429844098,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.lemonde.fr/afrique/article/2025/01/09/le-benin-veut-renforcer-ses-liens-avec-les-caraibes_6489323_3212.html
+20250210,BENINESE,,04,1.9,-0.12658227848101,8,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250210,BENIN,,04,2.8,-0.12658227848101,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250210,BENIN,,14,-7.5,-0.12658227848101,5,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250210,BENINESE,BENIN,01,0,-0.12658227848101,2,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250210,BENIN,STUDENT,04,1,-0.12658227848101,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250210,BENINESE,STUDENT,10,-5,-0.12658227848101,2,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250210,BENINESE,STUDENT,01,0,-0.12658227848101,5,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250210,BENINESE,STUDENT,10,-5,-0.12658227848101,5,"Abomey, Zou, Benin",7.18286,1.99119,https://www.dailylobo.com/article/2025/02/review-new-documentary-dahomey-shines-a-light-on-the-impact-of-colonialism-in-africa
+20250221,BENIN,PRISONER,06,6.4,-2.52672497570456,2,"Allada, Benin (general), Benin",6.66547,2.15138,https://www.historyextra.com/membership/history-africa-deeper/
+20250221,BENIN,PRISONER,18,-9,-2.52672497570456,4,"Allada, Benin (general), Benin",6.66547,2.15138,https://www.historyextra.com/membership/history-africa-deeper/
+20250221,BENIN,AFRICANS,06,6.4,-2.52672497570456,4,"Allada, Benin (general), Benin",6.66547,2.15138,https://www.historyextra.com/membership/history-africa-deeper/
+20251201,BENIN,,02,3,2.19966159052454,10,"Natitingou, Atakora, Benin",10.3042,1.37962,https://lanouvelletribune.info/2025/12/tribune-les-amazones-de-la-laverie-peuvent-elles-surgir-par-rudy-casbi/
+20250519,BENIN,,06,7.4,0.75566750629723,3,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202505190019.html
+20250519,COTONOU,,12,-4,0.75566750629723,7,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202505190019.html
+20250518,BENIN,REPRESENTATIVES,04,1,-0.29761904761904,5,"Igolo, Benin (general), Benin",6.64873,2.73417,https://dailypost.ng/2025/05/18/ogun-customs-calls-for-synergy-pledges-seamless-business-activities-along-border-corridor/
+20250519,BENIN,FINLAND,04,2.8,0.75566750629723,2,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202505190019.html
+20250519,BENIN,PARIS,04,2.8,0.75566750629723,2,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202505190019.html
+20250519,BENIN,COTONOU,12,-4,0.75566750629723,2,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202505190019.html
+20250519,BENIN,FINLAND,04,2.8,0.75566750629723,3,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202505190019.html
+20250519,BENIN,PARIS,04,2.8,0.75566750629723,8,"Abomey, Zou, Benin",7.18286,1.99119,https://allafrica.com/stories/202505190019.html
+20250726,BENIN,,04,1.9,3.27653997378768,7,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://rollingout.com/2025/07/26/spike-lee-tonya-lewis-lee-global-mission/
+20250726,BENIN,,07,7,3.27653997378768,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://rollingout.com/2025/07/26/spike-lee-tonya-lewis-lee-global-mission/
+20250726,BENIN,AFRICA,03,4,3.27653997378768,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://rollingout.com/2025/07/26/spike-lee-tonya-lewis-lee-global-mission/
+20250726,BENIN,AFRICA,06,6,3.27653997378768,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://rollingout.com/2025/07/26/spike-lee-tonya-lewis-lee-global-mission/
+20250726,BENIN,AFRICA,09,-2,3.27653997378768,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://rollingout.com/2025/07/26/spike-lee-tonya-lewis-lee-global-mission/
+20250726,BENIN,AFRICA,06,6,3.27653997378768,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://rollingout.com/2025/07/26/spike-lee-tonya-lewis-lee-global-mission/
+20251214,BENIN,ECOWAS,03,4,0,10,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://punchng.com/just-in-tinubu-ecowas-leaders-meet-to-discuss-benin-coup-attempt-other-issues/
+20251214,BENIN,AFRICA,05,3.4,0,2,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://punchng.com/just-in-tinubu-ecowas-leaders-meet-to-discuss-benin-coup-attempt-other-issues/
+20251214,BENIN,AFRICA,05,3.4,0,4,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://punchng.com/just-in-tinubu-ecowas-leaders-meet-to-discuss-benin-coup-attempt-other-issues/
+20251214,BENIN,AFRICA,05,3.4,0,2,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://punchng.com/just-in-tinubu-ecowas-leaders-meet-to-discuss-benin-coup-attempt-other-issues/
+20250307,BENIN,POLICE,11,-2,-5.95514307811291,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202503070014.html
+20250205,BENIN,AFRICA,08,7,-5.95514307811291,1,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202503070014.html
+20250307,BENIN,ACTIVIST,17,-5,-5.95514307811291,6,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202503070014.html
+20250307,BENINESE,FRENCH,14,-6.5,-5.95514307811291,3,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202503070014.html
+20250213,BENIN,,01,0,-4.01899890390939,3,"Kandi, Alibori, Benin",11.1342,2.93861,https://kashmirtimes.com/opinion/comment-articles/ivory-coasts-political-shift-french-military-presence-under-scrutiny
+20250213,BENIN,,01,0,-4.01899890390939,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://kashmirtimes.com/opinion/comment-articles/ivory-coasts-political-shift-french-military-presence-under-scrutiny
+20250213,BENINESE,FRANCE,14,-6.5,-4.01899890390939,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://kashmirtimes.com/opinion/comment-articles/ivory-coasts-political-shift-french-military-presence-under-scrutiny
+20250213,BENINESE,FRENCH,14,-6.5,-4.01899890390939,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://kashmirtimes.com/opinion/comment-articles/ivory-coasts-political-shift-french-military-presence-under-scrutiny
+20250317,BENIN,,05,6,0.53304904051173,10,"Allada, Benin (general), Benin",6.66547,2.15138,https://levenementprecis.com/?p=92024
+20250317,BENIN,,02,4,3.22039584032204,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/lifestyle/she-asked-stranger-directions-vacation-102459038.html
+20250317,BENIN,,04,1.9,3.22039584032204,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/lifestyle/she-asked-stranger-directions-vacation-102459038.html
+20250317,BENIN,,04,2.8,3.22039584032204,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/lifestyle/she-asked-stranger-directions-vacation-102459038.html
+20250317,BENIN,AFRICA,03,4,3.22039584032204,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/lifestyle/she-asked-stranger-directions-vacation-102459038.html
+20250317,BENIN,AFRICA,04,2.8,3.22039584032204,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/lifestyle/she-asked-stranger-directions-vacation-102459038.html
+20250317,BENIN,TOGO,04,1.9,3.22039584032204,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/lifestyle/she-asked-stranger-directions-vacation-102459038.html
+20250317,BENIN,UNITED STATES,04,1.9,3.22039584032204,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/lifestyle/she-asked-stranger-directions-vacation-102459038.html
+20250402,BENIN,,07,7.4,0.49980776624376,4,"Zinvie, Benin (general), Benin",6.61738,2.35776,https://www.fao.org/newsroom/story/a-risky-business-no-more/fr
+20250305,BENIN,,05,3.4,2.95983086680761,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://newsghana.com.gh/ecowas-golden-jubilee-benin-hosts-high-level-conference-at-university-of-parakou/
+20250305,BENIN,,01,0,2.95983086680761,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://newsghana.com.gh/ecowas-golden-jubilee-benin-hosts-high-level-conference-at-university-of-parakou/
+20250305,BENIN,ECOWAS,04,1,0.42105263157895,10,"Parakou, Borgou, Benin",9.33716,2.63031,https://ecowas.int/ecowas-representation-in-benin-organizes-a-conference-debate-at-the-university-of-parakou-to-mark-50-years-of-ecowas/
+20250305,BENIN,ECOWAS,04,5,0.42105263157895,5,"Parakou, Borgou, Benin",9.33716,2.63031,https://ecowas.int/ecowas-representation-in-benin-organizes-a-conference-debate-at-the-university-of-parakou-to-mark-50-years-of-ecowas/
+20250305,BENIN,BENIN,05,3.4,2.95983086680761,1,"Parakou, Borgou, Benin",9.33716,2.63031,https://newsghana.com.gh/ecowas-golden-jubilee-benin-hosts-high-level-conference-at-university-of-parakou/
+20250305,BENIN,ECOWAS,01,0,2.95983086680761,1,"Parakou, Borgou, Benin",9.33716,2.63031,https://newsghana.com.gh/ecowas-golden-jubilee-benin-hosts-high-level-conference-at-university-of-parakou/
+20250305,BENIN,ECOWAS,05,3.4,2.95983086680761,6,"Parakou, Borgou, Benin",9.33716,2.63031,https://newsghana.com.gh/ecowas-golden-jubilee-benin-hosts-high-level-conference-at-university-of-parakou/
+20251107,BENIN,,04,1.9,3.59281437125749,6,"Abomey, Zou, Benin",7.18286,1.99119,https://lesafriques.com/2025/11/benin-culture-numerique-patrimoine-digital-innovation-tech/
+20250114,BENIN,,04,2.8,4.20560747663551,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/news/benins-mecca-spirits-gods-draws-050743843.html
+20250114,BENIN,,05,3.4,4.35540069686411,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://cardinalcourieronline.com/main-news/benins-voodoo-festival-a-vibrant-celebration-of-culture-not-curses/11162/
+20250114,BENIN,,11,-2,4.35540069686411,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://cardinalcourieronline.com/main-news/benins-voodoo-festival-a-vibrant-celebration-of-culture-not-curses/11162/
+20250114,BENIN,,12,-4,4.35540069686411,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://cardinalcourieronline.com/main-news/benins-voodoo-festival-a-vibrant-celebration-of-culture-not-curses/11162/
+20250114,BENIN,,01,-0.4,3.35820895522388,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.dailysabah.com/life/women-lead-way-at-benins-vibrant-voodoo-festival/news
+20250114,BENIN,RELIGION,05,3.4,0.38314176245211,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.marketscreener.com/news/latest/Benin-festival-seeks-to-dispel-voodoo-stereotypes-48750942/
+20250114,BENIN,AGENCE FRANCE PRESS,01,0.4,3.35820895522388,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.dailysabah.com/life/women-lead-way-at-benins-vibrant-voodoo-festival/news
+20250114,BENIN,FRANCE,04,2.8,4.20560747663551,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.yahoo.com/news/benins-mecca-spirits-gods-draws-050743843.html
+20250218,BENIN,,11,-2,-6.59340659340659,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://afropages.fr/rfi/nord-du-benin-a-malanville-la-vie-difficile-des-deplaces-2-4
+20250218,BENIN,,05,3.4,3.21969696969697,5,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.maravipost.com/african-development-bank-2022-2026-country-strategy-for-benin-sends-very-positive-signals-at-halfway-point/
+20250218,BENIN,,04,1.9,3.21969696969697,5,"Collines, Collines, Benin",8,2.16667,https://www.maravipost.com/african-development-bank-2022-2026-country-strategy-for-benin-sends-very-positive-signals-at-halfway-point/
+20250218,BENIN,,05,3.4,3.21969696969697,5,"Collines, Collines, Benin",8,2.16667,https://www.maravipost.com/african-development-bank-2022-2026-country-strategy-for-benin-sends-very-positive-signals-at-halfway-point/
+20250218,BENIN,TERRORIST,13,-7,-6.59340659340659,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://afropages.fr/rfi/nord-du-benin-a-malanville-la-vie-difficile-des-deplaces-2-4
+20251224,BENIN,,05,3.4,-7.5709779179811,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.legit.ng/nigeria/1689661-benin-coup-president-jails-30-people-links-failed-military-takeover/
+20250211,BENIN,,04,2.8,2.24089635854342,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.alwihdainfo.com/Benin-accueil-du-navire-Seabourn-Sojourn-pour-une-nouvelle-destination-touristique_a138662.html
+20250210,BENIN,,04,2.8,0.9009009009009,20,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.gouv.bj/article/2976/le-benin-accueille-seabourn-sojourn-destination-touristique-pleine-expansion-croisieres/
+20250211,BENIN,,19,-10,-6.39864099660249,10,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202502110009.html
+20250211,BENINESE,FRENCH,04,2.8,-6.39864099660249,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202502110009.html
+20250211,COTONOU,TRADE UNION,04,7,-6.39864099660249,10,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,BENIN,14,-6.5,-6.39864099660249,7,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,STUDENT,04,2.8,-6.39864099660249,8,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,PRESIDENT,01,0,-6.39864099660249,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,FRENCH,10,-5,-6.39864099660249,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,FRANCE,04,2.8,-6.39864099660249,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,FRENCH,10,-5,-6.39864099660249,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,FRANCE,01,0,-6.39864099660249,1,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENINESE,FRENCH,14,-6.5,-6.39864099660249,1,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENINESE,FRENCH,14,-6.5,-6.39864099660249,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,PRESIDENT,01,0,-6.39864099660249,3,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,PRESIDENT,01,0,-6.39864099660249,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202502110009.html
+20250211,BENIN,BENIN,14,-6.5,-6.39864099660249,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202502110009.html
+20251121,BENIN,,04,2.8,0,10,"Akrake, Benin (general), Benin",6.4,2.66667,https://oilreviewafrica.com/technology/technology/fso-arrives-to-support-production-start-up-in-seme-offshore-benin
+20250815,BENIN,,03,7,6.40394088669951,3,"Ketu, Benin (general), Benin",7.36332,2.59978,https://www.ghanaweb.com/blogs/xorlali/Prosdos-Honoured-by-Union-Africaine-Pour-La-Culture-for-Promoting-African-Music-13218
+20250815,BENIN,,08,7,6.40394088669951,3,"Ketu, Benin (general), Benin",7.36332,2.59978,https://www.ghanaweb.com/blogs/xorlali/Prosdos-Honoured-by-Union-Africaine-Pour-La-Culture-for-Promoting-African-Music-13218
+20250815,BENIN,,08,7,6.40394088669951,1,"Ketu, Benin (general), Benin",7.36332,2.59978,https://www.ghanaweb.com/blogs/xorlali/Prosdos-Honoured-by-Union-Africaine-Pour-La-Culture-for-Promoting-African-Music-13218
+20250515,BENIN,FRANCE,04,2.8,-0.83160083160083,10,"Abomey, Zou, Benin",7.18286,1.99119,https://lequotidien.sn/benin-133-ans-apres-avoir-ete-pille-le-katakle-27e-piece-du-tresor-royal-dabomey-de-retour/
+20250516,BENIN,GOVERNMENT,03,5.2,2.53456221198156,10,"Abomey, Zou, Benin",7.18286,1.99119,https://levenementprecis.com/conference-publique-a-lunstim-stephane-mund-devoile-les-grandes-actions-de-lue-aux-etudiants-dabomey/
+20250515,BENIN,HELSINKI,04,2.8,0.89887640449438,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.jeuneafrique.com/1688163/culture/133-ans-apres-le-katakle-du-tresor-royal-dabomey-revient-au-benin/
+20250515,BENIN,KING,04,2.8,0.89887640449438,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.jeuneafrique.com/1688163/culture/133-ans-apres-le-katakle-du-tresor-royal-dabomey-revient-au-benin/
+20250130,BENIN,,04,1,2.67686424474187,2,"Abomey, Zou, Benin",7.18286,1.99119,https://international.la-croix.com/religion/young-communicators-champion-messages-of-hope-in-africa
+20250511,BENIN,,04,1.9,0.33482142857143,3,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.bostonglobe.com/2025/05/11/metro/ruth-davis-state-department-barrier-breaker-dies-81/
+20250807,BENIN,,05,3.4,-3.17073170731707,3,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://thesun.ng/we-havent-abandoned-you-minister-tells-nigerian-pastor-incarcerated-in-benin-republic/
+20250807,COTONOU,NIGERIA,17,-5,-3.17073170731707,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://thesun.ng/we-havent-abandoned-you-minister-tells-nigerian-pastor-incarcerated-in-benin-republic/
+20250107,BENIN,TOGO,04,2.8,2.2380467955239,1,"Parakou, Borgou, Benin",9.33716,2.63031,https://www.defenceweb.co.za/aerospace/aerospace-aerospace/major-general-ekman-and-the-pentagons-strategy-to-strengthen-air-power-in-west-africa/
+20250107,BENIN,TOGO,04,2.8,2.2380467955239,3,"Parakou, Borgou, Benin",9.33716,2.63031,https://www.defenceweb.co.za/aerospace/aerospace-aerospace/major-general-ekman-and-the-pentagons-strategy-to-strengthen-air-power-in-west-africa/
+20250821,BENIN,,04,1.9,6.87960687960688,20,"Abomey, Zou, Benin",7.18286,1.99119,https://www.gouv.bj/article/3211/journee-nationale-benin-expo-osaka-2025-immersion-dans-monde-splendeurs/
+20250110,BENIN,,07,8.3,-8.2840236686391,2,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.bbc.com/news/articles/c4gxqv79r1jo
+20250110,BENIN,,15,-7.2,-8.2840236686391,5,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.bbc.com/news/articles/c4gxqv79r1jo
+20250110,BENIN,,19,-10,-8.2840236686391,5,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.bbc.com/news/articles/c4gxqv79r1jo
+20250109,BENIN,,11,-2,-8.16326530612245,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.marketscreener.com/news/latest/Benin-army-suffers-heavy-losses-in-northern-attack-48720435/
+20250109,BENIN,,11,-2,-8.16326530612245,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.marketscreener.com/news/latest/Benin-army-suffers-heavy-losses-in-northern-attack-48720435/
+20250110,BENINESE,BENIN,19,-10,-8.2840236686391,2,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.bbc.com/news/articles/c4gxqv79r1jo
+20250110,BENINESE,NEWS AGENCY,01,0,-8.2840236686391,2,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.bbc.com/news/articles/c4gxqv79r1jo
+20250110,BENIN,ARMY,19,-10,-8.2840236686391,5,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.bbc.com/news/articles/c4gxqv79r1jo
+20250110,BENIN,NEWS AGENCY,01,0.4,-8.2840236686391,2,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.bbc.com/news/articles/c4gxqv79r1jo
+20250110,BENIN,COLONEL,19,-10,-7.2916666666667,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/law-order/3220854-benin-military-faces-devastating-militant-attack
+20250110,BENIN,NATIONAL GUARD,19,-10,-7.2916666666667,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/law-order/3220854-benin-military-faces-devastating-militant-attack
+20250110,BENIN,BENIN,19,-10,-7.2916666666667,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/law-order/3220854-benin-military-faces-devastating-militant-attack
+20250110,BENIN,NATIONAL GUARD,19,-10,-7.2916666666667,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/law-order/3220854-benin-military-faces-devastating-militant-attack
+20250110,BENIN,TOGO,19,-10,-4.19847328244275,6,"Porga, Atakora, Benin",11.048,0.968912,https://www.maliweb.net/international/benin-28-soldats-tues-dans-une-attaque-a-la-frontiere-3090506.html
+20250312,BENIN,VILLAGE,01,0,1.34952766531714,2,"Borgou, Borgou, Benin",9.75,2.75,https://www.maravipost.com/benin-african-development-fund-helps-women-in-shea-industry-build-economic-and-financial-resistance/
+20251001,BENIN,,01,0,6.1046511627907,8,"Bouca, Borgou, Benin",10.2175,3.13065,https://lanouvelletribune.info/2025/10/benin-deux-arrondissement-de-kalale-dotes-dun-commissariat-de-police/
+20250719,BENIN,COMPANY,03,4,-8.58676207513415,3,"Dosso, Benin (general), Benin",7.01717,2.45608,https://www.moneycontrol.com/news/india/niger-terror-attack-two-indians-killed-one-abducted-in-dosso-region-13297899.html
+20250719,BENIN,CIVILIAN,19,-10,-7.51677852348993,5,"Dosso, Benin (general), Benin",7.01717,2.45608,https://www.news18.com/world/indian-nationals-killed-abducted-in-heinous-terror-attack-on-their-worksite-in-niger-embassy-families-ws-kl-9450004.html
+20250123,BENIN,,01,0.4,3.19865319865319,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/religion/italian-bishops-initiate-beatification-process-for-beninese-cardinal
+20250123,BENIN,,04,2.8,3.19865319865319,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/religion/italian-bishops-initiate-beatification-process-for-beninese-cardinal
+20250123,BENIN,COTONOU,04,7,3.19865319865319,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/religion/italian-bishops-initiate-beatification-process-for-beninese-cardinal
+20250123,COTONOU,BENIN,04,7,3.19865319865319,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/religion/italian-bishops-initiate-beatification-process-for-beninese-cardinal
+20250718,BENIN,CIVILIAN,19,-10,-9.03010033444815,5,"Dosso, Benin (general), Benin",7.01717,2.45608,https://www.arabnews.com/node/2608573/world
+20251215,BENIN,,03,4,-4.74168435951876,10,"Abomey, Zou, Benin",7.18286,1.99119,https://bamada.net/lechec-du-coup-detat-au-benin-%E2%97%8F-symptome-dune-democratie-condamnee-au-silence-%E2%97%8F-de-lexil-parisien-a-la-tentation-de-la-force
+20251215,BENIN,,03,5.2,3.67892976588629,2,"Borgou, Borgou, Benin",9.75,2.75,https://www.energy-pedia.com/news/benin/ebrd-launches-its-first-sub-saharan-africa-investment-in-benin-202301
+20250216,BENIN,,01,0,-8.35654596100274,4,"Akoko, Atakora, Benin",11.2029,3.0266,https://punchng.com/police-arrest-seven-suspected-kidnappers-rescue-one-victim-in-ondo/
+20250216,BENIN,,17,-5,-8.35654596100274,4,"Akoko, Atakora, Benin",11.2029,3.0266,https://punchng.com/police-arrest-seven-suspected-kidnappers-rescue-one-victim-in-ondo/
+20250216,BENIN,,02,3,5.17241379310345,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://lanouvelletribune.info/2025/02/mtn-benin-lance-la-campagne-tout-donner-ensemble/
+20250216,BENIN,SENATE,04,1.9,-3.03430079155673,4,"Kayode, Benin (general), Benin",10.5395,0.869667,https://saharareporters.com/2025/02/16/oped-journalists-without-questions-sossonala-olumhense
+20250422,BENIN,,19,-10,-5.79710144927536,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://leadership.ng/al-qaeda-terrorists-kill-70-soldiers-in-benin-republic/
+20250422,BENIN,,09,-2,-3.23741007194244,2,"Ketu, Benin (general), Benin",7.36332,2.59978,https://ghanaiantimes.com.gh/police-intercepts-33000-ammunition-enroute-to-benin/
+20250422,BENIN,,12,-4,-3.23741007194244,2,"Ketu, Benin (general), Benin",7.36332,2.59978,https://ghanaiantimes.com.gh/police-intercepts-33000-ammunition-enroute-to-benin/
+20250422,COTONOU,,19,-10,-5.79710144927536,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://leadership.ng/al-qaeda-terrorists-kill-70-soldiers-in-benin-republic/
+20250422,BENIN,ISLAM,11,-2,-7.92079207920792,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://blueprint.ng/al-qaeda-linked-jihadists-attack-military-posts-in-benin-republic-kill-70-soldiers/
+20250422,BENIN,MILITARY,19,-10,-5.79710144927536,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://leadership.ng/al-qaeda-terrorists-kill-70-soldiers-in-benin-republic/
+20250804,COTONOU,,04,2.8,0.19157088122605,5,"Avlo, Benin (general), Benin",6.29386,1.89178,https://www.theguardian.com/global-development/2025/aug/04/west-africa-older-women-life-60-sylvia-arthur-interviews
+20250804,PORTO NOVO,,04,2.8,4.14057230947104,20,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.euronews.com/culture/2025/08/04/in-pictures-sacred-masks-and-dancing-fill-benins-capital
+20251210,BENIN,,01,0,-3.183885640026,8,"Parakou, Borgou, Benin",9.33716,2.63031,https://dailytrust.com/benin-praises-flak-over-troops-deployment/
+20250514,BENIN,FRANCE,14,-7.5,-0.68259385665529,4,"Abomey, Zou, Benin",7.18286,1.99119,https://www.courrierinternational.com/article/restitution-la-finlande-retrocede-au-benin-un-tabouret-royal-pille-a-l-epoque-de-la-colonisation-francaise_230892
+20250724,BENIN,,04,2.8,0,3,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://news.marketersmedia.com/explore-west-africa-seamlessly-with-evans-tours-multi-country-trips-from-nigeria-to-cote-divoire-up-to-guinea/89165500
+20250724,BENIN,TRAVELER,04,2.8,0,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://news.marketersmedia.com/explore-west-africa-seamlessly-with-evans-tours-multi-country-trips-from-nigeria-to-cote-divoire-up-to-guinea/89165500
+20250820,BENIN,,04,2.8,-2.09205020920502,1,"Malanville, Atakora, Benin",11.8685,3.38989,https://www.channelstv.com/2025/08/20/benin-bus-accident-toll-rises-to-37-after-10-bodies-found/
+20250820,BENIN,NIGER,05,3.5,-5.03978779840849,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://www.legit.ng/world/africa/1670166-tears-bus-accident-claims-37-lives-river-tragedy/
+20250820,BENIN,NIGER,04,1.9,-3.94088669950739,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://thesun.my/world-news/benin-bus-accident-death-toll-rises-to-37-after-river-search-DA14725574
+20250820,BENIN,NIGER,04,2.8,-3.94088669950739,5,"Malanville, Atakora, Benin",11.8685,3.38989,https://thesun.my/world-news/benin-bus-accident-death-toll-rises-to-37-after-river-search-DA14725574
+20250709,BENIN,CHINA,05,3.5,2.95202952029521,10,"Natitingou, Atakora, Benin",10.3042,1.37962,http://french.peopledaily.com.cn/Afrique/n3/2025/0709/c96852-20337748.html
+20250228,BENIN,,12,-4,-0.44052863436124,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://globalvoices.org/2025/02/28/emphasis-on-french-and-english-accelerates-decline-of-local-language-in-benin/
+20250227,BENIN,,01,3.4,-1.20481927710844,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://lanouvelletribune.info/2025/02/benin-lopposition-au-domicile-du-ministre-kouaro-yves-chabi/
+20250228,BENIN,AFRICA,05,3.4,-0.44052863436124,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://globalvoices.org/2025/02/28/emphasis-on-french-and-english-accelerates-decline-of-local-language-in-benin/
+20250226,BENIN,,04,1.9,1.14613180515759,8,"Savalou, Collines, Benin",7.92807,1.97558,https://lanouvelletribune.info/2025/02/benin-conrad-gbaguidi-devient-le-nouveau-president-du-conseil-economique-et-social/
+20250421,BENIN,,19,-10,-3.96551724137931,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.premiumtimesng.com/news/headlines/789520-al-qaeda-linked-jihadists-attack-military-posts-in-benin-republic-kill-70-soldiers.html
+20250421,COTONOU,,19,-10,-3.96551724137931,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.premiumtimesng.com/news/headlines/789520-al-qaeda-linked-jihadists-attack-military-posts-in-benin-republic-kill-70-soldiers.html
+20250421,BENIN,MILITARY,19,-10,-3.96551724137931,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.premiumtimesng.com/news/headlines/789520-al-qaeda-linked-jihadists-attack-military-posts-in-benin-republic-kill-70-soldiers.html
+20250421,BENIN,ISLAM,11,-2,-3.96551724137931,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.premiumtimesng.com/news/headlines/789520-al-qaeda-linked-jihadists-attack-military-posts-in-benin-republic-kill-70-soldiers.html
+20250421,COTONOU,COLLEGE,04,1.9,2.57142857142857,10,"Abomey, Zou, Benin",7.18286,1.99119,https://lanouvelletribune.info/2025/04/fab-la-selection-des-operateurs-de-drones-demarre-jeudi-rappel-a-certains-candidats/
+20251111,BENIN,,01,0,2.12765957446809,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.africatopsuccess.com/benin-la-cite-administrative-dabomey-est-desormais-operationnelle/
+20250403,BENIN,INTERNATIONAL UNION FOR CONSERVATION OF NATURE,01,0,-2.1882951653944,4,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://globalvoices.org/2025/04/03/who-exactly-is-benefiting-from-chinas-oil-pipeline-projects-in-niger-and-benin/
+20251014,BENIN,,04,1.9,2.65848670756646,2,"Djidja, Benin (general), Benin",7.34436,1.93447,https://www.africa-newsroom.com/press/the-economic-community-of-west-african-states-ecowas-improves-menstrual-health-and-wellbeing-for-over-5000-young-girls-in-ze-and-djidja-benin
+20251014,BENIN,,04,2.8,-4.09836065573771,6,"Kalale, Borgou, Benin",10.2927,3.38367,http://www.24haubenin.info/?16-fusils-d-assaut-et-775-cartouches-saisis-a-N-dali
+20251014,BENIN,MAYOR,04,1.9,2.65848670756646,2,"Djidja, Benin (general), Benin",7.34436,1.93447,https://www.africa-newsroom.com/press/the-economic-community-of-west-african-states-ecowas-improves-menstrual-health-and-wellbeing-for-over-5000-young-girls-in-ze-and-djidja-benin
+20251014,BENIN,MAYOR,04,2.8,2.65848670756646,2,"Djidja, Benin (general), Benin",7.34436,1.93447,https://www.africa-newsroom.com/press/the-economic-community-of-west-african-states-ecowas-improves-menstrual-health-and-wellbeing-for-over-5000-young-girls-in-ze-and-djidja-benin
+20250303,BENIN,,19,-10,-9.59595959595959,10,"Kantoro, Atakora, Benin",11.7765,3.21176,https://medafricatimes.com/39068-clashes-in-benin-leave-10-dead-amid-rising-violence-in-northern-regions.html
+20250303,BENIN,,19,-10,-9.19540229885057,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://malijet.com/actualite-sur-afrique/299934-benin--neuf-terroristes-tues-dans-le-nord-du-pays-media.html
+20250303,BENIN,ARMY,19,-10,-9.59595959595959,5,"Karimama, Alibori, Benin",12.0691,3.18405,https://medafricatimes.com/39068-clashes-in-benin-leave-10-dead-amid-rising-violence-in-northern-regions.html
+20250303,BENINESE,MILITANT,19,-10,-9.59595959595959,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://medafricatimes.com/39068-clashes-in-benin-leave-10-dead-amid-rising-violence-in-northern-regions.html
+20250303,BENINESE,MILITANT,19,-10,-9.59595959595959,6,"Karimama, Alibori, Benin",12.0691,3.18405,https://medafricatimes.com/39068-clashes-in-benin-leave-10-dead-amid-rising-violence-in-northern-regions.html
+20250808,BENIN,,02,3,-1.96078431372549,10,"Ndali, Borgou, Benin",9.8636,2.72094,https://www.rvasia.org/world-news/catholic-sisters-choose-stay-african-country-despite-terror-threats
+20250808,BENIN,BENIN,04,7,-1.96078431372549,2,"Ndali, Borgou, Benin",9.8636,2.72094,https://www.rvasia.org/world-news/catholic-sisters-choose-stay-african-country-despite-terror-threats
+20250808,BENIN,BISHOP,04,7,-1.96078431372549,4,"Ndali, Borgou, Benin",9.8636,2.72094,https://www.rvasia.org/world-news/catholic-sisters-choose-stay-african-country-despite-terror-threats
+20251117,BENIN,NIGER,11,-2,-1.82291666666667,10,"Dosso, Benin (general), Benin",7.01717,2.45608,https://www.africatopsuccess.com/niger-la-france-dement-une-declaration-du-general-tiani/
+20250730,BENIN,,02,3,-0.73529411764705,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://africa.com/benin-grants-ciara-citizenship-in-move-to-reconnect-with-black-diaspora/
+20250313,BENIN,GERMANY,04,2.8,3.30188679245283,2,"Glazoue, Benin (general), Benin",7.97252,2.22176,https://levenementprecis.com/?p=92018
+20250313,BENIN,PRIEST,01,0,0.73855243722304,4,"Kpota, Benin (general), Benin",6.82148,1.63998,https://international.la-croix.com/religion/in-benin-women-take-on-a-unique-role-as-extraordinary-ministers-of-holy-communion
+20250313,BENIN,PRIEST,11,-2,0.73855243722304,4,"Kpota, Benin (general), Benin",6.82148,1.63998,https://international.la-croix.com/religion/in-benin-women-take-on-a-unique-role-as-extraordinary-ministers-of-holy-communion
+20250313,COTONOU,MINIST,06,6,0.73855243722304,4,"Abomey, Zou, Benin",7.18286,1.99119,https://international.la-croix.com/religion/in-benin-women-take-on-a-unique-role-as-extraordinary-ministers-of-holy-communion
+20250313,COTONOU,MINIST,06,6,0.73855243722304,1,"Abomey, Zou, Benin",7.18286,1.99119,https://international.la-croix.com/religion/in-benin-women-take-on-a-unique-role-as-extraordinary-ministers-of-holy-communion
+20250313,BENIN,GERMANY,04,2.8,3.30188679245283,8,"Glazoue, Benin (general), Benin",7.97252,2.22176,https://levenementprecis.com/?p=92018
+20250904,BENIN,,01,0.4,0.54644808743169,4,"Savalou, Collines, Benin",7.92807,1.97558,https://amsterdamnews.com/news/2025/09/04/benin-yam-festival-international-has-long-history-but-enviroomental-threat-looms/
+20250904,BENIN,BENIN,05,3.4,5.7356608478803,2,"Cococodji, Benin (general), Benin",6.38948,2.28527,https://www.thechurchnews.com/living-faith/2025/09/04/succeed-in-school-program-offered-30-countries-youth-mentorship/
+20250904,BENIN,SCHOOL,04,1.9,5.7356608478803,2,"Cococodji, Benin (general), Benin",6.38948,2.28527,https://www.thechurchnews.com/living-faith/2025/09/04/succeed-in-school-program-offered-30-countries-youth-mentorship/
+20250904,BENIN,ETHNIC GROUP,05,3.4,0.54644808743169,5,"Savalou, Collines, Benin",7.92807,1.97558,https://amsterdamnews.com/news/2025/09/04/benin-yam-festival-international-has-long-history-but-enviroomental-threat-looms/
+20250904,BENIN,AMSTERDAM,04,1.9,0.54644808743169,2,"Savalou, Collines, Benin",7.92807,1.97558,https://amsterdamnews.com/news/2025/09/04/benin-yam-festival-international-has-long-history-but-enviroomental-threat-looms/
+20250904,BENIN,AMSTERDAM,04,1.9,0.54644808743169,2,"Savalou, Collines, Benin",7.92807,1.97558,https://amsterdamnews.com/news/2025/09/04/benin-yam-festival-international-has-long-history-but-enviroomental-threat-looms/
+20250920,BENIN,,01,0,5.13595166163142,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,BENIN,04,1.9,5.13595166163142,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,ECOWAS,04,1.9,5.13595166163142,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,ECOWAS,05,3.5,5.13595166163142,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,ECOWAS,14,-6.5,5.13595166163142,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,ECONOMIC COMMUNITY OF WEST AFRICAN STATES,04,2.8,5.13595166163142,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,BENIN,04,2.8,5.13595166163142,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,ECOWAS,04,1.9,5.13595166163142,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,ECOWAS,05,3.4,5.13595166163142,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250920,BENIN,ECONOMIC COMMUNITY OF WEST AFRICAN STATES,04,2.8,5.13595166163142,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.newsghana.com.gh/benin-ambassador-concludes-ecowas-mission-after-years/
+20250805,BENINESE,,05,3.4,5.18867924528302,5,"Abomey, Zou, Benin",7.18286,1.99119,https://www.tanzanianewsreports.com/benin-republic-west-africas-hidden-gem-unveiled/
+20250805,BENIN,AFRICA,02,3,5.18867924528302,3,"Abomey, Zou, Benin",7.18286,1.99119,https://www.tanzanianewsreports.com/benin-republic-west-africas-hidden-gem-unveiled/
+20250805,BENIN,NIGERIA,04,2.8,5.18867924528302,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.tanzanianewsreports.com/benin-republic-west-africas-hidden-gem-unveiled/
+20250117,BENIN,,01,0,-3.98563734290844,3,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202501170006.html
+20250117,BENIN,,01,0,-3.98563734290844,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202501170006.html
+20250117,BENINESE,FRANCE,14,-6.5,-3.98563734290844,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202501170006.html
+20250117,BENINESE,FRENCH,14,-6.5,-3.98563734290844,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://allafrica.com/stories/202501170006.html
+20250425,BENINESE,,15,-7.2,-13.6054421768708,2,"Koudou, Benin (general), Benin",10.8945,1.16328,https://www.aa.com.tr/en/turkiye/turkiye-condemns-terrorist-attack-in-benin-that-killed-54-soldiers/3548079
+20250425,BENINESE,,15,-7.2,-13.6054421768708,2,"Koudou, Benin (general), Benin",10.8945,1.16328,https://www.aa.com.tr/en/turkiye/turkiye-condemns-terrorist-attack-in-benin-that-killed-54-soldiers/3548079
+20250425,BENINESE,BENIN,15,-7.2,-13.6054421768708,2,"Koudou, Benin (general), Benin",10.8945,1.16328,https://www.aa.com.tr/en/turkiye/turkiye-condemns-terrorist-attack-in-benin-that-killed-54-soldiers/3548079
+20250425,BENIN,,15,-7.2,-13.6054421768708,1,"Koudou, Benin (general), Benin",10.8945,1.16328,https://www.aa.com.tr/en/turkiye/turkiye-condemns-terrorist-attack-in-benin-that-killed-54-soldiers/3548079
+20251027,BENIN,,01,0,8.12182741116752,1,"Alassane, Benin (general), Benin",6.91667,1.91667,https://www.newsghana.com.gh/ecowas-unicef-endorse-regional-standards-so-boost-child-nutrition/
+20251027,BENIN,BENIN,01,0,8.12182741116752,6,"Alassane, Benin (general), Benin",6.91667,1.91667,https://www.newsghana.com.gh/ecowas-unicef-endorse-regional-standards-so-boost-child-nutrition/
+20250116,BENIN,,04,2.8,4.28571428571429,12,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.smdailyjournal.com/news/world/benins-mecca-of-spirits-and-gods-draws-tourists-and-followers-with-famed-voodoo-festival/article_9791421e-2523-5c35-967a-1f90f0301086.html
+20250116,BENIN,FRANCE,04,2.8,4.28571428571429,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.smdailyjournal.com/news/world/benins-mecca-of-spirits-and-gods-draws-tourists-and-followers-with-famed-voodoo-festival/article_9791421e-2523-5c35-967a-1f90f0301086.html
+20250802,BENIN,,04,1.9,1.3215859030837,5,"Abomey, Zou, Benin",7.18286,1.99119,https://www.thisdaylive.com/2025/08/02/olanma-ojukwu-collaboration-between-nigeria-benin-tour-operators-spurs-tourism/
+20250802,BENIN,,05,3.4,1.3215859030837,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.thisdaylive.com/2025/08/02/olanma-ojukwu-collaboration-between-nigeria-benin-tour-operators-spurs-tourism/
+20250802,BENIN,NIGERIA,03,4,1.3215859030837,2,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.thisdaylive.com/2025/08/02/olanma-ojukwu-collaboration-between-nigeria-benin-tour-operators-spurs-tourism/
+20250306,BENIN,,04,2.8,1.73913043478261,4,"Couffo, Kouffo, Benin",7.08333,1.83333,https://allafrica.com/stories/202503060517.html
+20251120,BENIN,,04,2.8,-3.22580645161291,8,"Abomey, Zou, Benin",7.18286,1.99119,https://www.radiofrance.fr/franceculture/podcasts/serie-le-patrimoine-tresor-des-nations
+20260423,BENIN,MUSLIM,19,-10,-2.78810408921933,1,"Atacora, Atakora, Benin",10.75,1.66667,https://www.premiumtimesng.com/news/top-news/874114-niger-benin-now-have-narrow-window-for-diplomatic-reset.html
+20250818,BENIN,,04,2.8,-7.28155339805826,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://guardian.ng/news/nigeria/metro/one-dead-44-missing-in-benin-after-bus-plunges-into-river-govt/
+20250818,COTONOU,NIGER,04,1.9,-7.28155339805826,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://guardian.ng/news/nigeria/metro/one-dead-44-missing-in-benin-after-bus-plunges-into-river-govt/
+20250818,BENIN,NIGER,04,2.8,-7.28155339805826,6,"Malanville, Atakora, Benin",11.8685,3.38989,https://guardian.ng/news/nigeria/metro/one-dead-44-missing-in-benin-after-bus-plunges-into-river-govt/
+20250818,BENINESE,,07,7.4,-8.95522388059701,4,"Oueme, Donga, Benin",9.70906,1.95035,https://english.news.cn/20250818/dcc7735f3c6e4068b3d75b3943bcc114/c.html
+20250817,BENIN,,04,2.8,-7.7319587628866,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://punchng.com/one-dead-44-missing-in-benin-after-bus-plunges-into-river-official/
+20250817,COTONOU,NIGER,04,1.9,-7.7319587628866,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://punchng.com/one-dead-44-missing-in-benin-after-bus-plunges-into-river-official/
+20250817,BENIN,NIGER,04,2.8,-7.7319587628866,6,"Malanville, Atakora, Benin",11.8685,3.38989,https://punchng.com/one-dead-44-missing-in-benin-after-bus-plunges-into-river-official/
+20250817,BENINESE,,07,7.4,-8.95522388059701,2,"Oueme, Donga, Benin",9.70906,1.95035,http://www.chinaview.cn/20250818/dcc7735f3c6e4068b3d75b3943bcc114/c.html
+20250507,BENIN,,04,1.9,0.19157088122605,3,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.phillytrib.com/obituaries/ruth-a-davis-a-state-department-barrier-breaker-dies-at-81/article_893aace1-91db-4b6a-b160-dffb1c24bacc.html
+20250507,BENIN,,04,2.8,-2.14067278287461,6,"Savalou, Collines, Benin",7.92807,1.97558,https://lanouvelletribune.info/2025/05/vbg-au-benin-savalou-accueille-une-clinique-juridique-de-linf/
+20250712,BENIN,ECOWAS,05,3.4,5.10018214936248,2,"Alassane, Benin (general), Benin",6.91667,1.91667,https://www.africa-newsroom.com/press/economic-community-of-west-african-states-ecowas-strengthens-its-strategy-to-make-west-africa-a-world-tourist-destination-of-choice
+20250712,BENIN,ECOWAS,04,1,5.01043841336116,10,"Alassane, Benin (general), Benin",6.91667,1.91667,https://www.zawya.com/en/press-release/africa-press-releases/economic-community-of-west-african-states-ecowas-strengthens-its-strategy-to-make-west-africa-a-world-tourist-bk2siksr
+20251223,BENIN,,11,-2,-7.35721200387222,4,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20251223,BENIN,,17,-5,-7.35721200387222,4,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20251223,BENINESE,,19,-9.5,-7.35721200387222,6,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20251223,BENINESE,BENIN,19,-9.5,-7.35721200387222,2,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20251223,BENIN,GOVERNMENT,11,-2,-7.35721200387222,5,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20251223,BENIN,PRESIDENT,18,-9,-7.35721200387222,2,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20251223,BENIN,BENIN,11,-2,-7.35721200387222,4,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20251223,BENINESE,PRESIDENT,01,0,-7.35721200387222,6,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.legit.ng/world/africa/1689464-benin-coup-10-military-officer-pascal-tigri-overthrow-government/
+20250513,BENIN,,05,3.4,3.72960372960373,8,"Abomey, Zou, Benin",7.18286,1.99119,https://www.yahoo.com/news/finland-returns-sacred-stool-looted-161539149.html
+20250811,BENIN,,04,7,-3.40314136125654,2,"Akoko, Atakora, Benin",11.2029,3.0266,https://dailypost.ng/2025/08/11/ondo-owo-ose-stakeholders-reject-proposed-ose-state/
+20250811,BENIN,DRUG DEALER,17,-5,-7.77576853526221,1,"Akoko, Atakora, Benin",11.2029,3.0266,https://guardian.ng/news/nigeria/metro/ndlea-nabs-46-with-39977kg-of-drugs-in-edo/
+20251217,BENIN,,05,3.4,-3.27064595257564,8,"Dosso, Benin (general), Benin",7.01717,2.45608,https://tamtaminfo.com/tentative-de-coup-detat-au-benin-instabilites-et-accusations-entre-voisins/
+20251217,BENIN,BENIN,01,0,-3.27064595257564,10,"Dosso, Benin (general), Benin",7.01717,2.45608,https://tamtaminfo.com/tentative-de-coup-detat-au-benin-instabilites-et-accusations-entre-voisins/
+20250419,BENIN,,01,0,-0.71556350626118,2,"Akassato, Benin (general), Benin",6.50299,2.36791,https://globalvoices.org/2025/04/19/benin-new-markets-open-in-cotonou-in-anticipation-of-dantokpa-closure/
+20250419,BENIN,,15,-7.2,-10.242077715196,20,"Koudou, Benin (general), Benin",10.8945,1.16328,https://guardian.ng/news/suspected-jihadists-kill-eight-soldiers-in-benin/
+20250419,BENIN,,19,-10,-11.7283950617284,5,"Koudou, Benin (general), Benin",10.8945,1.16328,https://www.macaubusiness.com/presumed-jihadist-attack-kills-8-soldiers-in-benin-military-sources/
+20250419,BENIN,MILITARY,19,-10,-11.7283950617284,5,"Koudou, Benin (general), Benin",10.8945,1.16328,https://www.macaubusiness.com/presumed-jihadist-attack-kills-8-soldiers-in-benin-military-sources/
+20250419,BENIN,BURKINA FASO,11,-2,-8.75576036866359,2,"Koudou, Benin (general), Benin",10.8945,1.16328,https://guardian.ng/news/suspected-jihadists-kill-eight-soldiers-in-benin/
+20250419,BENIN,NIGER,11,-2,-8.75576036866359,10,"Koudou, Benin (general), Benin",10.8945,1.16328,https://guardian.ng/news/suspected-jihadists-kill-eight-soldiers-in-benin/
+20250419,BENIN,BURKINA FASO,11,-2,-8.75576036866359,8,"Koudou, Benin (general), Benin",10.8945,1.16328,https://guardian.ng/news/suspected-jihadists-kill-eight-soldiers-in-benin/
+20250824,BENIN,,01,0,-2.31481481481482,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://english.news.cn/africa/20250824/f847dc23465f41eba9f8d838729cd9cb/c.html
+20250824,BENINESE,,17,-5,-2.31481481481482,7,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://english.news.cn/africa/20250824/f847dc23465f41eba9f8d838729cd9cb/c.html
+20250824,BENINESE,BENINESE,01,0,-2.31481481481482,3,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://english.news.cn/africa/20250824/f847dc23465f41eba9f8d838729cd9cb/c.html
+20250612,NICEPHORE SOGLO,,05,3.5,-3.2983508245877,6,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://www.yahoo.com/news/niger-benin-border-standoff-deepens-061720815.html
+20250612,BENIN,,03,4,0.3804347826087,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.thesun.co.uk/news/35341852/voodoo-capital-goblins-dogs-heads-spears/
+20250612,BENIN,,04,2.8,0.3804347826087,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.thesun.co.uk/news/35341852/voodoo-capital-goblins-dogs-heads-spears/
+20250612,BENIN,,08,5,-1.68067226890756,10,"Segbana, Alibori, Benin",10.9282,3.69429,https://www.elfaradio.com/2025/06/11/manos-unidas-refuerza-su-apoyo-a-la-infancia-vulnerable-en-benin-con-una-nueva-fase-del-programa-en-alibori/
+20250612,BENIN,IVORY COAST,04,7,-3.2983508245877,10,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://www.yahoo.com/news/niger-benin-border-standoff-deepens-061720815.html
+20250612,BENIN,LOCAL MEDIA,01,0.4,-3.2983508245877,5,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://www.yahoo.com/news/niger-benin-border-standoff-deepens-061720815.html
+20250612,BENIN,NIGER,12,-4,-3.09555854643337,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://www.lemonde.fr/afrique/article/2025/06/12/les-relations-entre-le-niger-et-le-benin-dans-l-impasse-diplomatique_6612492_3212.html
+20250612,BENIN,MEDIA,04,2.8,0.3804347826087,1,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.thesun.co.uk/news/35341852/voodoo-capital-goblins-dogs-heads-spears/
+20250612,BENIN,PRIEST,03,4,0.3804347826087,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.thesun.co.uk/news/35341852/voodoo-capital-goblins-dogs-heads-spears/
+20250612,BENIN,PRIEST,04,2.8,0.3804347826087,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.thesun.co.uk/news/35341852/voodoo-capital-goblins-dogs-heads-spears/
+20250612,BENIN,MEDIA,04,2.8,0.3804347826087,1,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.thesun.co.uk/news/35341852/voodoo-capital-goblins-dogs-heads-spears/
+20250819,BENINESE,,03,4,-1.64644714038129,4,"Oueme, Donga, Benin",9.70906,1.95035,https://medafricatimes.com/41713-one-dead-dozens-missing-as-bus-plunges-into-river-in-benin.html
+20250819,BENINESE,,03,4,-1.64644714038129,6,"Oueme, Donga, Benin",9.70906,1.95035,https://medafricatimes.com/41713-one-dead-dozens-missing-as-bus-plunges-into-river-in-benin.html
+20250818,BENIN,,18,-10,-9.0625,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.enca.com/opinion/watchdog-demands-i-coast-probe-journalists-handover-benin
+20250818,BENIN,THE OPPOSITION,11,-2,-9.0625,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.enca.com/opinion/watchdog-demands-i-coast-probe-journalists-handover-benin
+20250818,BENIN,THE OPPOSITION,17,-5,-9.0625,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.enca.com/opinion/watchdog-demands-i-coast-probe-journalists-handover-benin
+20250818,BENIN,COTE D'IVOIRE,17,-5,-9.0625,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.enca.com/opinion/watchdog-demands-i-coast-probe-journalists-handover-benin
+20250818,BENIN,THE OPPOSITION,11,-2,-9.0625,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.enca.com/opinion/watchdog-demands-i-coast-probe-journalists-handover-benin
+20250818,BENIN,THE OPPOSITION,17,-5,-9.0625,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.enca.com/opinion/watchdog-demands-i-coast-probe-journalists-handover-benin
+20250127,BENIN,,01,0,-3.97058823529412,4,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.counterpunch.org/2025/01/27/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250127,BENIN,,01,0,-3.97058823529412,2,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.counterpunch.org/2025/01/27/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250127,BENINESE,FRANCE,14,-6.5,-3.97058823529412,1,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.counterpunch.org/2025/01/27/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250127,BENINESE,FRENCH,14,-6.5,-3.97058823529412,5,"Kandi, Alibori, Benin",11.1342,2.93861,https://www.counterpunch.org/2025/01/27/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/
+20250412,BENIN,CAMEROON,05,3.5,-6.88775510204081,2,"Tchoukou, Benin (general), Benin",7.81667,1.76667,https://www.foreignpolicyjournal.com/2018/06/05/why-does-boko-haram-remain-a-regional-threat-in-the-lake-chad-basin/
+20250412,BENIN,NIGER,05,3.5,-6.88775510204081,2,"Tchoukou, Benin (general), Benin",7.81667,1.76667,https://www.foreignpolicyjournal.com/2018/06/05/why-does-boko-haram-remain-a-regional-threat-in-the-lake-chad-basin/
+20250412,BENIN,NIGERIA,05,3.5,-6.88775510204081,2,"Tchoukou, Benin (general), Benin",7.81667,1.76667,https://www.foreignpolicyjournal.com/2018/06/05/why-does-boko-haram-remain-a-regional-threat-in-the-lake-chad-basin/
+20250412,BENIN,CHAD,05,3.5,-6.88775510204081,2,"Tchoukou, Benin (general), Benin",7.81667,1.76667,https://www.foreignpolicyjournal.com/2018/06/05/why-does-boko-haram-remain-a-regional-threat-in-the-lake-chad-basin/
+20250821,BENIN,AL JAZEERA,01,0.4,-2.8979491324378,4,"Kerou, Benin (general), Benin",10.7839,2.71315,https://www.yahoo.com/news/articles/armed-men-motorbikes-keep-conflict-070445952.html
+20250821,BENIN,AL JAZEERA,01,0,-2.8979491324378,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.yahoo.com/news/articles/armed-men-motorbikes-keep-conflict-070445952.html
+20250821,PORTO NOVO,AL JAZEERA,01,0.4,-2.8979491324378,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.yahoo.com/news/articles/armed-men-motorbikes-keep-conflict-070445952.html
+20251020,BENIN,,05,3.4,1.98237885462555,10,"Godomey, Atlantique, Benin",6.38948,2.34581,https://lanouvelletribune.info/2025/10/benin-fredhy-armel-bocovo-presente-son-livre-nos-voix-sunissent/
+20251020,BENIN,INTELLECTUAL,05,3.4,1.98237885462555,4,"Godomey, Atlantique, Benin",6.38948,2.34581,https://lanouvelletribune.info/2025/10/benin-fredhy-armel-bocovo-presente-son-livre-nos-voix-sunissent/
+20251031,BENIN,INDUSTRY,03,4,5.97243491577335,4,"Okio, Benin (general), Benin",8.04945,2.70498,https://allafrica.com/stories/202510310583.html
+20251212,BENIN,,03,5.2,4.67980295566502,2,"Borgou, Borgou, Benin",9.75,2.75,https://www.ebrd.com/home/news-and-events/news/2025/ebrd-launches-its-first-sub-saharan-africa-investment-in-benin.html
+20251212,BENIN,COUNCIL OF MINISTERS,03,4,-3.52781546811398,4,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.withinnigeria.com/2025/12/12/sequence-of-events-how-the-benin-republic-coup-broke-out-and-fizzled-within-24-hours/
+20251212,BENIN,COUNCIL OF MINISTERS,04,1,-3.52781546811398,4,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.withinnigeria.com/2025/12/12/sequence-of-events-how-the-benin-republic-coup-broke-out-and-fizzled-within-24-hours/
+20251212,BENIN,ECOWAS,01,0,-3.52781546811398,2,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.withinnigeria.com/2025/12/12/sequence-of-events-how-the-benin-republic-coup-broke-out-and-fizzled-within-24-hours/
+20251212,BENIN,ARMY,04,1,-3.52781546811398,4,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.withinnigeria.com/2025/12/12/sequence-of-events-how-the-benin-republic-coup-broke-out-and-fizzled-within-24-hours/
+20251212,BENIN,ECOWAS,01,0,-3.52781546811398,2,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.withinnigeria.com/2025/12/12/sequence-of-events-how-the-benin-republic-coup-broke-out-and-fizzled-within-24-hours/
+20250527,BENIN,CHINA,04,1,5.96590909090909,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.theborneopost.com/2025/05/27/how-chinese-martial-arts-speak-to-kung-fu-master-in-benin/
+20250527,BENIN,CHINA,04,1.9,5.96590909090909,2,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.theborneopost.com/2025/05/27/how-chinese-martial-arts-speak-to-kung-fu-master-in-benin/
+20250527,BENIN,CHINA,04,7,5.96590909090909,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.theborneopost.com/2025/05/27/how-chinese-martial-arts-speak-to-kung-fu-master-in-benin/
+20250527,BENIN,CHINA,04,1,5.96590909090909,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.theborneopost.com/2025/05/27/how-chinese-martial-arts-speak-to-kung-fu-master-in-benin/
+20250527,BENIN,CHINA,04,7,5.96590909090909,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.theborneopost.com/2025/05/27/how-chinese-martial-arts-speak-to-kung-fu-master-in-benin/
+20250506,BENIN,POPULATION,15,-7.2,0.93847758081335,10,"Gourou, Benin (general), Benin",9.95457,3.22136,https://www.maravipost.com/2025-annual-meetings-decade-of-life-transforming-actions-provides-drinking-water-and-sanitation-for-94-million-africans/
+20250112,BENIN,,01,0,3.625,8,"Kokou, Benin (general), Benin",9.73606,2.64774,https://www.malaymail.com/news/life/2025/01/12/the-women-behind-the-magic-voodoo-traditions-thrive-in-benin/162920
+20250112,BENIN,,05,3.4,-1.52439024390244,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2025/01/12/benin-celebrates-vodun-to-reclaim-cultural-identity/
+20250112,BENIN,,05,3.4,-1.52439024390244,1,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2025/01/12/benin-celebrates-vodun-to-reclaim-cultural-identity/
+20250112,BENIN,RELIGION,04,2.8,-1.52439024390244,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2025/01/12/benin-celebrates-vodun-to-reclaim-cultural-identity/
+20250112,BENIN,RELIGION,05,3.4,-1.52439024390244,3,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.africanews.com/2025/01/12/benin-celebrates-vodun-to-reclaim-cultural-identity/
+20250606,BENIN,DUBAI,04,2.8,-1.00502512562814,8,"Akrake, Benin (general), Benin",6.4,2.66667,https://www.oedigital.com/news/526570-rex-s-akrake-set-for-july-drilling-ops-off-west-africa
+20251113,BENIN,,17,-5,-5.48302872062663,1,"Porga, Atakora, Benin",11.048,0.968912,https://www.journalismpakistan.com/nigerian-travel-journalist-detained-in-benin-on-terrorism-charges-since-january
+20251113,BENIN,,02,3,4.75687103594081,4,"Couffo, Kouffo, Benin",7.08333,1.83333,https://www.thisdaylive.com/2025/11/13/nigerian-naval-dockyard-completes-overhaul-hands-over-benin-navy-ship/
+20251113,BENIN,MEDIA,09,-2,-5.48302872062663,3,"Porga, Atakora, Benin",11.048,0.968912,https://www.journalismpakistan.com/nigerian-travel-journalist-detained-in-benin-on-terrorism-charges-since-january
+20251113,BENIN,JOURNALIST,17,-5,-5.48302872062663,4,"Porga, Atakora, Benin",11.048,0.968912,https://www.journalismpakistan.com/nigerian-travel-journalist-detained-in-benin-on-terrorism-charges-since-january
+20251113,BENIN,BENIN,17,-5,-5.48302872062663,3,"Porga, Atakora, Benin",11.048,0.968912,https://www.journalismpakistan.com/nigerian-travel-journalist-detained-in-benin-on-terrorism-charges-since-january
+20251113,BENIN,BENIN,08,7,-5.48302872062663,2,"Porga, Atakora, Benin",11.048,0.968912,https://www.journalismpakistan.com/nigerian-travel-journalist-detained-in-benin-on-terrorism-charges-since-january
+20251113,BENIN,POLICE,02,3,-5.01792114695341,4,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511130046.html
+20251113,BENIN,BENIN,05,3.4,4.75687103594081,2,"Couffo, Kouffo, Benin",7.08333,1.83333,https://www.thisdaylive.com/2025/11/13/nigerian-naval-dockyard-completes-overhaul-hands-over-benin-navy-ship/
+20251113,BENIN,NIGERIAN,05,3.4,4.75687103594081,2,"Couffo, Kouffo, Benin",7.08333,1.83333,https://www.thisdaylive.com/2025/11/13/nigerian-naval-dockyard-completes-overhaul-hands-over-benin-navy-ship/
+20251113,BENIN,NIGERIA,12,-4,4.75687103594081,2,"Couffo, Kouffo, Benin",7.08333,1.83333,https://www.thisdaylive.com/2025/11/13/nigerian-naval-dockyard-completes-overhaul-hands-over-benin-navy-ship/
+20251113,BENIN,NIGERIA,05,3.4,4.75687103594081,2,"Couffo, Kouffo, Benin",7.08333,1.83333,https://www.thisdaylive.com/2025/11/13/nigerian-naval-dockyard-completes-overhaul-hands-over-benin-navy-ship/
+20251113,BENIN,JOURNALIST,17,-5,-5.48302872062663,4,"Porga, Atakora, Benin",11.048,0.968912,https://www.journalismpakistan.com/nigerian-travel-journalist-detained-in-benin-on-terrorism-charges-since-january
+20251113,BENIN,NIGERIAN,17,-5,-5.48302872062663,4,"Porga, Atakora, Benin",11.048,0.968912,https://www.journalismpakistan.com/nigerian-travel-journalist-detained-in-benin-on-terrorism-charges-since-january
+20251006,BENIN,,02,3.2,5.40540540540541,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://el-balad.com/6725797
+20251006,BENIN,,05,3.4,5.40540540540541,6,"Parakou, Borgou, Benin",9.33716,2.63031,https://el-balad.com/6725797
+20251006,BENIN,BENIN,08,7,-5.54016620498615,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://africapresse.com/benin-attaque-meurtriere-a-segbana-trois-policiers-tues-a-la-frontiere-du-nigeria/
+20251006,BENIN,BENIN,13,-7,-5.54016620498615,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://africapresse.com/benin-attaque-meurtriere-a-segbana-trois-policiers-tues-a-la-frontiere-du-nigeria/
+20251006,BENIN,MEDIA,05,3.4,-6.70103092783505,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://burkina24.com/2025/10/06/nord-benin-attaques-meurtrieres-a-segbana-et-kalale-des-morts-blesses-et-enlevements-signales/
+20251006,BENIN,PRESIDENT,05,3.4,5.40540540540541,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://el-balad.com/6725797
+20250924,BENIN,,04,2.8,2.95081967213114,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.gouv.bj/article/3268/le-benin-revele-comme-pole-cinema-international-avec-bande-annonce-cold-dishes/
+20250924,BENIN,,01,0,-0.28169014084507,6,"Kalale, Borgou, Benin",10.2927,3.38367,http://www.fides.org/it/news/76836-AFRICA_BENIN_Il_Vescovo_di_N_Dali_celebra_Messa_nel_villaggio_di_Kalale_assalito_il_10_settembre_dai_jihadisti_nigeriani
+20250924,BENIN,BENIN,01,0,-0.28169014084507,2,"Kalale, Borgou, Benin",10.2927,3.38367,http://www.fides.org/it/news/76836-AFRICA_BENIN_Il_Vescovo_di_N_Dali_celebra_Messa_nel_villaggio_di_Kalale_assalito_il_10_settembre_dai_jihadisti_nigeriani
+20250924,BENIN,VILLAGE,01,0,-0.28169014084507,4,"Kalale, Borgou, Benin",10.2927,3.38367,http://www.fides.org/it/news/76836-AFRICA_BENIN_Il_Vescovo_di_N_Dali_celebra_Messa_nel_villaggio_di_Kalale_assalito_il_10_settembre_dai_jihadisti_nigeriani
+20250924,BENIN,BENIN,01,0,-0.28169014084507,2,"Kalale, Borgou, Benin",10.2927,3.38367,http://www.fides.org/it/news/76836-AFRICA_BENIN_Il_Vescovo_di_N_Dali_celebra_Messa_nel_villaggio_di_Kalale_assalito_il_10_settembre_dai_jihadisti_nigeriani
+20250924,BENIN,VILLAGE,01,0,-0.28169014084507,2,"Kalale, Borgou, Benin",10.2927,3.38367,http://www.fides.org/it/news/76836-AFRICA_BENIN_Il_Vescovo_di_N_Dali_celebra_Messa_nel_villaggio_di_Kalale_assalito_il_10_settembre_dai_jihadisti_nigeriani
+20250407,BENIN,,04,2.8,-1.03420843277645,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.amren.com/news/2025/04/why-some-black-brazilians-are-moving-to-benin/
+20250407,BENIN,,05,3.4,-1.03420843277645,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.amren.com/news/2025/04/why-some-black-brazilians-are-moving-to-benin/
+20250407,BENIN,AFRICA,06,6,-2.54237288135593,10,"Akrake, Benin (general), Benin",6.4,2.66667,https://www.oedigital.com/news/524360-borr-drilling-s-rig-up-for-120-day-drilling-campaign-off-west-africa
+20250407,BENIN,AFRICA,02,3,-1.03420843277645,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.amren.com/news/2025/04/why-some-black-brazilians-are-moving-to-benin/
+20250407,BENIN,BRAZIL,01,0,-1.03420843277645,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.amren.com/news/2025/04/why-some-black-brazilians-are-moving-to-benin/
+20250407,BENIN,AFRICANS,04,1.9,-1.03420843277645,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.amren.com/news/2025/04/why-some-black-brazilians-are-moving-to-benin/
+20250407,BENIN,AFRICANS,04,2.8,-1.03420843277645,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.amren.com/news/2025/04/why-some-black-brazilians-are-moving-to-benin/
+20250123,BENIN,GOVERNMENT,05,3.4,5.17448856799037,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.gouv.bj/article/2959/cap-benin-prochain-choiseul-africa-summit-tiendra-cotonou/
+20250924,BENIN,,01,0,4.78723404255319,10,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://lanouvelletribune.info/2025/09/cinema-le-benin-saffirme-sur-la-scene-internationale-avec-le-film-3-cold-dishes/
+20250715,BENIN,,05,3.4,6.39810426540284,10,"Gbeke, Alibori, Benin",10.9242,3.47184,http://lepointsur.com/pose-de-la-premiere-pierre-du-centre-culturel-fata-futur-haut-lieu-de-transmission-de-valorisation-et-de-promotion-de-lidentite-akan/
+20250715,COTONOU,ECOWAS,04,1,6.89655172413793,10,"Alassane, Benin (general), Benin",6.91667,1.91667,https://blueprint.ng/ecowas-moves-to-harmonise-west-african-tourism-standards/
+20250715,COTONOU,ECOWAS,04,2.8,6.89655172413793,10,"Alassane, Benin (general), Benin",6.91667,1.91667,https://blueprint.ng/ecowas-moves-to-harmonise-west-african-tourism-standards/
+20251009,BENIN,NIGER,04,2.8,-6.39097744360902,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://lanouvelletribune.info/2025/10/benin-lex-chef-detat-major-de-la-marine-condamne-pour-abus-de-fonctions/
+20251125,BENIN,,04,7,1.52801358234296,10,"Glazoue, Benin (general), Benin",7.97252,2.22176,https://www.estrepublicain.fr/culture-loisirs/2025/11/25/l-association-grandir-mieux-continue-ses-actions-au-benin-et-ici-avec-un-concert-ce-vendredi
+20251125,BENINESE,BURKINA FASO,19,-9.5,-4.97427101200686,1,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENINESE,AFRICA,17,-5,-4.97427101200686,3,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENINESE,BENIN,19,-9.5,-4.97427101200686,3,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENIN,BENIN,08,7,-4.97427101200686,1,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENIN,POLICE,02,3,-4.97427101200686,4,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENIN,JOURNALIST,08,7,-4.97427101200686,8,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENINESE,BURKINA FASO,19,-9.5,-4.97427101200686,1,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENIN,MALI,04,1.9,-4.97427101200686,2,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20251125,BENIN,SENEGAL,04,1.9,-4.97427101200686,2,"Porga, Atakora, Benin",11.048,0.968912,https://allafrica.com/stories/202511250080.html
+20250424,BENIN,,09,-2,-3.57142857142858,2,"Ketu, Benin (general), Benin",7.36332,2.59978,https://allafrica.com/stories/202504240024.html
+20250424,BENIN,,12,-4,-3.57142857142858,2,"Ketu, Benin (general), Benin",7.36332,2.59978,https://allafrica.com/stories/202504240024.html
+20250424,BENIN,BURKINA FASO,17,-5,-12.4293785310735,2,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis
+20250424,BENIN,GOVERNMENT,06,6,-12.4293785310735,5,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis
+20250417,BENIN,ISLAMIC MILITANT,19,-10,-10.5932203389831,10,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.yahoo.com/news/benin-says-54-soldiers-were-130114069.html
+20250424,BENIN,GOVERNMENT,04,1,-10.5932203389831,10,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.yahoo.com/news/benin-says-54-soldiers-were-130114069.html
+20250424,BENIN,NIGER,17,-5,-12.4293785310735,4,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis
+20250424,BENIN,NIGERIA,17,-5,-12.4293785310735,6,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis
+20250424,BENIN,BURKINA FASO,17,-5,-12.4293785310735,4,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis
+20250424,BENIN,NIGER,17,-5,-12.4293785310735,2,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis
+20250424,BENIN,EXTREMIST,19,-10,-12.4293785310735,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis
+20250723,BENIN,ARMY,18,-9,-11.0992529348986,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://organiser.org/2025/07/23/304078/bharat/west-africas-forgotten-war-claims-indian-lives-after-u-s-exit-niger-becomes-a-jihadi-playground/
+20250723,BENIN,NIGER,18,-9,-11.0992529348986,1,"Karimama, Alibori, Benin",12.0691,3.18405,https://organiser.org/2025/07/23/304078/bharat/west-africas-forgotten-war-claims-indian-lives-after-u-s-exit-niger-becomes-a-jihadi-playground/
+20250723,BENIN,NIGER,18,-9,-11.0992529348986,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://organiser.org/2025/07/23/304078/bharat/west-africas-forgotten-war-claims-indian-lives-after-u-s-exit-niger-becomes-a-jihadi-playground/
+20250110,BENIN,,19,-10,-2.94784580498867,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.dakaractu.com/Benin-un-groupe-jihadiste-revendique-une-attaque-meurtriere-contre-l-armee-beninoise-dans-le-nord_a257500.html
+20250110,BENIN,,11,-2,3.20855614973262,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/culture/benin-holidays-for-indigenous-religions-celebrate-tradition-spark-debate-on-faith
+20250110,BENIN,,11,-2,-8.83977900552489,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.timesofearth.com/2025/01/10/benin-army-suffers-heavy-losses-in-northern-attack/
+20250110,BENIN,,11,-2,-8.83977900552489,1,"Alibori, Alibori, Benin",11.3333,2.91667,https://www.timesofearth.com/2025/01/10/benin-army-suffers-heavy-losses-in-northern-attack/
+20250110,BENIN,AFRICA,04,2.8,3.20855614973262,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/culture/benin-holidays-for-indigenous-religions-celebrate-tradition-spark-debate-on-faith
+20250110,BENIN,CATHOLIC,05,3.4,3.20855614973262,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/culture/benin-holidays-for-indigenous-religions-celebrate-tradition-spark-debate-on-faith
+20250110,BENIN,INDIGENOUS,05,3.4,3.20855614973262,5,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://international.la-croix.com/culture/benin-holidays-for-indigenous-religions-celebrate-tradition-spark-debate-on-faith
+20251028,COTONOU,RUSSIAN,04,1,-4.15754923413566,2,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://lesafriques.com/2025/10/defis-geopolitiques-benin-strategie-2030-developpement-afrique-ouest/
+20250117,BENIN,,05,3.4,2.27471566054243,2,"Abomey, Zou, Benin",7.18286,1.99119,https://visages-du-benin.com/benin-ca-doit-se-savoir-lecture-croisee-de-karim-da-silva-sur-les-prouesses-des-arrieres-parents-du-president-talon-et-sa-riche-contribution-pour-le-benin-actuellement/
+20250117,BENIN,,07,7,2.27471566054243,10,"Abomey, Zou, Benin",7.18286,1.99119,https://visages-du-benin.com/benin-ca-doit-se-savoir-lecture-croisee-de-karim-da-silva-sur-les-prouesses-des-arrieres-parents-du-president-talon-et-sa-riche-contribution-pour-le-benin-actuellement/
+20250117,BENIN,,02,3,6.62824207492795,5,"Djougou, Donga, Benin",9.70853,1.66598,https://cisanewsafrica.com/2025/01/benin-church-to-host-relics-of-st-theresa-of-the-child-jesus-during-2025-jubilee-celebrations/
+20250117,BENIN,,01,0,0,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://lanouvelletribune.info/2025/01/benin-deces-de-lex-depute-kora-gounou-zime/
+20250117,BENIN,,04,2.8,4.4753086419753,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.rep-am.com/life-arts/2025/01/16/benins-mecca-of-spirits-and-gods-draws-tourists-and-followers-with-famed-voodoo-festival/
+20250117,PORTO NOVO,,05,3.4,6.62824207492795,10,"Parakou, Borgou, Benin",9.33716,2.63031,https://cisanewsafrica.com/2025/01/benin-church-to-host-relics-of-st-theresa-of-the-child-jesus-during-2025-jubilee-celebrations/
+20250117,BENIN,BISHOP,05,3.4,6.62824207492795,5,"Parakou, Borgou, Benin",9.33716,2.63031,https://cisanewsafrica.com/2025/01/benin-church-to-host-relics-of-st-theresa-of-the-child-jesus-during-2025-jubilee-celebrations/
+20250117,PORTO NOVO,CATHOLIC,05,3.4,6.62824207492795,10,"Djougou, Donga, Benin",9.70853,1.66598,https://cisanewsafrica.com/2025/01/benin-church-to-host-relics-of-st-theresa-of-the-child-jesus-during-2025-jubilee-celebrations/
+20250117,BENIN,BENIN,01,0,6.62824207492795,5,"Djougou, Donga, Benin",9.70853,1.66598,https://cisanewsafrica.com/2025/01/benin-church-to-host-relics-of-st-theresa-of-the-child-jesus-during-2025-jubilee-celebrations/
+20250117,BENIN,BENIN,02,3,6.62824207492795,5,"Djougou, Donga, Benin",9.70853,1.66598,https://cisanewsafrica.com/2025/01/benin-church-to-host-relics-of-st-theresa-of-the-child-jesus-during-2025-jubilee-celebrations/
+20250117,BENIN,FRANCE,04,2.8,4.4753086419753,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.rep-am.com/life-arts/2025/01/16/benins-mecca-of-spirits-and-gods-draws-tourists-and-followers-with-famed-voodoo-festival/
+20250117,BENIN,NIGERIA,03,4,0.72289156626506,8,"Cotonou, Littoral, Benin",6.36536,2.41833,https://thenationonlineng.net/nigeria-benin-republic-weigh-options-for-sugar-company-revival/
+20250117,BENIN,NIGERIA,03,4,0.72289156626506,2,"Cotonou, Littoral, Benin",6.36536,2.41833,https://thenationonlineng.net/nigeria-benin-republic-weigh-options-for-sugar-company-revival/
+20250429,COTONOU,,04,2.8,6.84931506849316,20,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.gouv.bj:443/article/3065/cotonou-accueille-plus-grand-navire-croisiere-histoire-crystal-symphony/
+20250429,BENIN,,05,3.4,6.84931506849316,12,"Ganvie, Benin (general), Benin",6.46441,2.39288,https://www.gouv.bj:443/article/3065/cotonou-accueille-plus-grand-navire-croisiere-histoire-crystal-symphony/
+20250704,BENIN,TRADER,01,0,2.76381909547738,8,"Pahou, Benin (general), Benin",6.38774,2.21423,https://www.africanews.com/2025/07/04/cyber-africa-forum-highlights-benins-bold-digital-resilience-business-africa/
+20250725,BENIN,,17,-5,3.17848410757947,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.blackenterprise.com/spike-lee-wife-benin-ambassadors/
+20250725,BENIN,AFRICANS,04,1.9,3.17848410757947,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.blackenterprise.com/spike-lee-wife-benin-ambassadors/
+20250725,BENIN,AFRICANS,17,-5,3.17848410757947,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.blackenterprise.com/spike-lee-wife-benin-ambassadors/
+20250725,BENIN,AFRICA,03,4,3.17848410757947,1,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.blackenterprise.com/spike-lee-wife-benin-ambassadors/
+20251112,BENIN,,04,2.8,4.54545454545454,10,"Avlekete, Atlantique, Benin",6.34555,2.20338,https://lanouvelletribune.info/2025/11/feu-vert-pour-village-de-vacances-a-avlekete-un-tournant-pour-le-tourisme-au-benin/
+20251112,BENINESE,BURKINA FASO,19,-9.5,-5.07246376811594,1,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251112,BENINESE,AFRICA,17,-5,-5.07246376811594,3,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251112,BENINESE,BENIN,19,-9.5,-5.07246376811594,3,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251112,BENIN,POLICE,02,3,-5.07246376811594,4,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251112,BENIN,JOURNALIST,08,7,-5.07246376811594,7,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251113,BENINESE,BURKINA FASO,19,-9.5,-4.77031802120142,1,"Porga, Atakora, Benin",11.048,0.968912,https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/
+20251113,BENINESE,AFRICA,17,-5,-4.77031802120142,3,"Porga, Atakora, Benin",11.048,0.968912,https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/
+20251113,BENINESE,BENIN,19,-9.5,-4.77031802120142,3,"Porga, Atakora, Benin",11.048,0.968912,https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/
+20251113,BENIN,JOURNALIST,08,7,-4.77031802120142,7,"Porga, Atakora, Benin",11.048,0.968912,https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/
+20251112,BENINESE,BURKINA FASO,19,-9.5,-5.07246376811594,1,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251112,BENIN,MALI,04,1.9,-5.07246376811594,2,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251112,BENIN,SENEGAL,04,1.9,-5.07246376811594,2,"Porga, Atakora, Benin",11.048,0.968912,https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html
+20251113,BENINESE,BURKINA FASO,19,-9.5,-4.77031802120142,1,"Porga, Atakora, Benin",11.048,0.968912,https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/
+20251113,BENIN,MALI,04,1.9,-4.77031802120142,2,"Porga, Atakora, Benin",11.048,0.968912,https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/
+20251113,BENIN,SENEGAL,04,1.9,-4.77031802120142,2,"Porga, Atakora, Benin",11.048,0.968912,https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/
+20250721,BENIN,,04,1.9,-0.17055144968733,2,"Taiakou, Atakora, Benin",10.5427,1.2026,https://www.gavi.org/vaccineswork/from-bilharzia-trust-how-benin-community-conquering-healthcare-hesitancy
+20250721,BENIN,NILE,01,0,-2.94284097340125,1,"Nile, Benin (general), Benin",9.55462,2.62778,https://thesun.ng/obi-okpebholo-clarifies-stand-says-state-open-to-all-nigerians-but-protocols-must-be-followed/
+20250715,BENIN,HOSPITAL,04,2.8,1.27952755905512,2,"Lokossa, Mono, Benin",6.63869,1.71674,http://en.people.cn/n3/2025/0715/c90000-20340189.html
+20250715,BENIN,CHINA,04,2.8,1.09289617486339,3,"Couffo, Kouffo, Benin",7.08333,1.83333,http://www.chinaview.cn/20250715/b25d08c9d7dc4a2992189268186a9d83/c.html
+20250714,BENIN,BENIN,04,2.8,1.08991825613079,2,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.thestar.com.my/news/world/2025/07/15/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250714,BENIN,NURSE,04,2.8,1.08991825613079,4,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.thestar.com.my/news/world/2025/07/15/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250714,BENIN,BENIN,04,1.9,1.08991825613079,2,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.thestar.com.my/news/world/2025/07/15/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,BENIN,04,2.8,1.08991825613079,2,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.nigeriasun.com/news/278443935/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,NURSE,04,2.8,1.08991825613079,4,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.nigeriasun.com/news/278443935/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,BENIN,04,1.9,1.08991825613079,2,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.nigeriasun.com/news/278443935/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,CHINA,09,-2,1.27952755905512,2,"Lokossa, Mono, Benin",6.63869,1.71674,http://en.people.cn/n3/2025/0715/c90000-20340189.html
+20250715,BENIN,CHINA,09,-2,1.27952755905512,2,"Lokossa, Mono, Benin",6.63869,1.71674,http://en.people.cn/n3/2025/0715/c90000-20340189.html
+20250714,BENIN,CHINA,04,2.8,1.08991825613079,1,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.thestar.com.my/news/world/2025/07/15/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,CHINA,04,2.8,1.08991825613079,1,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.nigeriasun.com/news/278443935/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,CHINA,04,2.8,1.27952755905512,1,"Couffo, Kouffo, Benin",7.08333,1.83333,http://en.people.cn/n3/2025/0715/c90000-20340189.html
+20250715,BENIN,HOSPITAL,04,2.8,1.27952755905512,1,"Couffo, Kouffo, Benin",7.08333,1.83333,http://en.people.cn/n3/2025/0715/c90000-20340189.html
+20250715,BENIN,CHINA,04,2.8,1.09289617486339,3,"Lokossa, Mono, Benin",6.63869,1.71674,http://www.chinaview.cn/20250715/b25d08c9d7dc4a2992189268186a9d83/c.html
+20250715,BENIN,DOCTOR,04,2.8,1.09289617486339,3,"Lokossa, Mono, Benin",6.63869,1.71674,http://www.chinaview.cn/20250715/b25d08c9d7dc4a2992189268186a9d83/c.html
+20250715,BENIN,HOSPITAL,04,2.8,1.09289617486339,3,"Couffo, Kouffo, Benin",7.08333,1.83333,http://www.chinaview.cn/20250715/b25d08c9d7dc4a2992189268186a9d83/c.html
+20250714,BENIN,CHINESE,04,2.8,1.08991825613079,5,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.thestar.com.my/news/world/2025/07/15/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,CHINESE,04,2.8,1.08991825613079,5,"Lokossa, Mono, Benin",6.63869,1.71674,https://www.nigeriasun.com/news/278443935/feature-chinese-medics-treat-patients-empower-locals-in-benin
+20250715,BENIN,DOCTOR,04,2.8,1.27952755905512,2,"Lokossa, Mono, Benin",6.63869,1.71674,http://en.people.cn/n3/2025/0715/c90000-20340189.html
+20250715,BENIN,HOSPITAL,04,2.8,1.27952755905512,1,"Couffo, Kouffo, Benin",7.08333,1.83333,http://en.people.cn/n3/2025/0715/c90000-20340189.html
+20250325,BENIN,,07,7.4,0,1,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,,07,7.4,0,3,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,PORTO NOVO,,07,7.4,0,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,BENIN,04,1.9,0,1,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,NIGER,05,8,0,2,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,NIGERIAN,01,0,0,2,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,BENIN,02,3,0,2,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,BENIN,06,6,0,2,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,BENIN,04,2.8,0,1,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,NIGER,05,8,0,2,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,NIGER,05,8,0,2,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,NIGER,05,8,0,4,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,NIGERIAN,01,0,0,2,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250325,BENIN,NIGERIAN,04,1.9,0,1,"Pobe, Benin (general), Benin",6.98007,2.6649,https://www.premiumtimesng.com/health/health-investigations/783327-beyond-borders-how-oguns-healthcare-crisis-pushes-nigerians-to-neighbouring-country.html
+20250430,BENIN,NAIJA,01,0.4,-1.95852534562212,8,"Parakou, Borgou, Benin",9.33716,2.63031,https://naija247news.com/2025/04/30/explainer-african-countries-with-u-s-military-bases-surrounding-traores-burkina-faso-and-the-aes-bloc/
+20250430,BENIN,INTELLIGENCE,07,7.4,-1.95852534562212,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://naija247news.com/2025/04/30/explainer-african-countries-with-u-s-military-bases-surrounding-traores-burkina-faso-and-the-aes-bloc/
+20250430,BENIN,INTELLIGENCE,07,7.4,-1.95852534562212,1,"Parakou, Borgou, Benin",9.33716,2.63031,https://naija247news.com/2025/04/30/explainer-african-countries-with-u-s-military-bases-surrounding-traores-burkina-faso-and-the-aes-bloc/
+20250509,BENIN,,14,-6.5,2.53623188405797,10,"Allada, Benin (general), Benin",6.66547,2.15138,https://www.afrik.com/katakle-le-retour-d-un-trone-sacre-ravive-la-memoire-du-danxome
+20250508,BENIN,VILLAGE,17,-5,-3.03687635574838,10,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/08/breaking-benin-republic-shuts-border-kwara-communities-over-attacks-new-terror-group
+20250508,BENIN,GOVERNMENT,04,1.9,-3.03687635574838,10,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/08/breaking-benin-republic-shuts-border-kwara-communities-over-attacks-new-terror-group
+20250707,BENIN,,04,2.8,-2.40174672489083,10,"Abomey, Zou, Benin",7.18286,1.99119,https://fr.allafrica.com/stories/202507070679.html
+20250918,BENIN,,04,1.9,2.25563909774436,4,"Allada, Benin (general), Benin",6.66547,2.15138,https://www.gouv.bj/article/3260/visite-general-mitchell-johnson-benin-dakota-nord-unis-face-defis-securitaires-actuels/
+20250521,BENINESE,,07,8.3,-3.07539682539683,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://allafrica.com/stories/202505210031.html
+20250521,BENINESE,,07,8.3,-3.07539682539683,6,"Karimama, Alibori, Benin",12.0691,3.18405,https://allafrica.com/stories/202505210031.html
+20250521,BENINESE,BENIN,07,8.3,-3.07539682539683,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://allafrica.com/stories/202505210031.html
+20250521,BENIN,NIGER,04,1,-3.07539682539683,8,"Karimama, Alibori, Benin",12.0691,3.18405,https://allafrica.com/stories/202505210031.html
+20250521,BENINESE,VILLAGE,16,-4,-3.71155885471898,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/21/breaking-benin-republic-blocks-waterway-trade-route-linking-ogun-amid-border-clampdown-0
+20250521,BENINESE,VILLAGE,16,-4,-3.71155885471898,6,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/21/breaking-benin-republic-blocks-waterway-trade-route-linking-ogun-amid-border-clampdown-0
+20250521,BENINESE,VILLAGE,16,-4,-3.26086956521739,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/21/breaking-benin-republic-blocks-waterway-trade-route-linking-ogun-amid-border-clampdown
+20250521,BENINESE,VILLAGE,16,-4,-3.26086956521739,6,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/21/breaking-benin-republic-blocks-waterway-trade-route-linking-ogun-amid-border-clampdown
+20250520,BENIN,NIGERIA,16,-4,-3.48621420996818,10,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/21/breaking-benin-republic-blocks-waterway-trade-route-linking-ogun-amid-border-clampdown-0
+20250728,COTONOU,,04,2.8,3.61111111111112,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://rollingout.com/2025/07/28/ciara-unveils-journey-to-ancestral-roots/
+20250728,BENIN,AFRICA,02,3,-1.40845070422535,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.devdiscourse.com/article/entertainment/3520594-benins-beacon-restoring-roots-through-citizenship-for-slave-descendants
+20251127,BENIN,,05,8,1.90796857463524,10,"Couffo, Kouffo, Benin",7.08333,1.83333,https://newtelegraphng.com/how-nigerian-navy-boosted-benin-counterparts-ability-to-fight-piracy/
+20251208,DAHOMEY,,19,-10,-1.81200453001132,8,"Ahomadegbe, Benin (general), Benin",6.83333,2,https://fr.allafrica.com/stories/202512080417.html
+20251208,COTONOU,,04,2.8,-2.80373831775701,10,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://www.pressafrik.com/Tentative-de-coup-d-Etat-au-Benin-deux-hauts-grades-retenus-par-les-mutins-liberes-retour-au-calme-a-Cotonou_a298443.html
+20251208,BENINESE,,05,3.4,-0.44543429844098,6,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://allafrica.com/stories/202512080021.html
+20251207,BENIN,,12,-4,-4.60704607046071,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.bbc.com/news/articles/c62v7n9wzkyo?ref_timestamp=1765145412846
+20251207,BENIN,,01,0,-4.60704607046071,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.bbc.com/news/articles/c62v7n9wzkyo?ref_timestamp=1765145412846
+20251208,BENIN,GOVERNMENT,04,1,-3.2133676092545,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.aljazeera.com/news/2025/12/8/benins-foiled-coup-how-it-unfolded-and-what-we-know
+20251208,BENINESE,BENIN,05,3.4,-0.44543429844098,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://allafrica.com/stories/202512080021.html
+20251208,BENIN,ECOWAS,01,0,-0.44543429844098,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://allafrica.com/stories/202512080021.html
+20251207,BENIN,AFRICA,01,0,-4.60704607046071,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.bbc.com/news/articles/c62v7n9wzkyo?ref_timestamp=1765145412846
+20251207,BENIN,GOVERNMENT,04,1,-4.60704607046071,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.bbc.com/news/articles/c62v7n9wzkyo?ref_timestamp=1765145412846
+20251207,BENIN,FINANCE MINIST,05,3.4,-4.60704607046071,4,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.bbc.com/news/articles/c62v7n9wzkyo?ref_timestamp=1765145412846
+20251207,BENIN,MAIN OPPOSITION,17,-5,-4.60704607046071,10,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.bbc.com/news/articles/c62v7n9wzkyo?ref_timestamp=1765145412846
+20250926,BENIN,,01,0,0.80906148867313,10,"Tobre, Atakora, Benin",10.195,2.12999,https://fr.allafrica.com/stories/202509260606.html
+20250118,BENIN,,01,-0.4,2.99352750809062,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://guardian.ng/life/culture-lifestyle/benins-women-pillars-of-voodoo-celebrations/
+20250118,BENIN,,01,0,2.99352750809062,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://guardian.ng/life/culture-lifestyle/benins-women-pillars-of-voodoo-celebrations/
+20250118,BENIN,,04,2.8,4.35296178096053,12,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.avpress.com/news/newsline/benin-s-voodoo-festival-draws-tourists-and-followers/article_c8afa65a-d53d-11ef-b472-df647d56d511.html
+20250118,BENIN,EUROPEAN,17,-5,-0.61255742725881,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.sbs.com.au/news/podcast-episode/from-mystery-to-history-how-voodoo-is-helping-africans-rediscover-their-roots/lo280ey0b
+20250118,BENIN,FRANCE,04,2.8,4.35296178096053,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.avpress.com/news/newsline/benin-s-voodoo-festival-draws-tourists-and-followers/article_c8afa65a-d53d-11ef-b472-df647d56d511.html
+20250118,BENIN,GUADELOUPE,04,2.8,-0.61255742725881,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.sbs.com.au/news/podcast-episode/from-mystery-to-history-how-voodoo-is-helping-africans-rediscover-their-roots/lo280ey0b
+20251119,BENIN,,04,2.8,-1.21212121212121,10,"Akrake, Benin (general), Benin",6.4,2.66667,https://www.energy-pedia.com/news/benin/rex-international-provides-update-on-drilling-campaign-at-the-s%C3%A8m%C3%A8-field-in-benin-201998
+20251119,BENIN,,01,0,-0.28901734104046,8,"Oueme, Donga, Benin",9.70906,1.95035,https://defenceweb.co.za/security/african-militaries/benin/
+20250509,BENINESE,VILLAGE,16,-4,-3.94736842105263,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/09/breaking-benin-republic-extends-border-clampdown-lagos-over-suspected-arms-smuggling
+20250509,BENINESE,VILLAGE,16,-4,-3.94736842105263,3,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/09/breaking-benin-republic-extends-border-clampdown-lagos-over-suspected-arms-smuggling
+20250508,BENIN,NIGERIA,16,-4,-3.94736842105263,5,"Parakou, Borgou, Benin",9.33716,2.63031,https://saharareporters.com/2025/05/09/breaking-benin-republic-extends-border-clampdown-lagos-over-suspected-arms-smuggling
+20250710,BENIN,,19,-10,-4.20382165605095,8,"Atacora, Atakora, Benin",10.75,1.66667,https://www.notretemps.com/depeches/benin-bets-on-free-vets-and-schools-to-turn-people-away-from-jihadism-117548
+20250710,BENIN,,19,-10,-4.20382165605095,2,"Atacora, Atakora, Benin",10.75,1.66667,https://www.notretemps.com/depeches/benin-bets-on-free-vets-and-schools-to-turn-people-away-from-jihadism-117548
+20250710,BENIN,MILITANT,19,-10,-4.21994884910486,8,"Atacora, Atakora, Benin",10.75,1.66667,https://www.arabnews.com/node/2607581/world
+20250710,BENIN,MILITANT,19,-10,-4.21994884910486,2,"Atacora, Atakora, Benin",10.75,1.66667,https://www.arabnews.com/node/2607581/world
+20250423,BENIN,,10,-5,2.01005025125628,10,"Podji, Benin (general), Benin",6.91667,1.8,http://www.24haubenin.info/?Voici-les-decrets-adoptes-en-Conseil-des-ministres-56352
+20250423,BENIN,,15,-7.2,-5.49242424242424,10,"Porga, Atakora, Benin",11.048,0.968912,https://www.lemonde.fr/afrique/article/2025/04/23/benin-54-militaires-tues-dans-une-attaque-djihadiste-presumee-dans-le-parc-national-du-w_6599346_3212.html
+20250613,BENIN,,07,7,-8.66217516843121,5,"Kpodji, Benin (general), Benin",7.10105,1.96827,https://issafrica.org/iss-today/drug-trafficking-is-benin-under-siege
+20250217,BENIN,,06,7.4,-4.31654676258993,5,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.jacarandafm.com/news/news/benin-attack-kills-six-soldiers-army-neutralises-17/
+20250217,BENIN,,15,-7.2,-4.31654676258993,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.jacarandafm.com/news/news/benin-attack-kills-six-soldiers-army-neutralises-17/
+20250217,BENIN,,19,-10,-4.31654676258993,5,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.jacarandafm.com/news/news/benin-attack-kills-six-soldiers-army-neutralises-17/
+20250217,BENIN,,06,7.4,-5.21172638436482,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://thefrontierpost.com/benin-attack-kills-six-soldiers-army-neutralises-17-assailants/
+20250217,BENIN,ARMY,06,7.4,-4.31654676258993,5,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.jacarandafm.com/news/news/benin-attack-kills-six-soldiers-army-neutralises-17/
+20250217,BENIN,ARMY,19,-10,-4.31654676258993,5,"Karimama, Alibori, Benin",12.0691,3.18405,https://www.jacarandafm.com/news/news/benin-attack-kills-six-soldiers-army-neutralises-17/
+20250217,BENIN,ARMY,06,7.4,-5.21172638436482,5,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://thefrontierpost.com/benin-attack-kills-six-soldiers-army-neutralises-17-assailants/
+20250729,BENIN,EUROPEAN,17,-5,-1.34003350083752,10,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.the-independent.com/arts-entertainment/music/news/ciara-benin-africa-law-slave-descendants-b2797934.html
+20250220,COTONOU,,05,8,3.83973288814691,10,"Zongo, Atakora, Benin",10.1841,1.09662,https://www.maravipost.com/benin-african-development-bank-invests-eur-80-million-to-modernize-and-extend-the-autonomous-port-of-cotonou/
+20250602,BENIN,,02,3,3.21428571428571,8,"Houeyogbe, Benin (general), Benin",6.45072,1.92162,https://levenementprecis.com/paul-hounkpe-a-propos-des-elections-2026-la-fcbe-ne-se-laissera-pas-faire/
+20250602,BENIN,,03,4,3.21428571428571,10,"Houeyogbe, Benin (general), Benin",6.45072,1.92162,https://levenementprecis.com/paul-hounkpe-a-propos-des-elections-2026-la-fcbe-ne-se-laissera-pas-faire/
+20250915,BENIN,BENIN,02,3,-1.41752577319587,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://lanouvelletribune.info/2025/09/aspirants-au-metier-denseignant-au-benin-lespoir-du-reversement-seloigne-davantage/
+20250514,BENIN,,14,-7.5,-0.11862396204033,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.telerama.fr/arts-expositions/un-tabouret-trone-longtemps-perdu-enfin-restitue-au-benin-on-avait-besoin-que-cet-objet-revienne-4342-7023051.php
+20250514,BENIN,,04,2.8,1.0204081632653,8,"Abomey, Zou, Benin",7.18286,1.99119,https://fr.allafrica.com/view/group/main/main/id/00092771.html
+20250514,BENIN,,03,4,-2.74725274725275,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202505140016.html
+20250514,BENIN,NIGERIA,01,0,-3.74707259953161,2,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202505140100.html
+20250514,BENIN,WORKER,05,3.4,-2.74725274725275,4,"Parakou, Borgou, Benin",9.33716,2.63031,https://allafrica.com/stories/202505140016.html
+20250514,BENIN,REGIME,11,-2,-2.74725274725275,5,"Savalou, Collines, Benin",7.92807,1.97558,https://allafrica.com/stories/202505140016.html
+20250514,COTONOU,DETAINEE,17,-5,-2.74725274725275,10,"Savalou, Collines, Benin",7.92807,1.97558,https://allafrica.com/stories/202505140016.html
+20250514,BENIN,HELSINKI,04,2.8,2.38611713665943,8,"Abomey, Zou, Benin",7.18286,1.99119,https://fr.allafrica.com/stories/202505140203.html
+20251225,COTONOU,,04,2.8,4.52342487883683,10,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://www.travelandleisure.com/sofitel-cotonou-marina-hotel-and-spa-in-benin-hotel-review-11870373
+20251225,BENIN,AFRICA,04,1.9,4.52342487883683,10,"Cadjehoun, Benin (general), Benin",6.35,2.4,https://www.travelandleisure.com/sofitel-cotonou-marina-hotel-and-spa-in-benin-hotel-review-11870373
+20250822,BENIN,YORUBA,01,0,2.61194029850746,4,"Ketu, Benin (general), Benin",7.36332,2.59978,https://tribuneonlineng.com/why-i-dont-need-to-get-into-supremacy-battle-with-any-monarch-alaafin/
+20250822,BENINESE,MAYOR,05,3.4,1.72744721689059,1,"Malanville, Atakora, Benin",11.8685,3.38989,https://punchng.com/nigeria-benin-sign-mou-to-strengthen-grassroots-border-cooperation/
+20250822,BENIN,BENIN,05,3.4,1.72744721689059,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://punchng.com/nigeria-benin-sign-mou-to-strengthen-grassroots-border-cooperation/
+20250822,BENINESE,MAYOR,05,3.4,1.72744721689059,2,"Malanville, Atakora, Benin",11.8685,3.38989,https://punchng.com/nigeria-benin-sign-mou-to-strengthen-grassroots-border-cooperation/
+20251209,BENIN,,05,3.4,-6.19122257053292,5,"Bariba, Benin (general), Benin",8.5837,1.69022,https://gga.org/benins-failed-coup-as-a-stress-test-for-democratic-resilience-in-west-africa/
+20251209,BENIN,,04,2.8,0.58910162002946,1,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://haitiantimes.com/2025/12/09/haitian-podcaster-discovers-vodou/
+20251209,BENIN,,02,3,0.58910162002946,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://haitiantimes.com/2025/12/09/haitian-podcaster-discovers-vodou/
+20251209,BENIN,MILITARY RULE,02,3,-6.19122257053292,5,"Bariba, Benin (general), Benin",8.5837,1.69022,https://gga.org/benins-failed-coup-as-a-stress-test-for-democratic-resilience-in-west-africa/
+20251209,BENIN,ARMY CHIEF,04,1.9,-5.00521376433785,1,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.spacewar.com/reports/Benin_hunts_soldiers_behind_failed_coup_999.html
+20251209,BENIN,ARMY CHIEF,04,1.9,-5.00521376433785,1,"Tchaourou, Benin (general), Benin",8.88649,2.59752,https://www.spacewar.com/reports/Benin_hunts_soldiers_behind_failed_coup_999.html
+20251209,BENIN,ORLEANS,02,3,0.58910162002946,8,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://haitiantimes.com/2025/12/09/haitian-podcaster-discovers-vodou/
+20251209,BENIN,ORLEANS,04,1.9,0.58910162002946,1,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://haitiantimes.com/2025/12/09/haitian-podcaster-discovers-vodou/
+20251209,BENIN,HAITIAN,04,2.8,0.58910162002946,4,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://haitiantimes.com/2025/12/09/haitian-podcaster-discovers-vodou/
+20251209,BENIN,HAITI,04,2.8,0.58910162002946,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://haitiantimes.com/2025/12/09/haitian-podcaster-discovers-vodou/
+20251103,BENIN,,01,0,3.02491103202847,2,"Alafia, Benin (general), Benin",9.02839,2.40438,https://www.newsghana.com.gh/african-development-bank-approves-e117-million-for-benin-municipalities/
+20251103,BENIN,AFRICAN DEVELOPMENT BANK,01,0,3.02491103202847,2,"Alafia, Benin (general), Benin",9.02839,2.40438,https://www.newsghana.com.gh/african-development-bank-approves-e117-million-for-benin-municipalities/
+20251103,BENIN,INDUSTRY,04,2.8,6.80203045685279,1,"Bopa, Benin (general), Benin",6.5874,1.96539,https://cineuropa.org/en/newsdetail/485450/
+20250125,BENIN,,04,2.8,3.93162393162393,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://businessmirror.com.ph/2025/01/26/benins-mecca-of-spirits-gods-draws-tourists-followers-with-famed-voodoo-fest/
+20250125,BENIN,FRENCH,01,0,-1.14367405289492,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.jeuneafrique.com/1649041/culture/restitution-des-biens-culturels-entre-la-france-et-le-benin-le-processus-est-loin-detre-acheve/
+20250125,BENIN,FRANCE,04,2.8,3.93162393162393,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://businessmirror.com.ph/2025/01/26/benins-mecca-of-spirits-gods-draws-tourists-followers-with-famed-voodoo-fest/
+20250404,BENIN,,08,5,-0.1150747986191,16,"Affame, Benin (general), Benin",6.8224,2.47281,https://www.heraldmalaysia.com/news/benin-catholic-missionaries-must-communicate-what-they-do-so-more-can-be-done/81663/2
+20250404,BENIN,CATHOLIC MISSIONARIES,01,0,-0.1150747986191,10,"Affame, Benin (general), Benin",6.8224,2.47281,https://www.heraldmalaysia.com/news/benin-catholic-missionaries-must-communicate-what-they-do-so-more-can-be-done/81663/2
+20250404,BENIN,CATHOLIC MISSIONARIES,04,1,-0.1150747986191,10,"Affame, Benin (general), Benin",6.8224,2.47281,https://www.heraldmalaysia.com/news/benin-catholic-missionaries-must-communicate-what-they-do-so-more-can-be-done/81663/2
+20251216,BENIN,AFRICA,10,-5,-4.65631929046563,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://www.letemps.ch/monde/afrique/au-benin-une-trentaine-de-personnes-ont-ete-ecrouees-apres-la-tentative-de-putsch
+20251216,BENIN,NIGERIA,05,3.4,-4.65631929046563,10,"Malanville, Atakora, Benin",11.8685,3.38989,https://www.letemps.ch/monde/afrique/au-benin-une-trentaine-de-personnes-ont-ete-ecrouees-apres-la-tentative-de-putsch
+20250717,BENIN,KINGDOM,07,7.4,2.18818380743982,10,"Kalale, Borgou, Benin",10.2927,3.38367,https://www.gouv.bj/article/3161/appui-logistique-cohesion-sociale-radios-commissariats-mairies-mieux-outilles-renforcer-vivre-ensemble/
+20260114,BENIN,NIGERIA,06,6,-3.35820895522388,10,"Pahou, Benin (general), Benin",6.38774,2.21423,https://lanouvelletribune.info/2026/01/vol-de-163-grammes-dor-au-benin-un-cuisinier-interpelle/
+20250116,BENIN,VATICAN,04,2.8,-3.25865580448065,10,"Ogou, Benin (general), Benin",7.82414,1.32319,https://www.alterpresse.org/spip.php?article31332
+20250115,BENIN,,04,2.8,3.206106870229,6,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.newsday.com/news/nation/benin-voodoo-festival-ouidah-n40822
+20250115,BENIN,FRANCE,04,2.8,3.206106870229,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.newsday.com/news/nation/benin-voodoo-festival-ouidah-n40822
+20250520,BENIN,,01,0,1.26050420168068,4,"Abomey, Zou, Benin",7.18286,1.99119,https://www.justiceinfo.net/en/145517-benin-the-faint-breath-of-restitutions.html
+20250520,BENINESE,,07,8.3,-3.04818092428712,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://theconversation.com/armed-groups-are-invading-benins-forest-reserves-why-and-what-to-do-about-it-256136
+20250520,BENINESE,,07,8.3,-3.04818092428712,6,"Karimama, Alibori, Benin",12.0691,3.18405,https://theconversation.com/armed-groups-are-invading-benins-forest-reserves-why-and-what-to-do-about-it-256136
+20250520,BENIN,,01,0,-4.58333333333334,4,"Houeyogbe, Benin (general), Benin",6.45072,1.92162,https://www.africatopsuccess.com/benin-un-jeune-homme-tue-son-pere-a-coups-de-machette/
+20250520,BENINESE,BENIN,07,8.3,-3.04818092428712,2,"Karimama, Alibori, Benin",12.0691,3.18405,https://theconversation.com/armed-groups-are-invading-benins-forest-reserves-why-and-what-to-do-about-it-256136
+20250520,BENIN,NIGER,04,1,-3.04818092428712,10,"Karimama, Alibori, Benin",12.0691,3.18405,https://theconversation.com/armed-groups-are-invading-benins-forest-reserves-why-and-what-to-do-about-it-256136
+20250520,BENIN,CHINA,04,1.9,5.71748878923766,1,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.globaltimes.cn/page/202505/1334467.shtml
+20250520,COTONOU,KING,04,2.8,1.26050420168068,1,"Abomey, Zou, Benin",7.18286,1.99119,https://www.justiceinfo.net/en/145517-benin-the-faint-breath-of-restitutions.html
+20250520,BENIN,CHINESE,04,1,5.71748878923766,2,"Dangbo, Benin (general), Benin",6.5847,2.5499,https://www.globaltimes.cn/page/202505/1334467.shtml
+20250520,BENIN,CHINESE,04,7,5.71748878923766,2,"Dangbo, Benin (general), Benin",6.5847,2.5499,https://www.globaltimes.cn/page/202505/1334467.shtml
+20250520,PORTO NOVO,CHINESE,04,1,5.71748878923766,8,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.globaltimes.cn/page/202505/1334467.shtml
+20250520,PORTO NOVO,CHINESE,04,7,5.71748878923766,8,"Porto-Novo, Qué, Benin",6.48333,2.61667,https://www.globaltimes.cn/page/202505/1334467.shtml
+20250206,BENINESE,MILITARY,02,3,-5.54123711340206,4,"Mekrou, Benin (general), Benin",12.4074,2.825,https://www.eurasiareview.com/06022025-benin-reels-from-deadliest-terror-attack/
+20250206,BENINESE,,01,0,-5.54123711340206,2,"Porga, Atakora, Benin",11.048,0.968912,https://www.eurasiareview.com/06022025-benin-reels-from-deadliest-terror-attack/
+20250206,BENIN,,08,5,-5.54123711340206,5,"Porga, Atakora, Benin",11.048,0.968912,https://www.eurasiareview.com/06022025-benin-reels-from-deadliest-terror-attack/
+20250206,BENIN,,15,-7.2,-5.54123711340206,5,"Porga, Atakora, Benin",11.048,0.968912,https://www.eurasiareview.com/06022025-benin-reels-from-deadliest-terror-attack/
+20250206,BENIN,MILITARY,02,3,-5.54123711340206,1,"Mekrou, Benin (general), Benin",12.4074,2.825,https://www.eurasiareview.com/06022025-benin-reels-from-deadliest-terror-attack/
+20250206,BENINESE,MILITARY,02,3,-5.54123711340206,2,"Mekrou, Benin (general), Benin",12.4074,2.825,https://www.eurasiareview.com/06022025-benin-reels-from-deadliest-terror-attack/
+20250606,BENIN,,15,-7.2,-6.13107822410148,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://draguignan.maville.com/actu/actudet_-au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes-_fil-6840784_actu.Htm
+20250606,BENIN,,08,7,-6.13107822410148,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://draguignan.maville.com/actu/actudet_-au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes-_fil-6840784_actu.Htm
+20250605,BENIN,,15,-7.2,-6.58682634730539,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://www.journaldemontreal.com/2025/06/05/au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes
+20250605,BENIN,,08,7,-6.58682634730539,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://www.journaldemontreal.com/2025/06/05/au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes
+20250605,BENIN,,13,-7,-6.58682634730539,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://www.journaldemontreal.com/2025/06/05/au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes
+20250606,BENIN,,01,0,-4.24528301886792,10,"Tanguieta, Atakora, Benin",10.6212,1.26651,http://french.peopledaily.com.cn/Afrique/n3/2025/0606/c96852-20324124.html
+20250606,BENIN,,19,-10,-9.26829268292686,5,"Tanougou, Atakora, Benin",10.8145,1.43101,https://www.spacewar.com/afp/250605210959.lk0o5dnc.html
+20250606,BENIN,,13,-7,-6.13107822410148,8,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://draguignan.maville.com/actu/actudet_-au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes-_fil-6840784_actu.Htm
+20250606,BENIN,POLICE OFFICER,19,-10,-8.43161469589381,20,"Tanougou, Atakora, Benin",10.8145,1.43101,https://www.spacewar.com/afp/250605222330.i2elts2j.html
+20250606,BENIN,POLICE,19,-10,-7.59493670886076,8,"Atacora, Atakora, Benin",10.75,1.66667,https://www.spacewar.com/afp/250605222330.i2elts2j.html
+20250606,BENIN,NIGER,11,-2,-6.13107822410148,8,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://draguignan.maville.com/actu/actudet_-au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes-_fil-6840784_actu.Htm
+20250605,BENIN,NIGER,11,-2,-6.58682634730539,8,"Tanguieta, Atakora, Benin",10.6212,1.26651,https://www.journaldemontreal.com/2025/06/05/au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes
+20260217,BENIN,RESIDENTS,04,2.8,-8.46394984326019,10,"Segbana, Alibori, Benin",10.9282,3.69429,https://blueprint.ng/borgu-niger-residents-flee-to-benin-republic-over-intensive-terrorists-attacks/
+20251219,BENIN,NATIONAL GUARD,06,6,-4.03508771929825,2,"Allada, Benin (general), Benin",6.66547,2.15138,https://saharareporters.com/2025/12/19/president-talon-reveals-how-benin-republic-foiled-december-7-coup
+20250709,BENIN,,05,3.4,4.74967907573812,6,"Gbeke, Alibori, Benin",10.9242,3.47184,http://lepointsur.com/culture-le-fata-2025-souvre-a-sakassou-un-festival-au-service-de-lunite-waoule-et-de-la-renaissance-culturelle-africaine/
+20250709,BENIN,AFRICA,04,2.8,-4.32632880098888,2,"Ouidah, Atlantique, Benin",6.36307,2.08506,https://www.ajc.com/opinion/2025/07/lessons-from-the-clotilda-the-last-known-slave-ship-in-america/
+20250910,BENIN,BISHOP,10,-5,1.14503816793893,2,"Lokossa, Mono, Benin",6.63869,1.71674,https://religionnews.com/2025/09/10/as-africa-prepares-for-cop30-its-catholic-bishops-urge-african-solutions-on-climate/
+20250523,DAHOMEY,RETURNEE,04,1.9,-2.59481037924152,10,"Abomey, Zou, Benin",7.18286,1.99119,https://www.adiac-congo.com/content/afrique-la-restitution-des-objets-dart-une-quete-de-justice-et-de-memoire-164891
