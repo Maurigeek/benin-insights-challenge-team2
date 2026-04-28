@@ -1,4 +1,4 @@
-# Bénin Insights Challenge — Team 2
+# 🇧🇯 Bénin Insights Challenge — Team 2
 > Analyse des données GDELT sur le Bénin (jan 2025 – avr 2026)
 > iSHEERO × DataCamp Donates | Hackathon 2026
 
@@ -44,16 +44,29 @@
 
 ## Démarrage rapide
 
+> Les données sont déjà dans `data/` — pas besoin de relancer BigQuery.
+
+**Mac / Linux**
 ```bash
-git clone https://github.com/isheero-org/benin-insights-challenge-team2
+git clone https://github.com/Maurigeek/benin-insights-challenge-team2
 cd benin-insights-challenge-team2
-pip install -r requirements.txt
-make all          # Lance toute la pipeline
-make dashboard    # Lance le dashboard
+make install      # crée le venv + installe les dépendances
+make all          # lance toute la pipeline
+make dashboard    # lance le dashboard
 ```
 
-> ⚠️ Les données sont déjà dans `data/` — pas besoin de relancer BigQuery.
-> Chaque membre utilise son propre compte Google Cloud si nécessaire (1 TB gratuit/mois).
+**Windows**
+```bash
+git clone https://github.com/Maurigeek/benin-insights-challenge-team2
+cd benin-insights-challenge-team2
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python pipeline/extract.py
+python pipeline/transform.py
+python pipeline/load.py
+streamlit run dashboard/app.py
+```
 
 ---
 
