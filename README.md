@@ -1,4 +1,4 @@
-# 🇧🇯 Bénin Insights Challenge — Team 2
+# Bénin Insights Challenge — Team 2
 > Analyse des données GDELT sur le Bénin (jan 2025 – avr 2026)
 > iSHEERO × DataCamp Donates | Hackathon 2026
 
