@@ -1,6 +1,4 @@
-# Validation Data Engineer — GDELT Bénin
-> Auteur : MEDEHO TOTTIN Maurias — Data Engineer  
-> Date : 2026-04-30  
+# Validation Data Engineer — GDELT Bénin  
 > Pipeline : `make run` — 15/15 datasets générés sans erreur
 
 ---
