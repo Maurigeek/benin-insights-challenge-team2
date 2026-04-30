@@ -1,1 +1,0 @@
-<!-- 5 insights en langage non technique -->
