@@ -1,0 +1,2064 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "metadata": {
+    "dataset": "securite_nord",
+    "generated": "2026-04-30T10:42:15.836305Z",
+    "features": 64
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.66667,
+          10.75
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "MUSLIM",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 1,
+        "AvgTone": -2.78810408921933,
+        "ActionGeo_FullName": "Atacora, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.premiumtimesng.com/news/top-news/874114-niger-benin-now-have-narrow-window-for-diplomatic-reset.html",
+        "date": "2026-04-23T00:00:00",
+        "annee": 2026,
+        "mois": 4,
+        "mois_label": "Apr 2026",
+        "semaine": 17,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.43856,
+          11.2984
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "RADIO STATION",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -0.94637223974763,
+        "ActionGeo_FullName": "Banikoara, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.swissinfo.ch/eng/war-peace/women-harvest-hope-as-extremist-threat-grows-in-benin/91162140",
+        "date": "2026-03-27T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 13,
+        "event_label": "Violence de masse",
+        "sentiment": "neutre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.08445,
+          12.009
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -10.5072463768116,
+        "ActionGeo_FullName": "Kofouno, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.myjoyonline.com/militants-kill-15-soldiers-in-northern-benin-attack-army-says/",
+        "date": "2026-03-09T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 11,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "ARMED GROUP",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": 0.0,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://lanouvelletribune.info/2026/03/benin-joseph-djogbenou-rend-hommage-aux-soldats-morts-a-kofouno/",
+        "date": "2026-03-09T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 11,
+        "event_label": "Violence de masse",
+        "sentiment": "neutre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 195,
+        "EventBaseCode": 195,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -5.14469453376206,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://lanouvelletribune.info/2026/03/benin-lunion-africaine-condamne-lattaque-terroriste-du-poste-militaire-de-kofouno/",
+        "date": "2026-03-07T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.08445,
+          12.009
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -11.1969111969112,
+        "ActionGeo_FullName": "Kofouno, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.timesofearth.com/2026/03/07/militants-kill-15-soldiers-in-northern-benin-attack/",
+        "date": "2026-03-07T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.08445,
+          12.009
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BENIN",
+        "Actor2CountryCode": "BEN",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -8.62068965517241,
+        "ActionGeo_FullName": "Kofouno, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.africanews.com/2026/03/06/15-soldiers-killed-in-jihadist-attack-in-northern-benin/",
+        "date": "2026-03-06T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.08445,
+          12.009
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BENIN",
+        "Actor2CountryCode": "BEN",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -11.1731843575419,
+        "ActionGeo_FullName": "Kofouno, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.aa.com.tr/en/africa/armed-men-kill-15-soldiers-in-northern-benin/3852263",
+        "date": "2026-03-06T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "ARMY",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -6.21468926553672,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.actuniger.com/international/21822-benin-15-soldats-tues-et-4-assaillants-neutralises-dans-une-attaque-terroriste-a-kofonou-dans-le-nord-est-du-pays.html",
+        "date": "2026-03-06T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -8.40336134453782,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.ouestaf.com/benin-15-soldats-tues-dans-une-attaque-a-kofonou-nord-est/",
+        "date": "2026-03-06T00:00:00",
+        "annee": 2026,
+        "mois": 3,
+        "mois_label": "Mar 2026",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.75,
+          9.75
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 141,
+        "EventBaseCode": 141,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 6,
+        "AvgTone": 6.17283950617284,
+        "ActionGeo_FullName": "Borgou, Borgou, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www2.fundsforngos.org/children/call-for-eois-community-radio-partnership-for-childrens-rights-benin/",
+        "date": "2026-02-27T00:00:00",
+        "annee": 2026,
+        "mois": 2,
+        "mois_label": "Feb 2026",
+        "semaine": 9,
+        "event_label": "Protestation",
+        "sentiment": "positif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.75,
+          9.75
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "MILITARY",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 4,
+        "AvgTone": -9.38566552901024,
+        "ActionGeo_FullName": "Borgou, Borgou, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.naijanews.com/2026/02/26/al-qaeda-isis-violence-surges-in-niger-benin-nigeria-borderlands/",
+        "date": "2026-02-26T00:00:00",
+        "annee": 2026,
+        "mois": 2,
+        "mois_label": "Feb 2026",
+        "semaine": 9,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.75,
+          9.75
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "MILITARY",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -9.06344410876133,
+        "ActionGeo_FullName": "Borgou, Borgou, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://saharareporters.com/2026/02/26/al-qaeda-isis-cells-expand-niger-benin-nigeria-borders-fighters-intensify-attacks-report",
+        "date": "2026-02-26T00:00:00",
+        "annee": 2026,
+        "mois": 2,
+        "mois_label": "Feb 2026",
+        "semaine": 9,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "MILITANT",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -3.3811475409836,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://defenceweb.co.za/security/national-security/adapting-benins-battle-with-violent-militant-groups/",
+        "date": "2026-02-11T00:00:00",
+        "annee": 2026,
+        "mois": 2,
+        "mois_label": "Feb 2026",
+        "semaine": 7,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.38989,
+          11.8685
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 193,
+        "EventBaseCode": 193,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 8,
+        "AvgTone": -7.2289156626506,
+        "ActionGeo_FullName": "Malanville, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "http://french.china.org.cn/foreign/txt/2026-02/05/content_118320071.htm",
+        "date": "2026-02-05T00:00:00",
+        "annee": 2026,
+        "mois": 2,
+        "mois_label": "Feb 2026",
+        "semaine": 6,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.38367,
+          10.2927
+        ]
+      },
+      "properties": {
+        "Actor1Name": "COTONOU",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 193,
+        "EventBaseCode": 193,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -2.46305418719212,
+        "ActionGeo_FullName": "Kalale, Borgou, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://burkina24.com/2025/12/07/tirs-entendus-au-benin-des-militaires-annoncent-avoir-pris-le-pouvoir-le-gouvernement-dement/",
+        "date": "2025-12-07T00:00:00",
+        "annee": 2025,
+        "mois": 12,
+        "mois_label": "Dec 2025",
+        "semaine": 49,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.66598,
+          9.70853
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 193,
+        "EventBaseCode": 193,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": 5.95903165735568,
+        "ActionGeo_FullName": "Djougou, Donga, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.gouv.bj/article/3366/-meilleur-tablier-local-concours-inedit-revele-talents-culinaires-benin/",
+        "date": "2025-11-28T00:00:00",
+        "annee": 2025,
+        "mois": 11,
+        "mois_label": "Nov 2025",
+        "semaine": 48,
+        "event_label": "Violence de masse",
+        "sentiment": "positif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.968912,
+          11.048
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BURKINA FASO",
+        "Actor2CountryCode": "BFA",
+        "EventCode": 192,
+        "EventBaseCode": 192,
+        "EventRootCode": 19,
+        "GoldsteinScale": -9.5,
+        "NumArticles": 1,
+        "AvgTone": -4.97427101200686,
+        "ActionGeo_FullName": "Porga, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://allafrica.com/stories/202511250080.html",
+        "date": "2025-11-25T00:00:00",
+        "annee": 2025,
+        "mois": 11,
+        "mois_label": "Nov 2025",
+        "semaine": 48,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.968912,
+          11.048
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BURKINA FASO",
+        "Actor2CountryCode": "BFA",
+        "EventCode": 192,
+        "EventBaseCode": 192,
+        "EventRootCode": 19,
+        "GoldsteinScale": -9.5,
+        "NumArticles": 1,
+        "AvgTone": -4.77031802120142,
+        "ActionGeo_FullName": "Porga, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://blackstarnews.com/nigerian-travel-journalist-jailed-on-terror-charges-in-benin-since-january/",
+        "date": "2025-11-13T00:00:00",
+        "annee": 2025,
+        "mois": 11,
+        "mois_label": "Nov 2025",
+        "semaine": 46,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.968912,
+          11.048
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BURKINA FASO",
+        "Actor2CountryCode": "BFA",
+        "EventCode": 192,
+        "EventBaseCode": 192,
+        "EventRootCode": 19,
+        "GoldsteinScale": -9.5,
+        "NumArticles": 1,
+        "AvgTone": -5.07246376811594,
+        "ActionGeo_FullName": "Porga, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.thenigerianvoice.com/news/359417/nigerian-travel-journalist-jailed-on-terror-charges-in-benin.html",
+        "date": "2025-11-12T00:00:00",
+        "annee": 2025,
+        "mois": 11,
+        "mois_label": "Nov 2025",
+        "semaine": 46,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.38367,
+          10.2927
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BENIN",
+        "Actor2CountryCode": "BEN",
+        "EventCode": 138,
+        "EventBaseCode": 138,
+        "EventRootCode": 13,
+        "GoldsteinScale": -7.0,
+        "NumArticles": 10,
+        "AvgTone": -5.54016620498615,
+        "ActionGeo_FullName": "Kalale, Borgou, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://africapresse.com/benin-attaque-meurtriere-a-segbana-trois-policiers-tues-a-la-frontiere-du-nigeria/",
+        "date": "2025-10-06T00:00:00",
+        "annee": 2025,
+        "mois": 10,
+        "mois_label": "Oct 2025",
+        "semaine": 41,
+        "event_label": "Menace",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "NIGERIA",
+        "Actor2CountryCode": "NGA",
+        "EventCode": 192,
+        "EventBaseCode": 192,
+        "EventRootCode": 19,
+        "GoldsteinScale": -9.5,
+        "NumArticles": 3,
+        "AvgTone": -4.79904019196161,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.premiumtimesng.com/opinion/824219-the-russians-are-closing-in-on-nigerias-borders-by-confidence-macharry.html",
+        "date": "2025-09-27T00:00:00",
+        "annee": 2025,
+        "mois": 9,
+        "mois_label": "Sep 2025",
+        "semaine": 39,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "ARMY",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 180,
+        "EventBaseCode": 180,
+        "EventRootCode": 18,
+        "GoldsteinScale": -9.0,
+        "NumArticles": 2,
+        "AvgTone": -11.0992529348986,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://organiser.org/2025/07/23/304078/bharat/west-africas-forgotten-war-claims-indian-lives-after-u-s-exit-niger-becomes-a-jihadi-playground/",
+        "date": "2025-07-23T00:00:00",
+        "annee": 2025,
+        "mois": 7,
+        "mois_label": "Jul 2025",
+        "semaine": 30,
+        "event_label": "Assaut",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.66667,
+          10.75
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 8,
+        "AvgTone": -4.20382165605095,
+        "ActionGeo_FullName": "Atacora, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.notretemps.com/depeches/benin-bets-on-free-vets-and-schools-to-turn-people-away-from-jihadism-117548",
+        "date": "2025-07-10T00:00:00",
+        "annee": 2025,
+        "mois": 7,
+        "mois_label": "Jul 2025",
+        "semaine": 28,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.66667,
+          10.75
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "MILITANT",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 8,
+        "AvgTone": -4.21994884910486,
+        "ActionGeo_FullName": "Atacora, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.arabnews.com/node/2607581/world",
+        "date": "2025-07-10T00:00:00",
+        "annee": 2025,
+        "mois": 7,
+        "mois_label": "Jul 2025",
+        "semaine": 28,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.43101,
+          10.8145
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "POLICE OFFICER",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -7.54716981132075,
+        "ActionGeo_FullName": "Tanougou, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.terradaily.com/reports/Suspected_jihadist_attack_in_Benin_kills_soldiers_police_999.html",
+        "date": "2025-06-08T00:00:00",
+        "annee": 2025,
+        "mois": 6,
+        "mois_label": "Jun 2025",
+        "semaine": 23,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.43101,
+          10.8145
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "POLICE OFFICER",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 20,
+        "AvgTone": -8.43161469589381,
+        "ActionGeo_FullName": "Tanougou, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.spacewar.com/afp/250605222330.i2elts2j.html",
+        "date": "2025-06-06T00:00:00",
+        "annee": 2025,
+        "mois": 6,
+        "mois_label": "Jun 2025",
+        "semaine": 23,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.43101,
+          10.8145
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -9.26829268292686,
+        "ActionGeo_FullName": "Tanougou, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.spacewar.com/afp/250605210959.lk0o5dnc.html",
+        "date": "2025-06-06T00:00:00",
+        "annee": 2025,
+        "mois": 6,
+        "mois_label": "Jun 2025",
+        "semaine": 23,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.26651,
+          10.6212
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 138,
+        "EventBaseCode": 138,
+        "EventRootCode": 13,
+        "GoldsteinScale": -7.0,
+        "NumArticles": 8,
+        "AvgTone": -6.13107822410148,
+        "ActionGeo_FullName": "Tanguieta, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://draguignan.maville.com/actu/actudet_-au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes-_fil-6840784_actu.Htm",
+        "date": "2025-06-06T00:00:00",
+        "annee": 2025,
+        "mois": 6,
+        "mois_label": "Jun 2025",
+        "semaine": 23,
+        "event_label": "Menace",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.26651,
+          10.6212
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 138,
+        "EventBaseCode": 138,
+        "EventRootCode": 13,
+        "GoldsteinScale": -7.0,
+        "NumArticles": 10,
+        "AvgTone": -6.58682634730539,
+        "ActionGeo_FullName": "Tanguieta, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.journaldemontreal.com/2025/06/05/au-benin-trois-militaires-et-deux-policiers-tues-dans-une-nouvelle-attaque-de-jihadistes-presumes",
+        "date": "2025-06-05T00:00:00",
+        "annee": 2025,
+        "mois": 6,
+        "mois_label": "Jun 2025",
+        "semaine": 23,
+        "event_label": "Menace",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -2.76073619631902,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.aciafrica.org/news/15865/over-50-soldiers-killed-in-benin-catholic-bishops-express-solidarity-with-bereaved-families",
+        "date": "2025-05-30T00:00:00",
+        "annee": 2025,
+        "mois": 5,
+        "mois_label": "May 2025",
+        "semaine": 22,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 4,
+        "AvgTone": -5.7356608478803,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://allafrica.com/stories/202505280344.html",
+        "date": "2025-05-28T00:00:00",
+        "annee": 2025,
+        "mois": 5,
+        "mois_label": "May 2025",
+        "semaine": 22,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "EXTREMIST",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 1,
+        "AvgTone": -12.4293785310735,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.devdiscourse.com/article/politics/3357658-militant-attack-on-benin-a-borderline-crisis",
+        "date": "2025-04-24T00:00:00",
+        "annee": 2025,
+        "mois": 4,
+        "mois_label": "Apr 2025",
+        "semaine": 17,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -5.79710144927536,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://leadership.ng/al-qaeda-terrorists-kill-70-soldiers-in-benin-republic/",
+        "date": "2025-04-22T00:00:00",
+        "annee": 2025,
+        "mois": 4,
+        "mois_label": "Apr 2025",
+        "semaine": 17,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "COTONOU",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -5.79710144927536,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://leadership.ng/al-qaeda-terrorists-kill-70-soldiers-in-benin-republic/",
+        "date": "2025-04-22T00:00:00",
+        "annee": 2025,
+        "mois": 4,
+        "mois_label": "Apr 2025",
+        "semaine": 17,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "COTONOU",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -3.96551724137931,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.premiumtimesng.com/news/headlines/789520-al-qaeda-linked-jihadists-attack-military-posts-in-benin-republic-kill-70-soldiers.html",
+        "date": "2025-04-21T00:00:00",
+        "annee": 2025,
+        "mois": 4,
+        "mois_label": "Apr 2025",
+        "semaine": 17,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -3.96551724137931,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.premiumtimesng.com/news/headlines/789520-al-qaeda-linked-jihadists-attack-military-posts-in-benin-republic-kill-70-soldiers.html",
+        "date": "2025-04-21T00:00:00",
+        "annee": 2025,
+        "mois": 4,
+        "mois_label": "Apr 2025",
+        "semaine": 17,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "MILITARY BASE",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 8,
+        "AvgTone": -5.10204081632653,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.banglanews24.com/international/news/bd/1503237.details",
+        "date": "2025-04-20T00:00:00",
+        "annee": 2025,
+        "mois": 4,
+        "mois_label": "Apr 2025",
+        "semaine": 16,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "ISLAMIC MILITANT",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -10.5932203389831,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.yahoo.com/news/benin-says-54-soldiers-were-130114069.html",
+        "date": "2025-04-17T00:00:00",
+        "annee": 2025,
+        "mois": 4,
+        "mois_label": "Apr 2025",
+        "semaine": 16,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.43856,
+          11.2984
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "RADIO STATION",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 3,
+        "AvgTone": -0.94637223974763,
+        "ActionGeo_FullName": "Banikoara, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.swissinfo.ch/eng/war-peace/women-harvest-hope-as-extremist-threat-grows-in-benin/91162140",
+        "date": "2025-03-27T00:00:00",
+        "annee": 2025,
+        "mois": 3,
+        "mois_label": "Mar 2025",
+        "semaine": 13,
+        "event_label": "Violence de masse",
+        "sentiment": "neutre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "FRENCH",
+        "Actor2CountryCode": "FRA",
+        "EventCode": 140,
+        "EventBaseCode": 140,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 3,
+        "AvgTone": -5.95514307811291,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://allafrica.com/stories/202503070014.html",
+        "date": "2025-03-07T00:00:00",
+        "annee": 2025,
+        "mois": 3,
+        "mois_label": "Mar 2025",
+        "semaine": 10,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "MILITANT",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -9.59595959595959,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://medafricatimes.com/39068-clashes-in-benin-leave-10-dead-amid-rising-violence-in-northern-regions.html",
+        "date": "2025-03-03T00:00:00",
+        "annee": 2025,
+        "mois": 3,
+        "mois_label": "Mar 2025",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.21176,
+          11.7765
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -9.59595959595959,
+        "ActionGeo_FullName": "Kantoro, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://medafricatimes.com/39068-clashes-in-benin-leave-10-dead-amid-rising-violence-in-northern-regions.html",
+        "date": "2025-03-03T00:00:00",
+        "annee": 2025,
+        "mois": 3,
+        "mois_label": "Mar 2025",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -9.19540229885057,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://malijet.com/actualite-sur-afrique/299934-benin--neuf-terroristes-tues-dans-le-nord-du-pays-media.html",
+        "date": "2025-03-03T00:00:00",
+        "annee": 2025,
+        "mois": 3,
+        "mois_label": "Mar 2025",
+        "semaine": 10,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -9.375,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "http://french.china.org.cn/foreign/txt/2025-03/03/content_117741366.htm",
+        "date": "2025-03-02T00:00:00",
+        "annee": 2025,
+        "mois": 3,
+        "mois_label": "Mar 2025",
+        "semaine": 9,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "ARMED GROUP",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -6.87203791469194,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://guardian.ng/news/armed-groups-military-clash-leaves-10-dead-in-benin/",
+        "date": "2025-03-02T00:00:00",
+        "annee": 2025,
+        "mois": 3,
+        "mois_label": "Mar 2025",
+        "semaine": 9,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "ARMY",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -7.39856801909308,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.hindustantimes.com/world-news/10-killed-gunmen-one-soldier-killed-in-northern-benin-101740922266421.html",
+        "date": "2025-02-23T00:00:00",
+        "annee": 2025,
+        "mois": 2,
+        "mois_label": "Feb 2025",
+        "semaine": 8,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.38989,
+          11.8685
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "TERRORIST",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 138,
+        "EventBaseCode": 138,
+        "EventRootCode": 13,
+        "GoldsteinScale": -7.0,
+        "NumArticles": 10,
+        "AvgTone": -6.59340659340659,
+        "ActionGeo_FullName": "Malanville, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://afropages.fr/rfi/nord-du-benin-a-malanville-la-vie-difficile-des-deplaces-2-4",
+        "date": "2025-02-18T00:00:00",
+        "annee": 2025,
+        "mois": 2,
+        "mois_label": "Feb 2025",
+        "semaine": 8,
+        "event_label": "Menace",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -4.31654676258993,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.jacarandafm.com/news/news/benin-attack-kills-six-soldiers-army-neutralises-17/",
+        "date": "2025-02-17T00:00:00",
+        "annee": 2025,
+        "mois": 2,
+        "mois_label": "Feb 2025",
+        "semaine": 8,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "FRANCE",
+        "Actor2CountryCode": "FRA",
+        "EventCode": 140,
+        "EventBaseCode": 140,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 1,
+        "AvgTone": -4.01899890390939,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://kashmirtimes.com/opinion/comment-articles/ivory-coasts-political-shift-french-military-presence-under-scrutiny",
+        "date": "2025-02-13T00:00:00",
+        "annee": 2025,
+        "mois": 2,
+        "mois_label": "Feb 2025",
+        "semaine": 7,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.63031,
+          9.33716
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "FRENCH",
+        "Actor2CountryCode": "FRA",
+        "EventCode": 140,
+        "EventBaseCode": 140,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 1,
+        "AvgTone": -6.39864099660249,
+        "ActionGeo_FullName": "Parakou, Borgou, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://allafrica.com/stories/202502110009.html",
+        "date": "2025-02-11T00:00:00",
+        "annee": 2025,
+        "mois": 2,
+        "mois_label": "Feb 2025",
+        "semaine": 7,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BENIN",
+        "Actor2CountryCode": "BEN",
+        "EventCode": 141,
+        "EventBaseCode": 141,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 7,
+        "AvgTone": -6.39864099660249,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://allafrica.com/stories/202502110009.html",
+        "date": "2025-02-11T00:00:00",
+        "annee": 2025,
+        "mois": 2,
+        "mois_label": "Feb 2025",
+        "semaine": 7,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -6.39864099660249,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://allafrica.com/stories/202502110009.html",
+        "date": "2025-02-11T00:00:00",
+        "annee": 2025,
+        "mois": 2,
+        "mois_label": "Feb 2025",
+        "semaine": 7,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "FRANCE",
+        "Actor2CountryCode": "FRA",
+        "EventCode": 140,
+        "EventBaseCode": 140,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 1,
+        "AvgTone": -3.97058823529412,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.counterpunch.org/2025/01/27/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/",
+        "date": "2025-01-27T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 5,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "FRANCE",
+        "Actor2CountryCode": "FRA",
+        "EventCode": 140,
+        "EventBaseCode": 140,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 1,
+        "AvgTone": -4.00984875131903,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://countercurrents.org/2025/01/a-new-military-strategy-of-french-neocolonialism-in-africa-reorganizing-under-the-cover-retreat/",
+        "date": "2025-01-26T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 4,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "FRANCE",
+        "Actor2CountryCode": "FRA",
+        "EventCode": 140,
+        "EventBaseCode": 140,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 1,
+        "AvgTone": -3.94213381555153,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "http://slguardian.org/french-neocolonialism-in-africa-a-new-military-strategy-under-disguise/",
+        "date": "2025-01-25T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 4,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.93861,
+          11.1342
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "FRANCE",
+        "Actor2CountryCode": "FRA",
+        "EventCode": 140,
+        "EventBaseCode": 140,
+        "EventRootCode": 14,
+        "GoldsteinScale": -6.5,
+        "NumArticles": 1,
+        "AvgTone": -3.98563734290844,
+        "ActionGeo_FullName": "Kandi, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://allafrica.com/stories/202501170006.html",
+        "date": "2025-01-17T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 3,
+        "event_label": "Protestation",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BENIN",
+        "Actor2CountryCode": "BEN",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -7.22891566265062,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-",
+        "date": "2025-01-12T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 2,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -7.22891566265062,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "http://www.businessghana.com/site/news/politics/320887/Beninese-army-suffers-",
+        "date": "2025-01-12T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 2,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENINESE",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "BENIN",
+        "Actor2CountryCode": "BEN",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 2,
+        "AvgTone": -8.2840236686391,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.bbc.com/news/articles/c4gxqv79r1jo",
+        "date": "2025-01-10T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 2,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.18405,
+          12.0691
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 10,
+        "AvgTone": -2.94784580498867,
+        "ActionGeo_FullName": "Karimama, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.dakaractu.com/Benin-un-groupe-jihadiste-revendique-une-attaque-meurtriere-contre-l-armee-beninoise-dans-le-nord_a257500.html",
+        "date": "2025-01-10T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 2,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.968912,
+          11.048
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "TOGO",
+        "Actor2CountryCode": "TGO",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 6,
+        "AvgTone": -4.19847328244275,
+        "ActionGeo_FullName": "Porga, Atakora, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.maliweb.net/international/benin-28-soldats-tues-dans-une-attaque-a-la-frontiere-3090506.html",
+        "date": "2025-01-10T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 2,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "COLONEL",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 1,
+        "AvgTone": -7.2916666666667,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.devdiscourse.com/article/law-order/3220854-benin-military-faces-devastating-militant-attack",
+        "date": "2025-01-10T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 2,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.91667,
+          11.3333
+        ]
+      },
+      "properties": {
+        "Actor1Name": "BENIN",
+        "Actor1CountryCode": "BEN",
+        "Actor2Name": "Inconnu",
+        "Actor2CountryCode": "Inconnu",
+        "EventCode": 190,
+        "EventBaseCode": 190,
+        "EventRootCode": 19,
+        "GoldsteinScale": -10.0,
+        "NumArticles": 5,
+        "AvgTone": -8.2840236686391,
+        "ActionGeo_FullName": "Alibori, Alibori, Benin",
+        "ActionGeo_CountryCode": "BN",
+        "SOURCEURL": "https://www.bbc.com/news/articles/c4gxqv79r1jo",
+        "date": "2025-01-10T00:00:00",
+        "annee": 2025,
+        "mois": 1,
+        "mois_label": "Jan 2025",
+        "semaine": 2,
+        "event_label": "Violence de masse",
+        "sentiment": "négatif"
+      }
+    }
+  ]
+}
