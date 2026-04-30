@@ -25,13 +25,13 @@
 | 2025-03 | 442 | |
 | 2025-04 | 421 | |
 | 2025-05 | 426 | |
-| 2025-06 | 209 | ← creux médiatique estival (normal GDELT) |
+| 2025-06 | 209 |  creux médiatique estival (normal GDELT) |
 | 2025-07 | 465 | |
 | 2025-08 | 324 | |
 | 2025-09 | 330 | |
 | 2025-10 | 373 | |
 | 2025-11 | 424 | |
-| 2025-12 | 901 | ← pic tentative de coup d'État |
+| 2025-12 | 901 |  pic tentative de coup d'État |
 | 2026-01 | 337 | |
 | 2026-02 | 335 | |
 | 2026-03 | 343 | |
