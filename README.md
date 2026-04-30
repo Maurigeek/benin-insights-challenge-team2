@@ -55,7 +55,9 @@
 - `git`
 - *(Optionnel — mode BigQuery)* Un compte GCP avec accès à `gdelt-bq.gdeltv2.events`
 
-### Installation
+### Installation 
+
+**Mac / Linux** 
 
 ```bash
 git clone https://github.com/Maurigeek/benin-insights-challenge-team2
