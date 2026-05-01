@@ -1,30 +1,38 @@
 ## Data
-- [ ] Load and inspect: columns, nulls, volume
-- [ ] Extract the useful text column(s): titles / Tone / Themes
+- [x] Load and inspect: columns, nulls, volume
+- [x] Extract the useful text column(s): titles / Tone / Themes
+- [x] GoldsteinScale moyen par mois -> courbe de tension globale
+- [x] Top acteurs (Actor1Name) -> qui parle du Benin ?
+- [x] Distribution des EventCode -> quels types d'evenements dominent ?
+- [x] Creux juin 2025 -> confirmer biais ou realite
+- [x] bias_metadata -> documenter tout ce qui est observe
 
-## Model 1 — Sentiment (VADER)
-- [ ] Implement `analyze_sentiment()`
-- [ ] Validate on 20 titles manually
-
-## Model 2 — Topics (BERTopic)
-- [ ] Implement `extract_topics()`
-- [ ] Validate that topics are consistent with Benin data
+## Model 1 — Topics (BERTopic)
+- [x] Define input contract for `extract_topics(texts)` (types, preconditions, failures)
+- [x] Select text field for topics (`event_label` vs other candidate columns)
+- [x] Build Benin-only filter for training subset
+- [x] Clean and normalize texts (trim, empty filtering, dedup if needed)
+- [x] Fit BERTopic model on filtered texts
+- [x] Export topic summary (topic id, size, top keywords)
+- [x] Add `topic` column back to dataframe on original indices
+- [x] Manual validation on a sample per topic (semantic coherence)
+- [ ] Document limitations/biases observed on Benin context
+- [x] Add/maintain unit tests for edge cases and contract validation
 
 ## Model 3 — Entities (spaCy NER)
-- [ ] Implement `extract_entities()`
-- [ ] Validate that persons, places, and organizations are detected correctly
+- [x] Implement `extract_entities()`
+- [x] Validate that persons, places, and organizations are detected correctly
 
 ## Model 4 — Anomalies (Isolation Forest)
 - [ ] Implement `detect_anomalies()`
 - [ ] Validate that identified spikes match real events
 
 ## API
-- [ ] Endpoint `/sentiment`
 - [ ] Endpoint `/topics`
 - [ ] Endpoint `/entities`
 - [ ] Endpoint `/anomalies`
 - [ ] Orchestrate with `asyncio.gather()` -> unified JSON
-- [ ] Endpoint `/analyze` (runs the 4 in parallel)
+- [ ] Endpoint `/analyze` (runs the 3 in parallel)
 
 ## Rule
 - [ ] Update this TODO whenever scope changes
