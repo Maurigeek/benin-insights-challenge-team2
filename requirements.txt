@@ -7,3 +7,7 @@ scikit-learn>=1.4
 streamlit>=1.32
 plotly>=5.20
 python-dotenv==1.0.0
+pandera>=0.17.1
+spacy>=3.7
+bertopic>=0.15
+scipy>=1.11
