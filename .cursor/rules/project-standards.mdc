@@ -1,0 +1,22 @@
+---
+description: Enforce Benin Insights engineering standards
+alwaysApply: true
+---
+
+# Benin Insights — Non-Negotiable Standards
+
+- Apply `.github/copilot-instructions.md` for every coding task in this repo.
+- Keep changes small, explicit, reviewable, and reproducible.
+- Prefer pure functions, explicit contracts, and boundary validation.
+- Fail fast on invalid state; never silently ignore missing/invalid data.
+- Do not return `None` for failure paths; use explicit exceptions.
+- Keep orchestration thin; place business logic in proper model/domain layers.
+- Avoid speculative abstractions (YAGNI); abstract only after repetition (DRY).
+- Use simplest implementation that satisfies `docs/ml_specs.md`.
+- Keep scripts idempotent and avoid hardcoded paths/settings.
+- Update `docs/ml_todo.md` whenever ML scope/tasks evolve.
+
+# Delivery Discipline
+
+- Order of work: working code -> green tests -> cleanup.
+- Keep repository outputs reproducible and easy for next contributors.

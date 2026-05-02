@@ -1,0 +1,17 @@
+year_month,events,is_peak
+2025-01,532,False
+2025-02,363,False
+2025-03,442,False
+2025-04,421,False
+2025-05,426,False
+2025-06,209,False
+2025-07,465,False
+2025-08,324,False
+2025-09,330,False
+2025-10,373,False
+2025-11,424,False
+2025-12,901,True
+2026-01,337,False
+2026-02,335,False
+2026-03,343,False
+2026-04,422,False
