@@ -52,7 +52,6 @@ SELECT
   SOURCEURL
 FROM `gdelt-bq.gdeltv2.events`
 WHERE ActionGeo_CountryCode = 'BN'
-  AND Actor1CountryCode = 'BEN'
   AND YEAR >= 2025
 LIMIT 10000;
 
@@ -486,3 +485,130 @@ WHERE ActionGeo_CountryCode = 'BN'
   )
 ORDER BY AvgTone ASC
 LIMIT 2000;
+
+
+-- REQUÊTE 16 : CAN 2025 — sport et image internationale
+SELECT SQLDATE, Actor1Name, Actor1CountryCode, Actor2Name,
+       Actor2CountryCode, EventRootCode, GoldsteinScale,
+       AvgTone, NumArticles, ActionGeo_FullName, SOURCEURL
+FROM `gdelt-bq.gdeltv2.events`
+WHERE ActionGeo_CountryCode = 'BN'
+  AND YEAR >= 2025
+  AND (
+    Actor1CountryCode = 'EGY'
+    OR Actor2CountryCode = 'EGY'
+    OR LOWER(SOURCEURL) LIKE '%afcon%'
+    OR LOWER(SOURCEURL) LIKE '%africa-cup%'
+    OR LOWER(SOURCEURL) LIKE '%coppa-dafrica%'
+  )
+ORDER BY SQLDATE DESC
+LIMIT 2000;
+
+-- REQUÊTE 17 : Économie et développement
+SELECT SQLDATE, Actor1Name, Actor2Name, EventRootCode,
+       GoldsteinScale, AvgTone, NumArticles,
+       ActionGeo_FullName, SOURCEURL
+FROM `gdelt-bq.gdeltv2.events`
+WHERE ActionGeo_CountryCode = 'BN'
+  AND YEAR >= 2025
+  AND (
+    LOWER(SOURCEURL) LIKE '%ecofinagency%'
+    OR LOWER(SOURCEURL) LIKE '%bloomberg%'
+    OR LOWER(SOURCEURL) LIKE '%reuters%'
+    OR LOWER(SOURCEURL) LIKE '%imf.org%'
+    OR LOWER(SOURCEURL) LIKE '%worldbank%'
+    OR LOWER(SOURCEURL) LIKE '%afdb%'
+  )
+ORDER BY SQLDATE DESC
+LIMIT 2000;
+
+-- REQUÊTE 18 : Sources officielles — ECOWAS + gouvernement béninois
+SELECT SQLDATE, Actor1Name, Actor2Name, EventRootCode,
+       GoldsteinScale, AvgTone, NumArticles,
+       ActionGeo_FullName, SOURCEURL
+FROM `gdelt-bq.gdeltv2.events`
+WHERE ActionGeo_CountryCode = 'BN'
+  AND YEAR >= 2025
+  AND (
+    LOWER(SOURCEURL) LIKE '%ecowas.int%'
+    OR LOWER(SOURCEURL) LIKE '%gouv.bj%'
+    OR LOWER(SOURCEURL) LIKE '%presidence.bj%'
+  )
+ORDER BY SQLDATE DESC
+LIMIT 2000;
+
+-- -------------------------------------------------------------
+-- REQUÊTE 19 : Médias béninois — narrative interne
+-- Angle     : Ce que la presse béninoise dit du Bénin
+-- -------------------------------------------------------------
+SELECT
+  SQLDATE,
+  Actor1Name,
+  Actor1CountryCode,
+  Actor2Name,
+  Actor2CountryCode,
+  EventRootCode,
+  GoldsteinScale,
+  AvgTone,
+  NumArticles,
+  ActionGeo_FullName,
+  SOURCEURL
+FROM `gdelt-bq.gdeltv2.events`
+WHERE ActionGeo_CountryCode = 'BN'
+  AND YEAR >= 2025
+  AND (
+    LOWER(SOURCEURL) LIKE '%gouv.bj%'
+    OR LOWER(SOURCEURL) LIKE '%lanouvelletribune.info%'
+    OR LOWER(SOURCEURL) LIKE '%24haubenin.info%'
+    OR LOWER(SOURCEURL) LIKE '%promptnewsonline.com%'
+    OR LOWER(SOURCEURL) LIKE '%beninactu.net%'
+    OR LOWER(SOURCEURL) LIKE '%matinlibre.com%'
+    OR LOWER(SOURCEURL) LIKE '%fraternite.info%'
+    OR LOWER(SOURCEURL) LIKE '%acotonou.com%'
+    OR LOWER(SOURCEURL) LIKE '%beninwebtv.com%'
+    OR LOWER(SOURCEURL) LIKE '%presidence.bj%'
+  )
+ORDER BY SQLDATE DESC
+LIMIT 3000;
+
+
+-- -------------------------------------------------------------
+-- REQUÊTE 20 : Médias internationaux — narrative externe
+-- Angle     : Ce que la presse mondiale dit du Bénin
+--             (hors médias béninois et bruit Nigeria)
+-- -------------------------------------------------------------
+SELECT
+  SQLDATE,
+  Actor1Name,
+  Actor1CountryCode,
+  Actor2Name,
+  Actor2CountryCode,
+  EventRootCode,
+  GoldsteinScale,
+  AvgTone,
+  NumArticles,
+  ActionGeo_FullName,
+  SOURCEURL
+FROM `gdelt-bq.gdeltv2.events`
+WHERE ActionGeo_CountryCode = 'BN'
+  AND YEAR >= 2025
+  AND LOWER(SOURCEURL) NOT LIKE '%gouv.bj%'
+  AND LOWER(SOURCEURL) NOT LIKE '%lanouvelletribune.info%'
+  AND LOWER(SOURCEURL) NOT LIKE '%24haubenin.info%'
+  AND LOWER(SOURCEURL) NOT LIKE '%beninactu.net%'
+  AND LOWER(SOURCEURL) NOT LIKE '%presidence.bj%'
+  AND LOWER(SOURCEURL) NOT LIKE '%punchng.com%'
+  AND LOWER(SOURCEURL) NOT LIKE '%dailypost.ng%'
+  AND LOWER(SOURCEURL) NOT LIKE '%premiumtimesng.com%'
+  AND LOWER(SOURCEURL) NOT LIKE '%vanguardngr.com%'
+  AND LOWER(SOURCEURL) NOT LIKE '%thenationonlineng.net%'
+  AND LOWER(SOURCEURL) NOT LIKE '%channelstv.com%'
+  AND LOWER(SOURCEURL) NOT LIKE '%thisdaylive.com%'
+  AND LOWER(SOURCEURL) NOT LIKE '%nigerianobservernews.com%'
+  AND LOWER(SOURCEURL) NOT LIKE '%guardian.ng%'
+  AND LOWER(SOURCEURL) NOT LIKE '%thesun.ng%'
+  AND LOWER(SOURCEURL) NOT LIKE '%leadership.ng%'
+  AND LOWER(SOURCEURL) NOT LIKE '%legit.ng%'
+  AND LOWER(SOURCEURL) NOT LIKE '%dailytrust.com%'
+ORDER BY NumArticles DESC
+LIMIT 5000;

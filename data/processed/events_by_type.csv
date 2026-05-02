@@ -1,20 +1,20 @@
 EventRootCode,nb_evenements,stabilite_moyenne,ton_moyen,total_articles,event_label
-4,1475,2.54,0.09,9102,Consultation
-1,1283,0.01,-1.36,5643,Déclaration publique
-5,836,3.95,1.27,4467,Engagement diplomatique
-2,511,2.98,-0.78,2697,Appel / Demande
-11,402,-2.0,-3.79,1980,Désapprobation
-17,295,-5.4,-5.02,1456,Coercition
-19,295,-9.94,-5.17,1725,Violence de masse
-3,269,4.21,-0.0,1422,Coopération
-8,229,6.22,-1.87,1361,Accord / Coopération
-7,199,7.33,0.64,1121,Aide / Assistance
-12,160,-4.11,-1.35,777,Rejet / Refus
-6,120,6.27,-1.01,670,Coopération matérielle
-9,110,-2.0,-2.7,530,Médiation
-13,107,-4.97,-4.05,515,Menace
-14,103,-6.98,-0.58,587,Protestation
-18,91,-9.12,-6.06,446,Assaut
-15,61,-7.2,-3.66,334,Force non militaire
-10,61,-5.0,-3.88,366,Demande / Aide
-16,40,-4.65,-2.3,204,Réduction des relations
+4,1358,2.42,0.08,9513,Consultation
+1,713,0.05,-2.04,4641,Déclaration publique
+5,611,4.15,0.85,4541,Engagement diplomatique
+2,340,2.97,-1.28,2699,Appel / Demande
+11,325,-2.0,-4.16,2212,Désapprobation
+19,297,-9.97,-5.16,2033,Violence de masse
+17,218,-5.43,-4.65,1490,Coercition
+8,187,6.28,-2.02,1323,Accord / Coopération
+3,178,4.35,-0.43,1286,Coopération
+7,175,7.38,0.66,1348,Aide / Assistance
+14,116,-6.98,-1.35,715,Protestation
+6,112,6.24,-0.96,745,Coopération matérielle
+9,109,-2.0,-3.15,803,Médiation
+12,106,-4.13,-1.97,722,Rejet / Refus
+13,66,-4.93,-4.53,444,Menace
+18,66,-9.08,-6.31,407,Assaut
+10,49,-5.0,-4.11,308,Demande / Aide
+15,33,-7.2,-2.91,180,Force non militaire
+16,30,-4.9,-2.25,191,Réduction des relations
