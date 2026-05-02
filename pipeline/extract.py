@@ -26,9 +26,10 @@ def get_client() -> bigquery.Client:
         return None
 
     try:
-        client = bigquery.Client()
+        project = os.getenv("GOOGLE_CLOUD_PROJECT")
+        bq_client = bigquery.Client(project=project)
         logger.info("Connexion BigQuery établie.")
-        return client
+        return bq_client
     except Exception as e:
         logger.error(f"Erreur connexion BigQuery : {e}")
         return None
@@ -99,7 +100,6 @@ def build_queries(table: str, action: str, actor: str, year: int, limit: int) ->
 
     base_filter = f"""
         WHERE ActionGeo_CountryCode = '{action}'
-          AND Actor1CountryCode = '{actor}'
           AND YEAR >= {year}
     """
 

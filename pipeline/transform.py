@@ -175,6 +175,25 @@ def transform_main(df: pd.DataFrame) -> pd.DataFrame:
     - Nettoyage acteurs
     - Flag sentiment
     """
+    # Filtre bruit Nigeria — Benin City / Edo State
+
+    NIGERIAN_NOISE_DOMAINS = [
+        'punchng.com', 'dailypost.ng', 'premiumtimesng.com',
+        'vanguardngr.com', 'thenationonlineng.net', 'channelstv.com',
+        'thisdaylive.com', 'nigerianobservernews.com', 'guardian.ng',
+        'thesun.ng', 'leadership.ng', 'nationalaccordnewspaper.com',
+        'theeagleonline.com.ng', 'blueprint.ng', 'thecable.ng',
+        'legit.ng', 'thenewsnigeria.com.ng', 'tell.ng',
+        'hallmarknews.com', 'pmnewsnigeria.com', 'nigerianeye.com',
+        'dailytrust.com', 'tribuneonlineng.com', 'sunnewsonline.com'
+    ]
+
+    pattern = '|'.join(NIGERIAN_NOISE_DOMAINS)
+    before = len(df)
+    df = df[~df['SOURCEURL'].str.contains(pattern, case=False, na=False)]
+    print(f"Doublons supprimés : {before - len(df)}")
+    logger.info(f"Bruit Nigeria supprimé : {before - len(df)} lignes")
+
     df = drop_duplicates_strict(df, subset=["SQLDATE", "Actor1Name", "EventCode", "SOURCEURL"])
     df = parse_sqldate(df)
     df = normalize_event_code(df)
@@ -304,7 +323,6 @@ def compute_zoom_election2026(df_raw: pd.DataFrame) -> pd.DataFrame:
     return df
  
  
-
 def compute_culture_tourisme(df_raw: pd.DataFrame) -> pd.DataFrame:
     """
     Culture, tourisme et soft power (ton positif).
@@ -321,7 +339,6 @@ def compute_culture_tourisme(df_raw: pd.DataFrame) -> pd.DataFrame:
     df = _base_transform(df)
     df = df.sort_values("NumArticles", ascending=False).head(3_000).reset_index(drop=True)
     return df
- 
  
  
 def compute_cooperation_ben_nga(df_raw: pd.DataFrame) -> pd.DataFrame:
@@ -343,7 +360,6 @@ def compute_cooperation_ben_nga(df_raw: pd.DataFrame) -> pd.DataFrame:
     df = _base_transform(df)
     df = df.sort_values("date", ascending=False).head(3_000).reset_index(drop=True)
     return df
- 
  
 
 def compute_securite_nord_thematic(df_raw: pd.DataFrame) -> pd.DataFrame:
@@ -495,6 +511,146 @@ def compute_liberte_presse(df_raw: pd.DataFrame) -> pd.DataFrame:
     df = df.sort_values("AvgTone", ascending=True).head(2_000).reset_index(drop=True)
     return df
 
+def compute_can2025_sport(df_raw: pd.DataFrame) -> pd.DataFrame:
+    """
+    CAN 2025 — Bénin sur la scène sportive internationale.
+    Couvre les matchs, résultats, couverture médiatique internationale
+    du football béninois.
+    Source : gdelt_benin_raw (DATA_RAW_PATH).
+    Miroir exact de la REQUÊTE 16 (queries.sql).
+    """
+    df = _filter_year(df_raw)
+ 
+    a1  = df["Actor1CountryCode"].astype(str)
+    a2  = df["Actor2CountryCode"].astype(str)
+    url = df["SOURCEURL"].astype(str).str.lower()
+ 
+    # Égypte vs Bénin (match CAN 2025) + mots-clés URL
+    mask_egypt  = (a1 == "EGY") | (a2 == "EGY")
+    mask_url    = url.str.contains(
+        "afcon|africa-cup|coppa-dafrica|afrika-cup|coupe-afrique|can-2025|can2025",
+        na=False
+    )
+ 
+    df = df[mask_egypt | mask_url]
+    df = _base_transform(df)
+    df = df.sort_values("NumArticles", ascending=False).head(2_000).reset_index(drop=True)
+    return df
+ 
+ 
+def compute_economie_developpement(df_raw: pd.DataFrame) -> pd.DataFrame:
+    """
+    Économie, finances et développement du Bénin.
+    Sources : Bloomberg, Reuters, Ecofinagency, FMI, Banque mondiale, BAD.
+    Couvre : énergie solaire, agriculture, finance, infrastructure,
+             plateforme de réclamations, formation agricole.
+    Source : gdelt_benin_raw (DATA_RAW_PATH).
+    Miroir exact de la REQUÊTE 17 (queries.sql).
+    """
+    df = _filter_year(df_raw)
+ 
+    url = df["SOURCEURL"].astype(str).str.lower()
+ 
+    source_keywords = [
+        "ecofinagency",
+        "bloomberg",
+        "reuters",
+        "imf.org",
+        "worldbank",
+        "afdb.org",
+        "banquemondiale",
+        "unctad",
+    ]
+ 
+    mask_url = url.str.contains("|".join(source_keywords), na=False)
+    df = df[mask_url]
+    df = _base_transform(df)
+    df = df.sort_values("date", ascending=False).head(2_000).reset_index(drop=True)
+    return df
+ 
+def compute_sources_officielles(df_raw: pd.DataFrame) -> pd.DataFrame:
+    """
+    Sources officielles — ECOWAS + gouvernement béninois.
+    Ce que les institutions disent officiellement du Bénin
+    vs ce que le monde dit du Bénin.
+    Couvre : ecowas.int, gouv.bj, presidence.bj
+    Source : gdelt_benin_raw (DATA_RAW_PATH).
+    Miroir exact de la REQUÊTE 18 (queries.sql).
+    """
+    df = _filter_year(df_raw)
+ 
+    url = df["SOURCEURL"].astype(str).str.lower()
+ 
+    source_keywords = [
+        "ecowas.int",
+        "gouv.bj",
+        "presidence.bj",
+    ]
+ 
+    mask_url = url.str.contains("|".join(source_keywords), na=False)
+    df = df[mask_url]
+    df = _base_transform(df)
+    df = df.sort_values("date", ascending=False).head(2_000).reset_index(drop=True)
+    return df
+
+def compute_medias_beninois(df_raw: pd.DataFrame) -> pd.DataFrame:
+    """
+    Ce que la presse béninoise dit du Bénin.
+    Vision interne — narrative locale.
+    """
+    df = _filter_year(df_raw)
+
+    BENINOIS_DOMAINS = [
+        'gouv.bj',
+        'lanouvelletribune.info',
+        '24haubenin.info',
+        'promptnewsonline.com',
+        'beninactu.net',
+        'matinlibre.com',
+        'fraternite.info',
+        'acotonou.com',
+        'beninwebtv.com',
+        'quotidienlematinal.com',
+        'benin-adpao.bj',
+        'presidence.bj',
+    ]
+
+    pattern = '|'.join(BENINOIS_DOMAINS)
+    url = df['SOURCEURL'].astype(str).str.lower()
+    df = df[url.str.contains(pattern, na=False)]
+    df = _base_transform(df)
+    df = df.sort_values('date', ascending=False).head(3_000).reset_index(drop=True)
+    return df
+
+
+def compute_medias_internationaux(df_raw: pd.DataFrame) -> pd.DataFrame:
+    """
+    Ce que la presse internationale dit du Bénin.
+    Vision externe — narrative mondiale.
+    """
+    df = _filter_year(df_raw)
+
+    # Exclure les médias béninois ET le bruit nigérian
+    BENINOIS_DOMAINS = [
+        'gouv.bj', 'lanouvelletribune.info', '24haubenin.info',
+        'promptnewsonline.com', 'beninactu.net', 'matinlibre.com',
+        'presidence.bj', 'fraternite.info', 'acotonou.com',
+    ]
+    NIGERIAN_DOMAINS = [
+        'punchng.com', 'dailypost.ng', 'premiumtimesng.com',
+        'vanguardngr.com', 'thenationonlineng.net', 'channelstv.com',
+        'thisdaylive.com', 'nigerianobservernews.com', 'guardian.ng',
+        'thesun.ng', 'leadership.ng', 'legit.ng', 'dailytrust.com',
+    ]
+
+    pattern_exclude = '|'.join(BENINOIS_DOMAINS + NIGERIAN_DOMAINS)
+    url = df['SOURCEURL'].astype(str).str.lower()
+    df = df[~url.str.contains(pattern_exclude, na=False)]
+    df = _base_transform(df)
+    df = df.sort_values('NumArticles', ascending=False).head(5_000).reset_index(drop=True)
+    return df
+
+
 
 def transform_thematic(df: pd.DataFrame, label: str) -> pd.DataFrame:
     """
@@ -510,6 +666,7 @@ def transform_thematic(df: pd.DataFrame, label: str) -> pd.DataFrame:
     df = flag_sentiment(df)
     df = drop_duplicates_strict(df, subset=[c for c in ["date", "Actor1Name", "EventRootCode", "SOURCEURL"] if c in df.columns])
     return df
+
 
 
 # ---------------------------------------------------------------------------
@@ -538,6 +695,8 @@ def build_registry() -> list[tuple]:
         DATA_SECURITE_NORD_PATH, DATA_FEMMES_PATH,
         DATA_CHINE_PATH,         DATA_PERSO_BENIN_PATH,
         DATA_PERSO_ETRANGERES_PATH, DATA_LIBERTE_PRESSE_PATH,
+        DATA_CAN2025_PATH, DATA_ECONOMIE_PATH, DATA_SOURCES_OFF_PATH,
+        DATA_MEDIAS_BENINOIS_PATH, DATA_MEDIAS_INTERNATIONAUX_PATH,
     )
 
     thematic_computes = [
@@ -551,6 +710,11 @@ def build_registry() -> list[tuple]:
         ("personnalites_benin",      DATA_RAW_PATH, DATA_PERSO_BENIN_PATH,      compute_personnalites_benin),
         ("personnalites_etrangeres", DATA_RAW_PATH, DATA_PERSO_ETRANGERES_PATH, compute_personnalites_etrangeres),
         ("liberte_presse",           DATA_RAW_PATH, DATA_LIBERTE_PRESSE_PATH,   compute_liberte_presse),
+        ("can2025_sport",            DATA_RAW_PATH, DATA_CAN2025_PATH,          compute_can2025_sport),
+        ("economie",                 DATA_RAW_PATH, DATA_ECONOMIE_PATH,         compute_economie_developpement),
+        ("sources_officielles",      DATA_RAW_PATH, DATA_SOURCES_OFF_PATH,      compute_sources_officielles),
+        ("medias_beninois",          DATA_RAW_PATH, DATA_MEDIAS_BENINOIS_PATH,  compute_medias_beninois),
+        ("medias_internationaux",    DATA_RAW_PATH, DATA_MEDIAS_INTERNATIONAUX_PATH, compute_medias_internationaux),
     ]
     
     registry = [
