@@ -26,7 +26,23 @@
 ## Model 4 — Anomalies (Isolation Forest)
 - [x] Implement `detect_anomalies()`
 - [x] Add/maintain unit tests for contract and edge cases
-- [ ] Validate that identified spikes match real events
+- [ ] Validate that identified spikes match real events (décembre 2025 = tentative de coup d'État)
+
+## Network (NetworkX)
+- [x] Graphe acteurs implémenté (08_actor_network.ipynb)
+- [ ] Filtrage par période (avant/après décembre 2025)
+- [ ] Intégration Pyvis pour rendu interactif
+
+## Dashboard (Streamlit)
+- [ ] Section 1 : tableau filtrable (date, acteur, région, type)
+- [ ] Section 2 : insights avec mode switch (Journaliste / Chercheur / Décideur)
+- [ ] Section 3 : graphe réseau interactif filtrable par période
+- [ ] Page unique sans découpage en sous-pages
+
+## Phase 2 — Modèles avancés
+- [ ] Change point detection (ruptures)
+- [ ] Tendance temporelle (Prophet)
+- [ ] Synthèse LLM (Gemini)
 
 ## API
 - [ ] Endpoint `/topics`
@@ -34,6 +50,11 @@
 - [ ] Endpoint `/anomalies`
 - [ ] Orchestrate with `asyncio.gather()` -> unified JSON
 - [ ] Endpoint `/analyze` (runs the 3 in parallel)
+
+## Déploiement
+- [ ] Docker + docker-compose
+- [ ] CI/CD GitHub Actions
+- [ ] Déploiement Render ou Railway
 
 ## Rule
 - [ ] Update this TODO whenever scope changes
