@@ -16,7 +16,7 @@
 - [x] Export topic summary (topic id, size, top keywords)
 - [x] Add `topic` column back to dataframe on original indices
 - [x] Manual validation on a sample per topic (semantic coherence)
-- [ ] Document limitations/biases observed on Benin context
+- [x] Document limitations/biases observed on Benin context
 - [x] Add/maintain unit tests for edge cases and contract validation
 
 ## Model 3 — Entities (spaCy NER)
@@ -24,7 +24,8 @@
 - [x] Validate that persons, places, and organizations are detected correctly
 
 ## Model 4 — Anomalies (Isolation Forest)
-- [ ] Implement `detect_anomalies()`
+- [x] Implement `detect_anomalies()`
+- [x] Add/maintain unit tests for contract and edge cases
 - [ ] Validate that identified spikes match real events
 
 ## API
