@@ -1,6 +1,9 @@
 import os
+from google.cloud import bigquery
 
 from pathlib import Path
+from dotenv import load_dotenv
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -16,6 +19,8 @@ COUNTRY_CODE_ACTOR  = os.getenv("COUNTRY_CODE_ACTOR", "BEN")   # Bénin comme ac
 # BIGQUERY TABLE AND LIMIT
 BQ_TABLE = os.getenv("BQ_TABLE", "gdelt-bq.gdeltv2.events")
 BQ_LIMIT = os.getenv("BQ_LIMIT", 10000)
+
+GOOGLE_CLOUD_PROJECT = os.getenv("GOOGLE_CLOUD_PROJECT", "")
 
 USE_BIGQUERY = os.getenv("USE_BIGQUERY", "false").lower() == "true"
 
@@ -59,3 +64,8 @@ DATA_CHINE_PATH             = BASE_DIR / os.getenv("DATA_CHINE_PATH",           
 DATA_PERSO_BENIN_PATH       = BASE_DIR / os.getenv("DATA_PERSO_BENIN_PATH",       "data/processed/personnalites_benin.csv")
 DATA_PERSO_ETRANGERES_PATH  = BASE_DIR / os.getenv("DATA_PERSO_ETRANGERES_PATH",  "data/processed/personnalites_etrangeres.csv")
 DATA_LIBERTE_PRESSE_PATH    = BASE_DIR / os.getenv("DATA_LIBERTE_PRESSE_PATH",    "data/processed/liberte_presse.csv")
+DATA_SOURCES_OFF_PATH       = BASE_DIR / os.getenv("DATA_SOURCES_OFF_PATH",       "data/processed/sources_officielles.csv")
+DATA_CAN2025_PATH      = BASE_DIR / os.getenv("DATA_CAN2025_PATH",      "data/processed/can2025_sport.csv")
+DATA_ECONOMIE_PATH           = BASE_DIR / os.getenv("DATA_ECONOMIE_PATH",           "data/processed/economie.csv")
+DATA_MEDIAS_BENINOIS_PATH    = BASE_DIR / os.getenv("DATA_MEDIAS_BENINOIS_PATH",    "data/processed/medias_beninois.csv")
+DATA_MEDIAS_INTERNATIONAUX_PATH = BASE_DIR / os.getenv("DATA_MEDIAS_INTERNATIONAUX_PATH", "data/processed/medias_internationaux.csv")

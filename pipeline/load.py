@@ -22,6 +22,11 @@ from config import (
     DATA_PERSO_BENIN_PATH,
     DATA_PERSO_ETRANGERES_PATH,
     DATA_LIBERTE_PRESSE_PATH,
+    DATA_CAN2025_PATH,
+    DATA_ECONOMIE_PATH,
+    DATA_SOURCES_OFF_PATH,
+    DATA_MEDIAS_BENINOIS_PATH,
+    DATA_MEDIAS_INTERNATIONAUX_PATH,
 )
 
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -144,6 +149,36 @@ SCHEMAS: dict[str, dict] = {
         "has_geo":        False,
         "date_col":       "date",
     },
+    "can2025_sport": {
+        "required_cols":  ["date", "Actor1Name", "EventRootCode", "AvgTone"],
+        "non_null_cols":  ["date", "EventRootCode"],
+        "has_geo":        False,
+        "date_col":       "date",
+    },
+    "economie": {
+        "required_cols":  ["date", "EventRootCode", "AvgTone", "SOURCEURL"],
+        "non_null_cols":  ["date", "EventRootCode"],
+        "has_geo":        False,
+        "date_col":       "date",
+    },
+    "sources_officielles": {
+        "required_cols":  ["date", "EventRootCode", "AvgTone", "SOURCEURL"],
+        "non_null_cols":  ["date", "EventRootCode"],
+        "has_geo":        False,
+        "date_col":       "date",
+    },
+    "medias_beninois": {
+        "required_cols":  ["date", "EventRootCode", "AvgTone", "SOURCEURL"],
+        "non_null_cols":  ["date", "EventRootCode"],
+        "has_geo":        False,
+        "date_col":       "date",
+    },
+    "medias_internationaux": {
+        "required_cols":  ["date", "EventRootCode", "AvgTone", "SOURCEURL"],
+        "non_null_cols":  ["date", "EventRootCode"],
+        "has_geo":        False,
+        "date_col":       "date",
+    },
 }
 
 # ---------------------------------------------------------------------------
@@ -166,6 +201,11 @@ REGISTRY: dict[str, str] = {
     "personnalites_benin":     DATA_PERSO_BENIN_PATH,
     "personnalites_etrangeres":DATA_PERSO_ETRANGERES_PATH,
     "liberte_presse":          DATA_LIBERTE_PRESSE_PATH,
+    "can2025_sport":      DATA_CAN2025_PATH,
+    "economie":           DATA_ECONOMIE_PATH,
+    "sources_officielles":DATA_SOURCES_OFF_PATH,
+    "medias_beninois":    DATA_MEDIAS_BENINOIS_PATH,
+    "medias_internationaux":DATA_MEDIAS_INTERNATIONAUX_PATH,
 }
 
 

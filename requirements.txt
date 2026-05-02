@@ -7,3 +7,4 @@ scikit-learn>=1.4
 streamlit>=1.32
 plotly>=5.20
 python-dotenv==1.0.0
+db_dtypes==1.5.1
