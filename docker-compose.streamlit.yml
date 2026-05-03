@@ -1,0 +1,9 @@
+services:
+  dashboard:
+    image: ghcr.io/appolinairee/benin-insights-dashboard:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
