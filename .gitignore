@@ -30,5 +30,5 @@ Thumbs.db
 .vscode/
 .idea/
 
-.codex
-.cursor
+.codex/
+.cursor/
