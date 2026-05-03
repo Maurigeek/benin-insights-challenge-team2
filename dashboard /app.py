@@ -48,10 +48,30 @@ st.markdown(
 	[data-testid="stSidebarContent"] {
 		background: var(--surface);
 	}
+	[data-testid="stSidebar"] * { color: #111111; }
+	[data-testid="stSidebar"] .stCaption { color: #444444; }
+	[data-testid="stSidebar"] label { color: #111111; }
+	[data-testid="stSidebar"] [data-baseweb="select"] > div,
+	[data-testid="stSidebar"] [data-baseweb="input"] > div {
+		background: #ffffff;
+		border: 1px solid var(--border);
+		color: #111111;
+		box-shadow: none;
+	}
+	[data-testid="stSidebar"] [data-baseweb="select"] svg {
+		color: #111111;
+	}
+	[data-testid="stSidebar"] input,
+	[data-testid="stSidebar"] select,
+	[data-testid="stSidebar"] textarea {
+		color: #111111 !important;
+	}
 	section[data-testid="stSidebar"] > div:first-child { padding-top: 0.75rem; }
 	[data-testid="stSidebar"] h3 { font-weight: 600; letter-spacing: 0.2px; }
 	[data-testid="stSidebar"] hr { margin: 0.75rem 0; border-color: var(--border); }
-	.stMetric label { font-size: 12px; color: var(--muted); }
+	.stMetric label { font-size: 12px; color: #cfd3d8; }
+	.stMetric [data-testid="stMetricValue"] { color: #f2f4f8; }
+	.stMetric [data-testid="stMetricDelta"] { color: #ff7b7b; }
 </style>
 """,
 	unsafe_allow_html=True,
