@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - .github/workflows/cd.yml
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: pytest src/tests -v
+
+      - name: Validate Python syntax
+        run: python -m compileall pipeline src "dashboard "
+
+  build-dashboard-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build dashboard image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: Dockerfile.streamlit
+          push: false
