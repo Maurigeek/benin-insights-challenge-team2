@@ -11,3 +11,4 @@ pandera>=0.17.1
 spacy>=3.7
 bertopic>=0.15
 scipy>=1.11
+db_dtypes==1.5.1
