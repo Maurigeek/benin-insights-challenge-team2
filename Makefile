@@ -14,6 +14,9 @@ install: $(VENV)/bin/activate
 run:
 	$(PYTHON) pipeline/main.py
 
+dashboard:
+	streamlit run dashboard/app.py
+
 extract:
 	$(PYTHON) pipeline/main.py --only gdelt_benin_main
 
