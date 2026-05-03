@@ -8,7 +8,6 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  DASHBOARD_IMAGE: ghcr.io/${{ env.OWNER_LOWER }}/benin-insights-dashboard
 
 jobs:
   build-dashboard:
@@ -36,8 +35,8 @@ jobs:
           file: Dockerfile.streamlit
           push: true
           tags: |
-            ${{ env.DASHBOARD_IMAGE }}:latest
-            ${{ env.DASHBOARD_IMAGE }}:${{ github.sha }}
+            ghcr.io/${{ env.OWNER_LOWER }}/benin-insights-dashboard:latest
+            ghcr.io/${{ env.OWNER_LOWER }}/benin-insights-dashboard:${{ github.sha }}
 
   deploy:
     runs-on: ubuntu-latest
