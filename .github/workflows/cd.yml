@@ -52,12 +52,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOY_BRANCH: ${{ github.ref_name }}
           REPO_SLUG: ${{ github.repository }}
+          DASHBOARD_PORT: 8502
           DASHBOARD_IMAGE: ghcr.io/${{ github.repository_owner }}/benin-insights-dashboard:latest
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          envs: GITHUB_TOKEN,DEPLOY_BRANCH,REPO_SLUG,DASHBOARD_IMAGE
+          envs: GITHUB_TOKEN,DEPLOY_BRANCH,REPO_SLUG,DASHBOARD_PORT,DASHBOARD_IMAGE
           script: |
             set -e
             test -n "$DEPLOY_BRANCH" || { echo "DEPLOY_BRANCH is empty"; exit 1; }
