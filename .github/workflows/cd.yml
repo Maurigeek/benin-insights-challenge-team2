@@ -71,7 +71,7 @@ jobs:
             OWNER_LC=$(echo "$DASHBOARD_IMAGE" | sed 's#^ghcr.io/\([^/]*\)/.*#\1#' | tr '[:upper:]' '[:lower:]')
             export DASHBOARD_IMAGE="ghcr.io/${OWNER_LC}/benin-insights-dashboard:latest"
             REPO_DIR="$HOME/$(basename "$REPO_SLUG")"
-            REPO_URL="https://github.com/$REPO_SLUG.git"
+            REPO_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/$REPO_SLUG.git"
 
             if [ ! -d "$REPO_DIR/.git" ]; then
               echo "-- Clone repo from fork --"
