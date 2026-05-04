@@ -96,7 +96,7 @@ jobs:
             docker image prune -f
 
             echo "-- Verify dashboard health --"
-            DASHBOARD_STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:${DASHBOARD_PORT:-8501}/_stcore/health)
+            DASHBOARD_STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:${DASHBOARD_PORT:-8502}/_stcore/health)
             if [ "$DASHBOARD_STATUS" = "200" ]; then
               echo "Dashboard healthy (HTTP $DASHBOARD_STATUS)"
             else
