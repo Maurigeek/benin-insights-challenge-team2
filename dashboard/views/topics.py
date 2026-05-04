@@ -9,7 +9,7 @@ def render_topics(df: pd.DataFrame) -> None:
     """Affiche la page Topics."""
 
     if "topic" not in df.columns:
-        st.warning("Les topics ne sont pas encore calculés. Lance d'abord le notebook BERTopic.")
+        st.warning("Les topics ne sont pas encore calculés.")
         return
 
     st.markdown("#### Répartition des topics détectés")
