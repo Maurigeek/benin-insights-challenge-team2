@@ -52,7 +52,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOY_BRANCH: ${{ github.ref_name }}
           REPO_SLUG: ${{ github.repository }}
-          DASHBOARD_PORT: 8502
+          DASHBOARD_PORT: 8503
           DASHBOARD_IMAGE: ghcr.io/${{ github.repository_owner }}/benin-insights-dashboard:latest
         with:
           host: ${{ secrets.VPS_HOST }}
@@ -88,15 +88,20 @@ jobs:
             echo "$GITHUB_TOKEN" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
 
             echo "-- Deploy dashboard --"
+            EXISTING_CONTAINERS=$(docker ps -q --filter "publish=${DASHBOARD_PORT:-8503}")
+            if [ -n "$EXISTING_CONTAINERS" ]; then
+              echo "-- Free dashboard port ${DASHBOARD_PORT:-8503} --"
+              docker rm -f $EXISTING_CONTAINERS
+            fi
             docker compose -f docker-compose.streamlit.yml pull
             docker compose -f docker-compose.streamlit.yml down --remove-orphans 2>/dev/null || true
-            docker compose -f docker-compose.streamlit.yml up -d
+            docker compose -f docker-compose.streamlit.yml up -d --force-recreate
 
             echo "-- Clean old images --"
             docker image prune -f
 
             echo "-- Verify dashboard health --"
-            DASHBOARD_STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:${DASHBOARD_PORT:-8502}/_stcore/health)
+            DASHBOARD_STATUS=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:${DASHBOARD_PORT:-8503}/_stcore/health)
             if [ "$DASHBOARD_STATUS" = "200" ]; then
               echo "Dashboard healthy (HTTP $DASHBOARD_STATUS)"
             else
