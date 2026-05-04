@@ -47,7 +47,7 @@ def render_overview(df: pd.DataFrame) -> None:
         fig_timeline.add_annotation(
             x="2025-12",
             y=dec_row["avg_tone"],
-            text="⚠️ Déc 2025",
+            text="Point critique - Dec 2025",
             showarrow=True,
             arrowhead=2,
             arrowcolor="#E24B4A",

@@ -74,7 +74,7 @@ def render_anomalies(df: pd.DataFrame) -> None:
         st.info("Aucune anomalie détectée sur la période sélectionnée.")
     else:
         for _, row in anomalies.iterrows():
-            with st.expander(f"⚠️ {row['year_month']} — {int(row['count'])} événements"):
+            with st.expander(f"{row['year_month']} - {int(row['count'])} evenements"):
                 col1, col2, col3 = st.columns(3)
                 col1.metric("Volume", f"{int(row['count'])}")
                 col2.metric("Ton moyen", f"{row['avg_tone']:.2f}")

@@ -44,10 +44,10 @@ def render_sidebar(df: pd.DataFrame) -> dict:
         goldstein = df["GoldsteinScale"].mean()
         pct_neg = (df["AvgTone"] < 0).mean() * 100
 
-        tone_color = "🔴" if avg_tone < -2 else "🟡" if avg_tone < 0 else "🟢"
-        st.caption(f"{tone_color} Ton moyen : **{avg_tone:.2f}**")
-        st.caption(f"📊 Goldstein : **{goldstein:.2f}**")
-        st.caption(f"📰 Couverture négative : **{pct_neg:.0f}%**")
+        tone_label = "Negatif" if avg_tone < -2 else "Mitige" if avg_tone < 0 else "Positif"
+        st.caption(f"Ton moyen : **{avg_tone:.2f}** · {tone_label}")
+        st.caption(f"Goldstein : **{goldstein:.2f}**")
+        st.caption(f"Couverture negative : **{pct_neg:.0f}%**")
 
         st.divider()
 
@@ -59,9 +59,9 @@ def render_sidebar(df: pd.DataFrame) -> dict:
             .index[0]
             if "SOURCEURL" in df.columns else "N/A"
         )
-        st.caption(f"⚠️ Source dominante : `{top_source}`")
-        st.caption("⚠️ Biais anglophones/nigérians")
-        st.caption("⚠️ Lacune : juin 2025")
+        st.caption(f"Source dominante : `{top_source}`")
+        st.caption("Biais anglophones/nigerians")
+        st.caption("Lacune : juin 2025")
 
     return {
         "periode": periode,

@@ -23,7 +23,7 @@ from views.topics import render_topics
 
 st.set_page_config(
 	page_title="Bénin Insights",
-	page_icon="🇧🇯",
+	page_icon=str(ROOT / "dashboard" / "static" / "favicon.svg"),
 	layout="wide",
 	initial_sidebar_state="expanded",
 )
@@ -36,8 +36,16 @@ st.markdown(
 		--border: rgba(0, 0, 0, 0.08);
 		--muted: rgba(0, 0, 0, 0.6);
 	}
+	[data-testid="stHeader"],
+	[data-testid="stToolbar"],
+	[data-testid="stDecoration"],
+	#MainMenu,
+	header {
+		display: none !important;
+	}
 	[data-testid="stSidebarNav"] { display: none; }
-	.block-container { padding-top: 1.25rem; padding-bottom: 1rem; }
+	.block-container { padding-top: 0.4rem; padding-bottom: 1rem; }
+	.stApp { margin-top: 0; }
 	[data-testid="stSidebar"] {
 		min-width: 260px;
 		max-width: 280px;
@@ -72,6 +80,25 @@ st.markdown(
 	.stMetric label { font-size: 12px; color: #cfd3d8; }
 	.stMetric [data-testid="stMetricValue"] { color: #f2f4f8; }
 	.stMetric [data-testid="stMetricDelta"] { color: #ff7b7b; }
+	.dashboard-title {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		margin-top: 0.2rem;
+	}
+	.dashboard-title__mark {
+		display: inline-flex;
+		width: 28px;
+		height: 16px;
+		border-radius: 2px;
+		background: linear-gradient(90deg, #009e60 0 33%, #fcd116 33% 66%, #e8112d 66% 100%);
+		box-shadow: 0 0 0 1px rgba(255,255,255,0.08);
+	}
+	.dashboard-title h1 {
+		font-size: 2rem;
+		line-height: 1.1;
+		margin: 0;
+	}
 </style>
 """,
 	unsafe_allow_html=True,
@@ -114,7 +141,15 @@ def main() -> None:
 
 	col_title, col_nav = st.columns([3, 5])
 	with col_title:
-		st.markdown("### 🇧🇯 Bénin Insights")
+		st.markdown(
+			"""
+			<div class="dashboard-title">
+				<span class="dashboard-title__mark" aria-hidden="true"></span>
+				<h1>Benin Insights</h1>
+			</div>
+			""",
+			unsafe_allow_html=True,
+		)
 		st.caption(f"{len(df_filtered):,} événements · {filters['periode'][0]} → {filters['periode'][1]}")
 
 	with col_nav:
