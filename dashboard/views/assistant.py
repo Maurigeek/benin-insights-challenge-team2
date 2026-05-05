@@ -4,6 +4,8 @@ import json
 import pandas as pd
 import streamlit as st
 
+from src.models.anomaly_model import detect_monthly_anomalies
+
 
 def render_assistant(df: pd.DataFrame) -> None:
     """Affiche la page Assistant IA."""
@@ -46,7 +48,13 @@ def build_context(df: pd.DataFrame) -> str:
     )
 
     top_events = df["event_label"].value_counts().head(5).to_dict() if "event_label" in df.columns else {}
-    n_anomalies = int((df["is_anomaly"] == -1).sum()) if "is_anomaly" in df.columns else "non calculé"
+    anomaly_monthly = detect_monthly_anomalies(df).dataframe if not df.empty else pd.DataFrame()
+    anomaly_months = (
+        anomaly_monthly.loc[anomaly_monthly["is_anomaly"], "year_month"].tolist()
+        if not anomaly_monthly.empty and "is_anomaly" in anomaly_monthly.columns
+        else []
+    )
+    n_anomalies = len(anomaly_months)
 
     context = f"""
 Données GDELT Bénin disponibles :
@@ -56,6 +64,7 @@ Données GDELT Bénin disponibles :
 - Goldstein Scale moyen : {df['GoldsteinScale'].mean():.2f}
 - Couverture négative : {(df['AvgTone'] < 0).mean()*100:.0f}%
 - Anomalies détectées : {n_anomalies}
+- Mois anormaux : {", ".join(anomaly_months) if anomaly_months else "aucun signal net"}
 - Événements dominants : {json.dumps(top_events, ensure_ascii=False)}
 - Volume mensuel (derniers mois) :
 {monthly.to_string(index=False)}
