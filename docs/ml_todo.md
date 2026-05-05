@@ -1,5 +1,5 @@
 ## TODO unique
-- [ ] Garder ce fichier comme source unique de pilotage
+- [x] Garder ce fichier comme source unique de pilotage
 
 ## P0 — Modele ML et verifications
 - [ ] Verifier et finaliser le modele principal
@@ -57,7 +57,8 @@
 - [ ] Verifier que tous les liens sont publics et ouvrables directement
 
 ## P3 — Validation globale et soumission
-- [ ] Faire une validation globale du projet
+- [ ] Faire une validation globale du projet (all notebooks executable)
 - [ ] Verifier la coherence entre notebook, dashboard, modele et resume
 - [ ] Verifier les livrables attendus de la phase 1 une derniere fois
+- [ ] Tester le full pipeline: extract → transform → train → predict → dashboard
 - [ ] Soumettre le formulaire avant la deadline
