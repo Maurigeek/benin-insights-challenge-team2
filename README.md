@@ -46,12 +46,6 @@ Lien demo : http://benin-insights.adandeappolinaire.me
 
 ---
 
-
-## Getting started
-
-
----
-
 ## Démarrage rapide
 
 ### Prérequis
@@ -128,6 +122,7 @@ cd benin-insights-challenge-team2
 docker compose -f docker-compose.streamlit.yml up --build
 ```
 
+---
 
 ## Équipe et Rôles
 
@@ -139,7 +134,6 @@ docker compose -f docker-compose.streamlit.yml up --build
 | **ML Engineer** | • **BERTopic** : 6 thèmes identifiés (consultation, aide, protestation)<br>• **NER spaCy** : 237 personnes, 608 organisations, 31 lieux extraits<br>• **Isolation Forest** : 2 mois anormaux détectés (déc 2025, mai 2026)<br>• **Random Forest** : Prédiction impact média (features: Goldstein, EventRoot, international) | Dataset ML depuis `data/processed/`, entraînement dans `notebooks/ml_models.ipynb`, artefacts dans `models/` |
 
 ---
-
 
 ## Usage de l'IA
 
