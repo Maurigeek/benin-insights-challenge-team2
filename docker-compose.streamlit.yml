@@ -5,5 +5,5 @@ services:
       context: .
       dockerfile: Dockerfile.streamlit
     ports:
-      - "8501:8501"
+      - "${DASHBOARD_PORT:-8503}:8503"
     restart: unless-stopped

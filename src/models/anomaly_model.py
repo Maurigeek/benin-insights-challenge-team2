@@ -8,6 +8,8 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
+from src.models.baseline_anomaly import detect_anomalies_iqr
+
 
 @dataclass(frozen=True)
 class AnomalyDetectionResult:
@@ -16,6 +18,15 @@ class AnomalyDetectionResult:
     model: IsolationForest
     dataframe: pd.DataFrame
     feature_columns: list[str]
+
+
+@dataclass(frozen=True)
+class MonthlyAnomalyResult:
+    """Output contract for monthly anomaly detection."""
+
+    dataframe: pd.DataFrame
+    feature_columns: list[str]
+    method: str
 
 
 def _validate_contamination(contamination: float | str) -> None:
@@ -113,4 +124,79 @@ def detect_anomalies(
         model=model,
         dataframe=enriched,
         feature_columns=validated_columns,
+    )
+
+
+def build_monthly_anomaly_features(dataframe: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate event-level rows into monthly anomaly features."""
+    required_columns = ["AvgTone", "GoldsteinScale"]
+    missing_columns = [column for column in required_columns if column not in dataframe.columns]
+    if missing_columns:
+        missing = ", ".join(missing_columns)
+        raise ValueError(f"Missing required feature columns: {missing}.")
+
+    working = dataframe.copy()
+    if "date" in working.columns:
+        working["date"] = pd.to_datetime(working["date"], errors="coerce")
+        if working["date"].isnull().any():
+            raise ValueError("date column must contain valid datetimes.")
+        working["year_month"] = working["date"].dt.to_period("M").astype(str)
+    elif "year_month" not in working.columns:
+        raise ValueError("dataframe must contain either 'date' or 'year_month'.")
+
+    if "NumArticles" not in working.columns:
+        working["NumArticles"] = 1
+
+    monthly = (
+        working.groupby("year_month", as_index=False)
+        .agg(
+            rows=("AvgTone", "size"),
+            avg_tone=("AvgTone", "mean"),
+            goldstein_scale=("GoldsteinScale", "mean"),
+            num_articles=("NumArticles", "sum"),
+        )
+        .dropna()
+        .sort_values("year_month")
+        .reset_index(drop=True)
+    )
+
+    if monthly.empty:
+        raise ValueError("monthly aggregation must not be empty.")
+
+    return monthly
+
+
+def detect_monthly_anomalies(
+    dataframe: pd.DataFrame,
+    contamination: float = 0.1,
+    random_state: int = 42,
+) -> MonthlyAnomalyResult:
+    """Detect anomalies on monthly aggregates with a stable fallback for small samples."""
+    monthly = build_monthly_anomaly_features(dataframe)
+    feature_columns = ["rows", "avg_tone", "goldstein_scale", "num_articles"]
+
+    if len(monthly) < 8:
+        baseline = detect_anomalies_iqr(
+            dataframe=monthly,
+            feature_columns=feature_columns,
+        )
+        enriched = baseline.dataframe.copy()
+        enriched["is_anomaly"] = enriched["iqr_is_anomaly"].astype(bool)
+        enriched["anomaly_score"] = enriched["iqr_outlier_count"].astype(float)
+        return MonthlyAnomalyResult(
+            dataframe=enriched,
+            feature_columns=feature_columns,
+            method="iqr",
+        )
+
+    result = detect_anomalies(
+        dataframe=monthly,
+        feature_columns=feature_columns,
+        contamination=contamination,
+        random_state=random_state,
+    )
+    return MonthlyAnomalyResult(
+        dataframe=result.dataframe,
+        feature_columns=feature_columns,
+        method="isolation_forest",
     )

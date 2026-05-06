@@ -3,14 +3,14 @@ from __future__ import annotations
 from collections.abc import Iterable
 from typing import Any
 
-try:
-    import spacy
-except ImportError as import_error:  # pragma: no cover
-    raise ImportError(
-        "spaCy is required. Install with: pip install spacy && python -m spacy download en_core_web_sm"
-    ) from import_error
-
-_NLP = spacy.load("en_core_web_sm")
+def _get_nlp():
+    try:
+        import spacy
+    except ImportError as import_error:  # pragma: no cover
+        raise ImportError(
+            "spaCy is required. Install with: pip install spacy && python -m spacy download en_core_web_sm"
+        ) from import_error
+    return spacy.load("en_core_web_sm")
 
 
 def _deduplicate(items: Iterable[str]) -> list[str]:
@@ -46,8 +46,9 @@ def extract_entities(texts: list[str] | None) -> list[dict[str, list[str]]]:
 
     prepared_texts = [_normalize_text(text) for text in texts]
     results: list[dict[str, list[str]]] = []
+    nlp = _get_nlp()
 
-    for doc in _NLP.pipe(prepared_texts):
+    for doc in nlp.pipe(prepared_texts):
         persons = _deduplicate(ent.text for ent in doc.ents if ent.label_ == "PERSON")
         orgs = _deduplicate(ent.text for ent in doc.ents if ent.label_ == "ORG")
         locations = _deduplicate(

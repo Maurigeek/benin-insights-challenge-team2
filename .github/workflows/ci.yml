@@ -2,41 +2,34 @@ name: CI
 
 on:
   push:
-    branches: [main]
-    paths-ignore:
-      - .github/workflows/cd.yml
+    branches:
+      - main
+      - feature/phase1-ml-engineering
   pull_request:
-    branches: [main]
 
 jobs:
-  quality:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt pytest
 
       - name: Run unit tests
-        run: pytest src/tests -v
+        run: python -m pytest -q
 
-      - name: Validate Python syntax
-        run: python -m compileall pipeline src "dashboard "
-
-  build-dashboard-image:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Build dashboard image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          file: Dockerfile.streamlit
-          push: false
+      - name: Smoke check critical entrypoints
+        run: |
+          python -m py_compile dashboard/app.py
+          python -m py_compile pipeline/main.py

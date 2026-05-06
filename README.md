@@ -121,6 +121,21 @@ Copier `.env.example` - `.env` et adapter si besoin.
 > `GOOGLE_APPLICATION_CREDENTIALS` pointant vers un fichier de clé de service GCP,
 > ou une authentification via `gcloud auth application-default login`.
 
+### Secrets CI/CD
+
+Pour GitHub Actions, configurer au minimum ces secrets de dépôt :
+
+- `DEPLOY_HOOK_URL` : webhook de déclenchement du déploiement sur ta plateforme.
+- `DEPLOY_HEALTHCHECK_URL` : URL de santé utilisée pour vérifier que l'app déployée répond.
+- `GEMINI_API_KEY` : active l'assistant IA dans le dashboard.
+
+Si tu veux exécuter plus tard des jobs BigQuery dans GitHub Actions, ajoute aussi :
+
+- `GOOGLE_CLOUD_PROJECT`
+- `GCP_SERVICE_ACCOUNT_KEY`
+
+La CI est définie dans `.github/workflows/ci.yml` et le CD dans `.github/workflows/deploy.yml`.
+
 ---
 
 ## Pipeline — fonctionnement détaillé

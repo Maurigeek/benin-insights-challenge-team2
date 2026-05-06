@@ -1,60 +1,64 @@
-## Data
-- [x] Load and inspect: columns, nulls, volume
-- [x] Extract the useful text column(s): titles / Tone / Themes
-- [x] GoldsteinScale moyen par mois -> courbe de tension globale
-- [x] Top acteurs (Actor1Name) -> qui parle du Benin ?
-- [x] Distribution des EventCode -> quels types d'evenements dominent ?
-- [x] Creux juin 2025 -> confirmer biais ou realite
-- [x] bias_metadata -> documenter tout ce qui est observe
+## TODO unique
+- [x] Garder ce fichier comme source unique de pilotage
 
-## Model 1 — Topics (BERTopic)
-- [x] Define input contract for `extract_topics(texts)` (types, preconditions, failures)
-- [x] Select text field for topics (`event_label` vs other candidate columns)
-- [x] Build Benin-only filter for training subset
-- [x] Clean and normalize texts (trim, empty filtering, dedup if needed)
-- [x] Fit BERTopic model on filtered texts
-- [x] Export topic summary (topic id, size, top keywords)
-- [x] Add `topic` column back to dataframe on original indices
-- [x] Manual validation on a sample per topic (semantic coherence)
-- [x] Document limitations/biases observed on Benin context
-- [x] Add/maintain unit tests for edge cases and contract validation
+## P0 — Modele ML et verifications
+- [ ] Verifier et finaliser le modele principal
+- [ ] Corriger les enormites encore visibles dans les sorties
+- [ ] Valider que les spikes identifies correspondent a de vrais evenements
+- [ ] Verifier la coherence des features, predictions et exports
+- [ ] Documenter clairement comment relancer entrainement et prediction
+- [ ] Verifier la premiere version du modele ML dans le notebook
 
-## Model 3 — Entities (spaCy NER)
-- [x] Implement `extract_entities()`
-- [x] Validate that persons, places, and organizations are detected correctly
+## P0 — Topics et structure analytique
+- [ ] Evaluer si la section topics apporte une vraie valeur
+- [ ] Supprimer la partie topics si elle duplique les types d'evenements
+- [ ] Sinon, rendre les topics plus pertinents et plus interpretables
+- [ ] Valider manuellement un echantillon des sorties conservees
 
-## Model 4 — Anomalies (Isolation Forest)
-- [x] Implement `detect_anomalies()`
-- [x] Add/maintain unit tests for contract and edge cases
-- [ ] Validate that identified spikes match real events (décembre 2025 = tentative de coup d'État)
+## P0 — Insights dashboard
+- [ ] Ajouter des insights dynamiques directement dans le dashboard
+- [ ] Lier chaque insight a une preuve visible ou un graphique
+- [ ] Prioriser 5 a 7 insights courts, utiles et non techniques
 
-## Network (NetworkX)
-- [x] Graphe acteurs implémenté (08_actor_network.ipynb)
-- [ ] Filtrage par période (avant/après décembre 2025)
-- [ ] Intégration Pyvis pour rendu interactif
+## P1 — Cartes et visualisations
+- [ ] Inserer des graphiques plus pertinents
+- [ ] Mettre les cartes en priorite dans le dashboard
+- [ ] Verifier la lisibilite des visualisations, titres, axes et legendes
+- [ ] Verifier au moins 3 visualisations pertinentes sur les donnees du Benin
+- [ ] Verifier les 5 visualisations commentees minimum dans le notebook
 
-## Dashboard (Streamlit)
-- [ ] Section 1 : tableau filtrable (date, acteur, région, type)
-- [ ] Section 2 : insights avec mode switch (Journaliste / Chercheur / Décideur)
-- [ ] Section 3 : graphe réseau interactif filtrable par période
-- [ ] Page unique sans découpage en sous-pages
+## P1 — Dashboard et integration
+- [ ] Rendre la periode dynamique sur tout le dashboard
+- [ ] Rendre les filtres temporels coherents partout
+- [ ] Integrer les sorties utiles du modele dans les vues dashboard
+- [ ] Ajouter un tableau filtrable (date, acteur, region, type)
+- [ ] Integrer le graphe reseau interactif filtrable par periode
+- [ ] Verifier que le dashboard en ligne est accessible et fonctionnel
 
-## Phase 2 — Modèles avancés
-- [ ] Change point detection (ruptures)
-- [ ] Tendance temporelle (Prophet)
-- [ ] Synthèse LLM (Gemini)
+## P1 — Design et presentation
+- [ ] Ameliorer le design global
+- [ ] Ameliorer la presentation globale
+- [ ] Verifier la hierarchie visuelle, l'espacement et la lisibilite
+- [ ] Verifier la coherence globale du parcours utilisateur
 
-## API
-- [ ] Endpoint `/topics`
-- [ ] Endpoint `/entities`
-- [ ] Endpoint `/anomalies`
-- [ ] Orchestrate with `asyncio.gather()` -> unified JSON
-- [ ] Endpoint `/analyze` (runs the 3 in parallel)
+## P2 — Donnees et reproductibilite
+- [ ] Verifier la periode extraite et les filtres Benin appliques
+- [ ] Verifier les mois incomplets, les valeurs manquantes et les doublons critiques
+- [ ] Confirmer que `data/raw/gdelt_benin_main.csv` peut etre regenere
+- [ ] Regenerer et verifier les fichiers `data/processed/`
+- [ ] Verifier `requirements.txt`, `Makefile` et les commandes utiles
+- [ ] Verifier que le notebook EDA est reproductible
 
-## Déploiement
-- [ ] Docker + docker-compose
-- [ ] CI/CD GitHub Actions
-- [ ] Déploiement Render ou Railway
+## P2 — Depot et livrables
+- [ ] Rendre le depot GitHub public et propre
+- [ ] Verifier le `README`, `requirements.txt`, `data/`, `notebooks/`, `models/`, `dashboard/`
+- [ ] Ajouter le resume d'une page dans le depot
+- [ ] Finaliser et publier la video pitch 3 min
+- [ ] Verifier que tous les liens sont publics et ouvrables directement
 
-## Rule
-- [ ] Update this TODO whenever scope changes
+## P3 — Validation globale et soumission
+- [ ] Faire une validation globale du projet (all notebooks executable)
+- [ ] Verifier la coherence entre notebook, dashboard, modele et resume
+- [ ] Verifier les livrables attendus de la phase 1 une derniere fois
+- [ ] Tester le full pipeline: extract → transform → train → predict → dashboard
+- [ ] Soumettre le formulaire avant la deadline

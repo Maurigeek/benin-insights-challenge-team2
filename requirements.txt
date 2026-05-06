@@ -5,7 +5,6 @@ matplotlib>=3.8
 seaborn>=0.13
 scikit-learn>=1.4
 streamlit>=1.32
-pytest>=7.0
 plotly>=5.20
 python-dotenv==1.0.0
 pandera>=0.17.1
