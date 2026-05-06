@@ -3,6 +3,7 @@
 VENV = venv
 PYTHON = $(VENV)/bin/python
 PIP = $(VENV)/bin/pip
+STREAMLIT = $(VENV)/bin/streamlit
 
 $(VENV)/bin/activate:
 	python3 -m venv $(VENV)
@@ -17,7 +18,7 @@ run:
 	$(PYTHON) pipeline/main.py
 
 dashboard:
-	streamlit run dashboard/app.py
+	$(STREAMLIT) run dashboard/app.py
 
 extract:
 	$(PYTHON) pipeline/main.py --only gdelt_benin_main
