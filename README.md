@@ -10,9 +10,6 @@
 
 Lien demo : http://benin-insights.adandeappolinaire.me
 
-## Soumission
-
-- [Dossier Hackathon](docs/Hackathon%20iSHEERO%20X%20Datacamp%202026%20-%20B%C3%A9nin%20Insights%20Challenge.pdf)
 
 ## Ce que nous avons fait
 
