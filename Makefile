@@ -7,6 +7,8 @@ PIP = $(VENV)/bin/pip
 $(VENV)/bin/activate:
 	python3 -m venv $(VENV)
 
+.PHONY: install clean run dashboard extract transform load reset
+
 install: $(VENV)/bin/activate
 	$(PIP) install --upgrade pip
 	$(PIP) install -r requirements.txt
