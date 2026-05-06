@@ -52,22 +52,23 @@ L'app est exposee sur `http://localhost:8503` (ou `DASHBOARD_PORT`).
 ## Structure
 
 ```
-├── .github/workflows/          # CI/CD
-├── dashboard/                  # App Streamlit (vues modulaires)
-├── dashboard /                 # Pages Streamlit (multipage)
+├── .github/                # CI/CD config
+├── dashboard/              # App Streamlit (app.py, components, views, static)
 ├── data/
-│   ├── raw/                    # Données brutes
-│   └── processed/              # Données nettoyées et agrégées
-├── deploy/nginx/               # Config reverse-proxy
-├── docs/                       # Dossier de soumission et specs
-├── models/                     # Entrainement et evaluation ML
-├── notebooks/                  # Analyses exploratoires
-├── pipeline/                   # ETL (extract/transform/load)
-├── reports/                    # Rapports et assets
-├── src/                        # Modules reutilisables + tests
+│   ├── raw/                # Données brutes
+│   └── processed/          # Données nettoyées et agrégées
+├── docs/                   # Dossier de soumission et specs
+├── models/                 # (media_model/) Entrainement et evaluation ML
+├── notebooks/              # Analyses exploratoires (eda, ml_models, ...)
+├── pipeline/               # ETL (extract/transform/load)
+├── reports/                # Rapports, figures, CSV
+├── src/                    # Modules Python, tests, visualisation
+├── Dockerfile.streamlit    # Docker image dashboard
 ├── docker-compose.streamlit.yml
-├── Dockerfile.streamlit
-└── requirements.txt
+├── requirements.txt
+├── Makefile
+├── pytest.ini
+└── README.md
 ```
 
 ---
