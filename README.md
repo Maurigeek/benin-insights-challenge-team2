@@ -19,34 +19,6 @@ Lien demo : http://benin-insights.adandeappolinaire.me
 - Tests : suite `pytest` sur les modeles et validations critiques.
 - CI/CD : CI (tests + smoke checks) et CD (build/push image + deploy dashboard).
 
-## Getting started
-
-### Sans Docker
-
-```bash
-git clone https://github.com/Rabbi-GEEK/benin-insights-challenge-team2
-cd benin-insights-challenge-team2
-
-python -m venv venv
-source venv/bin/activate  # ou venv\Scripts\activate
-pip install -r requirements.txt
-python pipeline/main.py
-streamlit run dashboard/app.py
-```
-
-> **Les donnees brutes sont deja dans `data/raw/` — pas besoin de BigQuery.**  
-> Les commandes ci-dessus regenerent `data/processed/` depuis `data/raw/`.
-
-### Avec Docker (dashboard)
-
-```bash
-git clone https://github.com/Rabbi-GEEK/benin-insights-challenge-team2
-cd benin-insights-challenge-team2
-docker compose -f docker-compose.streamlit.yml up --build
-```
-
-L'app est exposee sur `http://localhost:8503` (ou `DASHBOARD_PORT`).
-
 ---
 
 ## Structure
@@ -67,9 +39,90 @@ L'app est exposee sur `http://localhost:8503` (ou `DASHBOARD_PORT`).
 ├── docker-compose.streamlit.yml
 ├── requirements.txt
 ├── Makefile
+├── example.env
 ├── pytest.ini
 └── README.md
 ```
+
+---
+
+## Démarrage rapide
+
+### Prérequis
+
+- Python 3.11+
+- `git`
+- *(Optionnel — mode BigQuery)* Un compte GCP avec accès à `gdelt-bq.gdeltv2.events`
+
+### Installation 
+
+**Mac / Linux** 
+
+```bash
+git clone https://github.com/Maurigeek/benin-insights-challenge-team2
+cd benin-insights-challenge-team2
+
+# Copier et configurer les variables d'environnement
+cp .env.example .env
+# → Éditer .env si nécessaire (voir section Variables d'environnement)
+
+# Créer le venv et installer les dépendances
+make install
+```
+
+### Lancer la pipeline complète
+
+> **Les données brutes sont déjà dans `data/raw/` — pas besoin de BigQuery.**  
+> La commande ci-dessous régénère tout `data/processed/` depuis `data/raw/`.
+
+```bash
+make run
+```
+
+### Lancer le dashboard
+
+```bash
+make dashboard
+```
+L'app est exposee sur `http://localhost:8503` (ou `DASHBOARD_PORT`).
+
+
+### Commandes disponibles
+
+| Commande | Description |
+|---|---|
+| `make install` | Crée le venv et installe les dépendances |
+| `make run` | Lance la pipeline complète (extract → transform → load) |
+| `make dashboard` | Lance l'application Streamlit | 
+| `make reset` | Vide `data/processed/` pour forcer une régénération propre |
+| `make clean` | Supprime le venv et les fichiers `.pyc` / `__pycache__` |
+
+---
+
+### Windows (sans Make)
+
+```bash
+git clone https://github.com/Maurigeek/benin-insights-challenge-team2
+cd benin-insights-challenge-team2
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
+python pipeline/main.py
+streamlit run dashboard/app.py
+```
+
+---
+
+### Avec Docker (dashboard)
+
+```bash
+git clone https://github.com/Rabbi-GEEK/benin-insights-challenge-team2
+cd benin-insights-challenge-team2
+docker compose -f docker-compose.streamlit.yml up --build
+```
+
+---
 
 ## Équipe et Rôles
 
@@ -82,4 +135,8 @@ L'app est exposee sur `http://localhost:8503` (ou `DASHBOARD_PORT`).
 
 ---
 
+## Usage de l'IA
 
+Ce projet utilise Claude (Anthropic) pour orienter l'exploration des données
+et structurer l'architecture. Tout le code et les analyses sont produits
+et validés par l'équipe.
