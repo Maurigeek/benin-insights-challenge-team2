@@ -35,6 +35,7 @@ class MediaModelTests(unittest.TestCase):
 
             self.assertTrue(artifacts.model_path.exists())
             self.assertTrue(artifacts.encoder_path.exists())
+            self.assertTrue(artifacts.metrics_path.exists())
 
             model = load_model(artifacts.model_path)
             preds = model.predict(dataframe[["GoldsteinScale", "EventRootCode", "is_international"]])
