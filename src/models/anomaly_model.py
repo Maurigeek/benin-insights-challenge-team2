@@ -8,6 +8,7 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
+from src.models.common.temporal import add_year_month, build_month_coverage
 from src.models.baseline_anomaly import detect_anomalies_iqr
 
 
@@ -137,10 +138,7 @@ def build_monthly_anomaly_features(dataframe: pd.DataFrame) -> pd.DataFrame:
 
     working = dataframe.copy()
     if "date" in working.columns:
-        working["date"] = pd.to_datetime(working["date"], errors="coerce")
-        if working["date"].isnull().any():
-            raise ValueError("date column must contain valid datetimes.")
-        working["year_month"] = working["date"].dt.to_period("M").astype(str)
+        working = add_year_month(working, date_column="date")
     elif "year_month" not in working.columns:
         raise ValueError("dataframe must contain either 'date' or 'year_month'.")
 
@@ -159,6 +157,9 @@ def build_monthly_anomaly_features(dataframe: pd.DataFrame) -> pd.DataFrame:
         .sort_values("year_month")
         .reset_index(drop=True)
     )
+    if "date" in working.columns:
+        coverage = build_month_coverage(working, date_column="date")
+        monthly = monthly.merge(coverage, on="year_month", how="left")
 
     if monthly.empty:
         raise ValueError("monthly aggregation must not be empty.")

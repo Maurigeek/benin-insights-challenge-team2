@@ -124,6 +124,7 @@ class AnomalyModelTests(unittest.TestCase):
         self.assertEqual(monthly.loc[0, "year_month"], "2025-01")
         self.assertEqual(monthly.loc[0, "rows"], 2)
         self.assertEqual(monthly.loc[0, "num_articles"], 30)
+        self.assertIn("is_partial_month", monthly.columns)
 
     def test_detect_monthly_anomalies_returns_contract(self) -> None:
         dataframe = pd.DataFrame(
