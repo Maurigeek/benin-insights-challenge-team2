@@ -66,7 +66,7 @@ def _generate_human_insights(monthly: pd.DataFrame, df: pd.DataFrame, top_type: 
 
     insights = [
         (
-            "📊 Signal principal",
+            "Signal principal",
             f"Climat {tone_description}. Focus sur <strong>{top_type.lower()}</strong>, évolution {trend_label} {time_context}. <em>Action : Adapter la stratégie de communication en conséquence.</em>"
         ),
         (
