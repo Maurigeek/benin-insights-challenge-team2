@@ -175,6 +175,42 @@ st.markdown(
 		border-color: rgba(96, 165, 250, 0.28);
 		color: #ffffff;
 	}
+	[data-testid="stChatInput"] textarea {
+		border-radius: 16px;
+		background: rgba(255, 255, 255, 0.04);
+		border: 1px solid var(--border);
+		color: #f8fbff;
+		padding: 0.75rem 3rem 0.75rem 1rem;
+		box-shadow: none;
+	}
+	[data-testid="stChatInput"] textarea::placeholder {
+		color: rgba(219, 229, 245, 0.6);
+	}
+	[data-testid="stChatInput"] {
+		position: relative;
+		border: 1px solid var(--border) !important;
+		border-radius: 12px !important;
+		padding: 0.4rem;
+		background: rgba(16, 24, 42, 0.85);
+	}
+	[data-testid="stChatInput"]:focus-within {
+		border-color: var(--border-strong) !important;
+		box-shadow: none !important;
+	}
+	[data-testid="stChatInput"] button {
+		position: absolute;
+		right: 12px;
+		top: 50%;
+		bottom: auto;
+		transform: translateY(-50%);
+		height: 36px;
+		width: 36px;
+		border-radius: 12px;
+		border: 1px solid rgba(255, 255, 255, 0.12) !important;
+		background: rgba(248, 89, 89, 0.95) !important;
+		color: #ffffff !important;
+		box-shadow: none !important;
+	}
 	.bi-card {
 		border: 1px solid var(--border);
 		border-radius: 18px;
@@ -339,7 +375,7 @@ def apply_filters(df: pd.DataFrame, filters: dict) -> pd.DataFrame:
 	filtered = df.loc[mask].copy()
 
 	if filters.get("anomalies_only") and not filtered.empty:
-		anomaly_monthly = detect_monthly_anomalies(filtered).dataframe
+		anomaly_monthly = detect_monthly_anomalies(filtered, contamination=filters["contamination"]).dataframe
 		anomaly_months = anomaly_monthly.loc[anomaly_monthly["is_anomaly"], "year_month"].tolist()
 		filtered = filtered[filtered["year_month"].isin(anomaly_months)].copy()
 
@@ -351,7 +387,9 @@ def main() -> None:
 
 	filters = render_sidebar(df)
 	df_filtered = apply_filters(df, filters)
-	anomaly_monthly = detect_monthly_anomalies(df_filtered).dataframe
+	anomaly_monthly = detect_monthly_anomalies(df_filtered, contamination=filters["contamination"]).dataframe
+	# Debugging: show detected anomalies before rendering
+	# st.write(anomaly_monthly[anomaly_monthly["is_anomaly"]]) # Uncomment to debug
 	n_anomalies = int(anomaly_monthly["is_anomaly"].sum()) if "is_anomaly" in anomaly_monthly else 0
 	top_type = (
 		df_filtered["event_label"].value_counts().index[0]
@@ -382,8 +420,9 @@ def main() -> None:
 		cols = st.columns(len(labels))
 		for idx, label in enumerate(labels):
 			button_type = "primary" if st.session_state.active_page == label else "secondary"
-			if cols[idx].button(label, use_container_width=True, type=button_type):
+			if cols[idx].button(label, use_container_width=True, type=button_type, key=f"nav_{label}"):
 				st.session_state.active_page = label
+				st.rerun()
 		st.markdown("</div>", unsafe_allow_html=True)
 
 		page = st.session_state.active_page

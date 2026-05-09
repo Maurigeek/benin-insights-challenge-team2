@@ -12,6 +12,92 @@ from src.models.geo_model import build_geo_event_points
 PLOTLY_CONFIG = {"displayModeBar": False, "responsive": True}
 
 
+def _generate_human_insights(monthly: pd.DataFrame, df: pd.DataFrame, top_type: str, hottest_month: str,
+                           dominant_actor: str, avg_tone: float, anomaly_like_months: list,
+                           negative_share: float, goldstein_avg: float, top_source: str,
+                           second_type: str, trend_label: str, evidence_note: str) -> list:
+    """Génère des insights plus humains et contextuels."""
+
+    # Descriptions de tonalité plus naturelles
+    tone_descriptions = {
+        "very_negative": "très tendu, comme pendant une crise majeure",
+        "negative": "plutôt négatif, avec beaucoup de critiques",
+        "mixed": "mitigé, ni vraiment positif ni catastrophique",
+        "positive": "globalement positif ou neutre"
+    }
+
+    if avg_tone < -2:
+        tone_key = "very_negative"
+    elif avg_tone < -1:
+        tone_key = "negative"
+    elif avg_tone < 0:
+        tone_key = "mixed"
+    else:
+        tone_key = "positive"
+
+    tone_description = tone_descriptions[tone_key]
+
+    # Contexte de volume plus parlant
+    volume_context = ""
+    if len(monthly) > 0 and hottest_month != "N/A":
+        avg_volume = monthly["count"].mean()
+        hottest_count = monthly.loc[monthly["year_month"] == hottest_month, "count"].iloc[0]
+        volume_ratio = hottest_count / avg_volume if avg_volume > 0 else 1
+
+        if volume_ratio > 2.5:
+            volume_context = f"avec un emballement médiatique exceptionnel ({volume_ratio:.1f} fois la moyenne normale)"
+        elif volume_ratio > 2:
+            volume_context = f"avec un pic d'attention inhabituel ({volume_ratio:.1f} fois plus que d'habitude)"
+        elif volume_ratio > 1.5:
+            volume_context = f"avec une activité {volume_ratio:.1f} fois plus intense que d'habitude"
+        else:
+            volume_context = "dans une période d'activité plutôt normale"
+
+    # Contexte temporel
+    time_context = ""
+    if len(monthly) >= 12:
+        time_context = "sur cette longue période d'observation"
+    elif len(monthly) >= 6:
+        time_context = "ces derniers mois"
+    else:
+        time_context = "dans ce court laps de temps"
+
+    recent_pressure = ", ".join(anomaly_like_months[:2]) if anomaly_like_months else "Aucun pic particulier"
+
+    insights = [
+        (
+            "📊 Le grand angle",
+            f"L'ambiance générale est {tone_description}. Les conversations tournent principalement autour de <strong>{top_type.lower()}</strong>, et l'humeur semble {trend_label} {time_context}."
+        ),
+        (
+            "🔥 Points chauds",
+            f"C'est en <strong>{hottest_month}</strong> que ça bouge le plus {volume_context}. Les périodes qui demandent une attention particulière sont <strong>{recent_pressure}</strong>."
+        ),
+        (
+            "👤 Figure centrale",
+            f"<strong>{dominant_actor}</strong> est vraiment au cœur de l'actualité. Cette personne ou entité apparaît régulièrement dans les événements les plus discutés."
+        ),
+        (
+            "😟 Climat ambiant",
+            f"Près de <strong>{negative_share:.0f}%</strong> des discussions ont une tonalité négative - c'est plutôt élevé pour une période ordinaire, ça mérite qu'on y prête attention."
+        ),
+        (
+            "⚖️ Niveau de tension",
+            f"L'échelle Goldstein moyenne est à <strong>{goldstein_avg:.2f}</strong>. C'est comme un baromètre de tension : plus c'est élevé, plus l'ambiance est conflictuelle, avec quelques moments plus calmes."
+        ),
+        (
+            "📡 Porte-voix principal",
+            f"C'est <strong>{top_source}</strong> qui fait le plus parler de lui dans les sources. Cette plateforme influence beaucoup le récit général."
+        ),
+        (
+            "🎭 Types d'histoires",
+            f"Les récits les plus fréquents parlent de <strong>{top_type.lower()}</strong>, suivis de près par des histoires de <strong>{second_type.lower()}</strong>. {evidence_note}"
+        ),
+    ]
+
+    return insights
+
+
 def render_overview(df: pd.DataFrame) -> None:
     """Affiche la page Vue d'ensemble."""
     monthly = (
@@ -61,6 +147,11 @@ def render_overview(df: pd.DataFrame) -> None:
         else []
     )
     second_type = event_mix[1] if len(event_mix) > 1 else "Aucun second type net"
+    latest_tone = monthly.iloc[-1]["avg_tone"] if not monthly.empty else 0.0
+    earliest_tone = monthly.iloc[0]["avg_tone"] if not monthly.empty else 0.0
+    tone_delta = latest_tone - earliest_tone
+    trend_label = "en amélioration" if tone_delta > 0.2 else "en dégradation" if tone_delta < -0.2 else "relativement stable"
+    evidence_note = "Lecture à confirmer avec les prochains mois." if len(monthly) < 18 else "Signal robuste sur une fenêtre temporelle étendue."
 
     render_panel_intro(
         "Insights",
@@ -68,36 +159,11 @@ def render_overview(df: pd.DataFrame) -> None:
         "Lecture synthétique des signaux dominants sur les données filtrées.",
     )
 
-    insights = [
-        (
-            "Signal principal",
-            f"{recent_signal}. Le type dominant reste <strong>{top_type}</strong>."
-        ),
-        (
-            "Fenêtre de pression",
-            f"Le volume culmine sur <strong>{hottest_month}</strong>. Les mois à surveiller sont <strong>{recent_pressure}</strong>."
-        ),
-        (
-            "Acteur à suivre",
-            f"<strong>{dominant_actor}</strong> ressort comme acteur principal dans la fenêtre analysée."
-        ),
-        (
-            "Tonalité globale",
-            f"La couverture négative représente <strong>{negative_share:.0f}%</strong> des événements filtrés."
-        ),
-        (
-            "Lecture Goldstein",
-            f"Le score Goldstein moyen est de <strong>{goldstein_avg:.2f}</strong>, utile pour lire le niveau de coopération ou de tension."
-        ),
-        (
-            "Source dominante",
-            f"La source qui revient le plus souvent est <strong>{top_source}</strong>."
-        ),
-        (
-            "Structure des événements",
-            f"Le paysage est dominé par <strong>{top_type}</strong>, suivi de <strong>{second_type}</strong>."
-        ),
-    ]
+    insights = _generate_human_insights(
+        monthly, df, top_type, hottest_month, dominant_actor, avg_tone,
+        anomaly_like_months, negative_share, goldstein_avg, top_source,
+        second_type, trend_label, evidence_note
+    )
 
     grouped_insights = [insights[idx:idx + 2] for idx in range(0, len(insights), 2)]
     cards_html = "".join(

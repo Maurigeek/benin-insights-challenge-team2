@@ -31,7 +31,16 @@ def render_sidebar(df: pd.DataFrame) -> dict:
 
         st.divider()
         anomalies_only = st.checkbox("Anomalies uniquement")
+        contamination_value = st.slider(
+            "Seuil de contamination",
+            min_value=0.01,
+            max_value=0.30,
+            value=0.15,
+            step=0.01,
+            help="Proportion d'anomalies attendues dans les données (e.g., 0.15 pour 15% des mois les plus anormaux).",
+        )
 
+        st.divider()
         avg_tone = df["AvgTone"].mean()
         goldstein = df["GoldsteinScale"].mean()
         pct_neg = (df["AvgTone"] < 0).mean() * 100
@@ -66,4 +75,5 @@ def render_sidebar(df: pd.DataFrame) -> dict:
         "periode": periode,
         "theme": theme,
         "anomalies_only": anomalies_only,
+        "contamination": contamination_value,
     }

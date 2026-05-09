@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Any
+from typing import Any, cast
 
 import pandas as pd
 from sklearn.compose import ColumnTransformer
@@ -59,13 +59,14 @@ def _split_data(
     can_stratify = n_classes > 1 and target.value_counts().min() >= 2 and estimated_test_rows >= n_classes
     stratify = target if can_stratify else None
 
-    return train_test_split(
+    split = train_test_split(
         features,
         target,
         test_size=test_size,
         random_state=random_state,
         stratify=stratify,
     )
+    return cast(tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series], tuple(split))
 
 
 def train_media_model(
@@ -131,7 +132,10 @@ def train_media_model(
     model.fit(X_train, y_train)
 
     preds = model.predict(X_test)
-    metrics = classification_report(y_test, preds, output_dict=True, zero_division=0)
+    metrics = cast(
+        dict[str, Any],
+        classification_report(y_test, preds, output_dict=True, zero_division=0),
+    )
     metadata: dict[str, Any] = {
         "categorical_features": categorical_features,
         "numeric_features": numeric_features,
