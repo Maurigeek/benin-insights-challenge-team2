@@ -66,32 +66,32 @@ def _generate_human_insights(monthly: pd.DataFrame, df: pd.DataFrame, top_type: 
 
     insights = [
         (
-            "📊 Le grand angle",
-            f"L'ambiance générale est {tone_description}. Les conversations tournent principalement autour de <strong>{top_type.lower()}</strong>, et l'humeur semble {trend_label} {time_context}."
+            "📊 Signal principal",
+            f"Climat {tone_description}. Focus sur <strong>{top_type.lower()}</strong>, évolution {trend_label} {time_context}. <em>Action : Adapter la stratégie de communication en conséquence.</em>"
         ),
         (
-            "🔥 Points chauds",
-            f"C'est en <strong>{hottest_month}</strong> que ça bouge le plus {volume_context}. Les périodes qui demandent une attention particulière sont <strong>{recent_pressure}</strong>."
+            "Points chauds",
+            f"Pic en <strong>{hottest_month}</strong> {volume_context}. Surveillance sur <strong>{recent_pressure}</strong>. <em>Action : Renforcer le monitoring pendant ces périodes critiques.</em>"
         ),
         (
-            "👤 Figure centrale",
-            f"<strong>{dominant_actor}</strong> est vraiment au cœur de l'actualité. Cette personne ou entité apparaît régulièrement dans les événements les plus discutés."
+            "Figure centrale",
+            f"<strong>{dominant_actor}</strong> domine le discours médiatique avec une présence récurrente."
         ),
         (
-            "😟 Climat ambiant",
-            f"Près de <strong>{negative_share:.0f}%</strong> des discussions ont une tonalité négative - c'est plutôt élevé pour une période ordinaire, ça mérite qu'on y prête attention."
+            "Climat ambiant",
+            f"Négativité à <strong>{negative_share:.0f}%</strong> - niveau élevé nécessitant attention particulière. <em>Action : Préparer une réponse proactive aux critiques.</em>"
         ),
         (
             "⚖️ Niveau de tension",
-            f"L'échelle Goldstein moyenne est à <strong>{goldstein_avg:.2f}</strong>. C'est comme un baromètre de tension : plus c'est élevé, plus l'ambiance est conflictuelle, avec quelques moments plus calmes."
+            f"Goldstein moyen : <strong>{goldstein_avg:.2f}</strong>. Tension générale avec variations ponctuelles."
         ),
         (
             "📡 Porte-voix principal",
-            f"C'est <strong>{top_source}</strong> qui fait le plus parler de lui dans les sources. Cette plateforme influence beaucoup le récit général."
+            f"<strong>{top_source}</strong> influence significativement le récit général."
         ),
         (
-            "🎭 Types d'histoires",
-            f"Les récits les plus fréquents parlent de <strong>{top_type.lower()}</strong>, suivis de près par des histoires de <strong>{second_type.lower()}</strong>. {evidence_note}"
+            "Types d'histoires",
+            f"Prédominance de <strong>{top_type.lower()}</strong>, suivi de <strong>{second_type.lower()}</strong>. {evidence_note}"
         ),
     ]
 
