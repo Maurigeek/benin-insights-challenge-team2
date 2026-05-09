@@ -2,9 +2,6 @@ name: CI
 
 on:
   push:
-    branches:
-      - main
-      - feature/phase1-ml-engineering
   pull_request:
 
 jobs:
