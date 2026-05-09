@@ -5,78 +5,34 @@ on:
     branches:
       - main
 
-env:
-  REGISTRY: ghcr.io
-
 jobs:
-  build-dashboard:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Prepare image name
-        run: |
-          OWNER_LC=$(echo "${GITHUB_REPOSITORY_OWNER}" | tr '[:upper:]' '[:lower:]')
-          echo "DASHBOARD_IMAGE=${REGISTRY}/${OWNER_LC}/benin-insights-dashboard" >> "$GITHUB_ENV"
-
-      - name: Log in to GHCR
-        uses: docker/login-action@v3
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build and push dashboard image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          file: Dockerfile.streamlit
-          push: true
-          tags: |
-            ${{ env.DASHBOARD_IMAGE }}:latest
-            ${{ env.DASHBOARD_IMAGE }}:${{ github.sha }}
-
   deploy:
     runs-on: ubuntu-latest
-    needs: [build-dashboard]
     permissions:
       contents: read
-      packages: read
     steps:
       - name: Deploy to VPS
         uses: appleboy/ssh-action@v1.0.3
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOY_BRANCH: ${{ github.ref_name }}
           REPO_SLUG: ${{ github.repository }}
           DASHBOARD_PORT: 8503
-          DASHBOARD_IMAGE: ghcr.io/${{ github.repository_owner }}/benin-insights-dashboard:latest
         with:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          envs: GITHUB_TOKEN,DEPLOY_BRANCH,REPO_SLUG,DASHBOARD_PORT,DASHBOARD_IMAGE
+          envs: DEPLOY_BRANCH,REPO_SLUG,DASHBOARD_PORT
           script: |
             set -e
-            test -n "$DEPLOY_BRANCH" || { echo "DEPLOY_BRANCH is empty"; exit 1; }
-            test -n "$REPO_SLUG" || { echo "REPO_SLUG is empty"; exit 1; }
-            OWNER_LC=$(echo "$DASHBOARD_IMAGE" | sed 's#^ghcr.io/\([^/]*\)/.*#\1#' | tr '[:upper:]' '[:lower:]')
-            export DASHBOARD_IMAGE="ghcr.io/${OWNER_LC}/benin-insights-dashboard:latest"
             REPO_DIR="$HOME/benin-insights"
             REPO_URL="git@github.com:$REPO_SLUG.git"
 
             if [ ! -d "$REPO_DIR/.git" ]; then
-              echo "-- Clone repo from fork --"
+              echo "-- Clone repo --"
               git clone "$REPO_URL" "$REPO_DIR"
             fi
 
             cd "$REPO_DIR"
-
-            echo "-- Point origin to fork --"
-            git remote set-url origin "$REPO_URL"
 
             echo "-- git pull --"
             git stash || true
@@ -84,13 +40,13 @@ jobs:
             git checkout "$DEPLOY_BRANCH"
             git pull origin "$DEPLOY_BRANCH"
 
-            echo "-- Deploy dashboard --"
+            echo "-- Build & deploy --"
             EXISTING_CONTAINERS=$(docker ps -q --filter "publish=${DASHBOARD_PORT:-8503}")
             if [ -n "$EXISTING_CONTAINERS" ]; then
-              echo "-- Free dashboard port ${DASHBOARD_PORT:-8503} --"
+              echo "-- Free port ${DASHBOARD_PORT:-8503} --"
               docker rm -f $EXISTING_CONTAINERS
             fi
-            docker compose -f docker-compose.streamlit.yml pull
+            docker compose -f docker-compose.streamlit.yml build
             docker compose -f docker-compose.streamlit.yml down --remove-orphans 2>/dev/null || true
             docker compose -f docker-compose.streamlit.yml up -d --force-recreate
 
