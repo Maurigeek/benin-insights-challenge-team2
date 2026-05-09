@@ -132,11 +132,3 @@ docker compose -f docker-compose.streamlit.yml up --build
 | **Data Analyst** | • Analyse temporelle (pics jan 2025: 705 événements)<br>• Cartographie géospatiale des événements<br>• Dashboard interactif avec KPI et filtres<br>• Identification acteurs principaux (ECOWAS, ONU, Banque Mondiale) | EDA dans `notebooks/eda.ipynb`, visualisations dans `reports/`, intégration dashboard |
 | **Data Scientist** | • Analyse tendances géopolitiques béninoises<br>• Interprétation anomalies (déc 2025: tonalité -2.77)<br>• Synthèse thématiques récurrentes (coopération, protestations)<br>• Rapport analyse avec insights actionnables | Cadrage depuis données GDELT, validation croisée, argumentation avec preuves |
 | **ML Engineer** | • **BERTopic** : 6 thèmes identifiés (consultation, aide, protestation)<br>• **NER spaCy** : 237 personnes, 608 organisations, 31 lieux extraits<br>• **Isolation Forest** : 2 mois anormaux détectés (déc 2025, mai 2026)<br>• **Random Forest** : Prédiction impact média (features: Goldstein, EventRoot, international) | Dataset ML depuis `data/processed/`, entraînement dans `notebooks/ml_models.ipynb`, artefacts dans `models/` |
-
----
-
-## Usage de l'IA
-
-Ce projet utilise Claude (Anthropic) pour orienter l'exploration des données
-et structurer l'architecture. Tout le code et les analyses sont produits
-et validés par l'équipe.
