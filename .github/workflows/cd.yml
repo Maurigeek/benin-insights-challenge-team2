@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-      - feature/**
-      - feature/phase1-ml-engineering
-      - "1-feat-**"
 
 env:
   REGISTRY: ghcr.io
