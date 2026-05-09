@@ -84,9 +84,6 @@ jobs:
             git checkout "$DEPLOY_BRANCH"
             git pull origin "$DEPLOY_BRANCH"
 
-            echo "-- GHCR login --"
-            echo "$GITHUB_TOKEN" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
-
             echo "-- Deploy dashboard --"
             EXISTING_CONTAINERS=$(docker ps -q --filter "publish=${DASHBOARD_PORT:-8503}")
             if [ -n "$EXISTING_CONTAINERS" ]; then
