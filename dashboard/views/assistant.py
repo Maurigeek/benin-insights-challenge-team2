@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import streamlit as st
 
-from src.models.anomaly_model import detect_monthly_anomalies
+from src.models.anomaly import detect_monthly_anomalies
 
 
 def render_assistant(df: pd.DataFrame) -> None:

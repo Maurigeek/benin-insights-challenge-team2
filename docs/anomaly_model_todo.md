@@ -9,8 +9,8 @@
 - [ ] Creer `config`
 
 ## Logique metier
-- [ ] Gerer explicitement les mois incomplets
-- [ ] Distinguer `anomalie reelle` vs `donnee partielle`
+- [x] Gerer explicitement les mois incomplets (implémentation en place, tests passing)
+- [x] Distinguer `anomalie reelle` vs `donnee partielle` (flag `is_partial_signal` ajouté)
 - [ ] Definir une vraie strategie de scoring
 - [ ] Expliciter les seuils, hypotheses et cas limites
 - [ ] Ajouter des `reason codes` / explications par anomalie
@@ -30,7 +30,7 @@
 - [ ] Eviter toute logique metier anomalies dans dashboard/API
 
 ## Tests
-- [ ] Ajouter des tests unitaires sur les mois incomplets
+- [x] Ajouter des tests unitaires sur les mois incomplets (8 tests ajoutés)
 - [ ] Ajouter des tests unitaires sur les faux positifs
 - [ ] Ajouter des tests unitaires sur les petits echantillons
 - [ ] Ajouter des tests unitaires sur la stabilite des scores
