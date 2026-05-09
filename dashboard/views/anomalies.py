@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from components.ui import render_panel_intro, render_signal_chip
-from src.models.anomaly_model import detect_monthly_anomalies
+from src.models.anomaly import detect_monthly_anomalies
 
 PLOTLY_CONFIG = {"displayModeBar": False, "responsive": True}
 

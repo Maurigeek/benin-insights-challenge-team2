@@ -19,7 +19,7 @@ from components.kpi_cards import render_kpis
 from views.anomalies import render_anomalies
 from views.assistant import render_assistant
 from views.overview import render_overview
-from src.models.anomaly_model import detect_monthly_anomalies
+from src.models.anomaly import detect_monthly_anomalies
 
 st.set_page_config(
 	page_title="Bénin Insights",
