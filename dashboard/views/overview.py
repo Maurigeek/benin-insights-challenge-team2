@@ -12,86 +12,96 @@ from src.models.geo_model import build_geo_event_points
 PLOTLY_CONFIG = {"displayModeBar": False, "responsive": True}
 
 
-def _generate_human_insights(monthly: pd.DataFrame, df: pd.DataFrame, top_type: str, hottest_month: str,
-                           dominant_actor: str, avg_tone: float, anomaly_like_months: list,
-                           negative_share: float, goldstein_avg: float, top_source: str,
-                           second_type: str, trend_label: str, evidence_note: str) -> list:
-    """Génère des insights plus humains et contextuels."""
+def _generate_human_insights(monthly: pd.DataFrame, df: pd.DataFrame) -> list:
+    """Construit 5 insights sobres, humains et directement appuyés par les données."""
 
-    # Descriptions de tonalité plus naturelles
-    tone_descriptions = {
-        "very_negative": "très tendu, comme pendant une crise majeure",
-        "negative": "plutôt négatif, avec beaucoup de critiques",
-        "mixed": "mitigé, ni vraiment positif ni catastrophique",
-        "positive": "globalement positif ou neutre"
-    }
+    if monthly.empty or df.empty:
+        return []
 
-    if avg_tone < -2:
-        tone_key = "very_negative"
-    elif avg_tone < -1:
-        tone_key = "negative"
-    elif avg_tone < 0:
-        tone_key = "mixed"
-    else:
-        tone_key = "positive"
+    total_events = int(len(df))
+    pressure_window = monthly[monthly["year_month"].isin(["2026-01", "2026-02", "2026-03", "2026-04"])]
+    pressure_share = (pressure_window["count"].sum() / total_events * 100) if not pressure_window.empty else 0.0
 
-    tone_description = tone_descriptions[tone_key]
+    worst_month_row = monthly.loc[monthly["avg_tone"].idxmin()]
+    worst_month = worst_month_row["year_month"]
+    worst_negative_share = float(worst_month_row.get("negative_share", 0.0) * 100)
 
-    # Contexte de volume plus parlant
-    volume_context = ""
-    if len(monthly) > 0 and hottest_month != "N/A":
-        avg_volume = monthly["count"].mean()
-        hottest_count = monthly.loc[monthly["year_month"] == hottest_month, "count"].iloc[0]
-        volume_ratio = hottest_count / avg_volume if avg_volume > 0 else 1
+    type_share = df["event_label"].value_counts(normalize=True).mul(100)
+    top_types = type_share.head(3)
+    top_type_text = ", ".join(
+        f"<strong>{label}</strong> ({value:.0f}%)" for label, value in top_types.items()
+    )
 
-        if volume_ratio > 2.5:
-            volume_context = f"avec un emballement médiatique exceptionnel ({volume_ratio:.1f} fois la moyenne normale)"
-        elif volume_ratio > 2:
-            volume_context = f"avec un pic d'attention inhabituel ({volume_ratio:.1f} fois plus que d'habitude)"
-        elif volume_ratio > 1.5:
-            volume_context = f"avec une activité {volume_ratio:.1f} fois plus intense que d'habitude"
-        else:
-            volume_context = "dans une période d'activité plutôt normale"
+    source_series = (
+        df["SOURCEURL"]
+        .astype(str)
+        .str.extract(r"https?://(?:www\.)?([^/]+)")[0]
+        .fillna("inconnu")
+    )
+    source_counts = source_series.value_counts(normalize=True).mul(100)
+    lead_source = source_counts.index[0]
+    lead_source_share = float(source_counts.iloc[0])
+    top5_source_share = float(source_counts.head(5).sum())
 
-    # Contexte temporel
-    time_context = ""
-    if len(monthly) >= 12:
-        time_context = "sur cette longue période d'observation"
-    elif len(monthly) >= 6:
-        time_context = "ces derniers mois"
-    else:
-        time_context = "dans ce court laps de temps"
+    institutional_types = {"Consultation", "Déclaration publique", "Engagement diplomatique", "Accord / Coopération", "Coopération"}
+    security_types = {"Violence de masse", "Coercition", "Protestation", "Désapprobation", "Rejet / Refus"}
+    institutional_share = float(df["event_label"].isin(institutional_types).mean() * 100)
+    security_share = float(df["event_label"].isin(security_types).mean() * 100)
 
-    recent_pressure = ", ".join(anomaly_like_months[:2]) if anomaly_like_months else "Aucun pic particulier"
+    location_counts = df["ActionGeo_FullName"].fillna("Inconnu").value_counts()
+    local_focus = [
+        loc for loc in location_counts.index
+        if str(loc).strip().lower() not in {"benin", "inconnu"}
+    ][:4]
+    local_focus_text = ", ".join(f"<strong>{loc}</strong>" for loc in local_focus) if local_focus else "des foyers secondaires encore diffus"
+    north_mask = df["ActionGeo_FullName"].fillna("").str.contains(
+        r"Alibori|Kandi|Karimama|Parakou|Borgou|Djougou|Atacora|Atakora|Donga",
+        case=False,
+        regex=True,
+    )
+    north_share = float(north_mask.mean() * 100)
+
+    anomalies = []
+    if {"is_anomaly", "is_partial_signal"}.issubset(monthly.columns):
+        anomalies = monthly.loc[monthly["is_anomaly"], "year_month"].tolist()
+    anomaly_text = ", ".join(f"<strong>{month}</strong>" for month in anomalies[:2]) if anomalies else "des mois encore à confirmer"
 
     insights = [
         (
-            "Signal principal",
-            f"Climat {tone_description}. Focus sur <strong>{top_type.lower()}</strong>, évolution {trend_label} {time_context}. <em>Action : Adapter la stratégie de communication en conséquence.</em>"
+            "Séquence sous pression",
+            f"Le début de 2026 concentre <strong>{pressure_share:.0f}%</strong> du corpus total. La couverture ne grimpe pas sur un seul pic : elle reste élevée plusieurs mois de suite, ce qui signale une séquence de pression durable."
         ),
         (
-            "Points chauds",
-            f"Pic en <strong>{hottest_month}</strong> {volume_context}. Surveillance sur <strong>{recent_pressure}</strong>. <em>Action : Renforcer le monitoring pendant ces périodes critiques.</em>"
+            "Rupture de ton",
+            f"<strong>{worst_month}</strong> est le point de rupture le plus net du corpus : ton moyen à <strong>{worst_month_row['avg_tone']:.2f}</strong> et près de <strong>{worst_negative_share:.0f}%</strong> d'événements négatifs. C'est le moment où le récit devient franchement défavorable."
         ),
         (
-            "Figure centrale",
-            f"<strong>{dominant_actor}</strong> domine le discours médiatique avec une présence récurrente."
+            "Politique",
+            f"Près de <strong>{institutional_share:.0f}%</strong> du corpus relève de la consultation, de la déclaration publique ou de l'engagement diplomatique. Le Bénin est donc d'abord raconté comme un espace de gestion politique et institutionnelle."
         ),
         (
-            "Climat ambiant",
-            f"Négativité à <strong>{negative_share:.0f}%</strong> - niveau élevé nécessitant attention particulière. <em>Action : Préparer une réponse proactive aux critiques.</em>"
+            "Sécurité",
+            f"Les catégories les plus dures — violence, coercition, protestation, désapprobation ou rejet — représentent tout de même <strong>{security_share:.0f}%</strong> du corpus. Le risque sécuritaire n'est pas marginal ; il s'insère dans un récit plus large."
         ),
         (
-            "⚖️ Niveau de tension",
-            f"Goldstein moyen : <strong>{goldstein_avg:.2f}</strong>. Tension générale avec variations ponctuelles."
+            "Récit dominant",
+            f"Le Bénin est d'abord raconté à travers {top_type_text}. Le signal médiatique est surtout institutionnel et diplomatique, avant d'être purement conflictuel."
         ),
         (
-            "📡 Porte-voix principal",
-            f"<strong>{top_source}</strong> influence significativement le récit général."
+            "Dépendance aux sources",
+            f"<strong>{lead_source}</strong> pèse à lui seul <strong>{lead_source_share:.1f}%</strong> du corpus, et les cinq premières sources montent à <strong>{top5_source_share:.1f}%</strong>. Toute lecture du climat médiatique doit donc intégrer un vrai biais de source."
         ),
         (
-            "Types d'histoires",
-            f"Prédominance de <strong>{top_type.lower()}</strong>, suivi de <strong>{second_type.lower()}</strong>. {evidence_note}"
+            "Territoire",
+            f"Les foyers qui ressortent le plus hors libellé national sont {local_focus_text}. Le signal visible reste très nationalisé, mais ces points secondaires donnent les premiers ancrages territoriaux vraiment exploitables."
+        ),
+        (
+            "Nord à surveiller",
+            f"L'axe nord ne domine pas encore le corpus, mais il représente déjà autour de <strong>{north_share:.1f}%</strong> des localisations nommées. C'est peu en volume, mais suffisant pour justifier une veille distincte."
+        ),
+        (
+            "Points de vigilance",
+            f"Côté ruptures, {anomaly_text} méritent une lecture prioritaire, car ce sont les périodes où le signal change vraiment de régime."
         ),
     ]
 
@@ -121,37 +131,6 @@ def render_overview(df: pd.DataFrame) -> None:
         if not monthly.empty
         else "N/A"
     )
-    dominant_actor = (
-        top_actors.iloc[0]["Acteur"]
-        if not top_actors.empty
-        else "Aucun acteur stable"
-    )
-    avg_tone = monthly["avg_tone"].mean() if not monthly.empty else 0.0
-    anomaly_like_months = monthly.loc[monthly["count"] >= monthly["count"].quantile(0.85), "year_month"].tolist() if not monthly.empty else []
-    recent_signal = "Dégradation du climat médiatique" if avg_tone < -1 else "Signal relativement stable"
-    recent_pressure = ", ".join(anomaly_like_months[:2]) if anomaly_like_months else "Aucun pic net"
-    negative_share = (df["AvgTone"] < 0).mean() * 100 if not df.empty else 0.0
-    goldstein_avg = df["GoldsteinScale"].mean() if not df.empty else 0.0
-    top_source = (
-        df["SOURCEURL"]
-        .astype(str)
-        .str.extract(r"https?://(?:www\.)?([^/]+)")[0]
-        .value_counts()
-        .index[0]
-        if "SOURCEURL" in df.columns and not df["SOURCEURL"].dropna().empty
-        else "Source non identifiée"
-    )
-    event_mix = (
-        df["event_label"].value_counts().head(2).index.tolist()
-        if "event_label" in df.columns
-        else []
-    )
-    second_type = event_mix[1] if len(event_mix) > 1 else "Aucun second type net"
-    latest_tone = monthly.iloc[-1]["avg_tone"] if not monthly.empty else 0.0
-    earliest_tone = monthly.iloc[0]["avg_tone"] if not monthly.empty else 0.0
-    tone_delta = latest_tone - earliest_tone
-    trend_label = "en amélioration" if tone_delta > 0.2 else "en dégradation" if tone_delta < -0.2 else "relativement stable"
-    evidence_note = "Lecture à confirmer avec les prochains mois." if len(monthly) < 18 else "Signal robuste sur une fenêtre temporelle étendue."
 
     render_panel_intro(
         "Insights",
@@ -159,11 +138,7 @@ def render_overview(df: pd.DataFrame) -> None:
         "Lecture synthétique des signaux dominants sur les données filtrées.",
     )
 
-    insights = _generate_human_insights(
-        monthly, df, top_type, hottest_month, dominant_actor, avg_tone,
-        anomaly_like_months, negative_share, goldstein_avg, top_source,
-        second_type, trend_label, evidence_note
-    )
+    insights = _generate_human_insights(monthly, df)
 
     grouped_insights = [insights[idx:idx + 2] for idx in range(0, len(insights), 2)]
     cards_html = "".join(
